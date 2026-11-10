@@ -1,0 +1,35 @@
+{
+  "samples_saved": 25,
+  "missing_images": [],
+  "board_and_mount_stationary_confirmed_by_user": true,
+  "corner_reprojection_mean_px": 0.170877605676651,
+  "handeye_training_residual": {
+    "translation_mm": {
+      "mean": 24.367651140792887,
+      "median": 22.788394777758526,
+      "std": 11.716552725169597,
+      "max": 57.000712388538936
+    },
+    "rotation_deg": {
+      "mean": 2.3881005439138034,
+      "median": 2.1946441165486057,
+      "std": 1.2549951196484854,
+      "max": 5.791889308620279
+    }
+  },
+  "relative_rotation_angle_mismatch_deg": {
+    "median": 1.601506264598257,
+    "max": 8.916012311995926
+  },
+  "pinhole_refit_diagnostic": {
+    "sdk_fx": 692.4848022460938,
+    "sdk_fy": 692.33984375,
+    "fit_fx": 695.69343478261,
+    "fit_fy": 695.8070080986847,
+    "handeye_translation_median_mm": 22.804605204294678,
+    "explanation": "Small intrinsic refit did not resolve the inconsistency; no camera model was changed."
+  },
+  "status": "unresolved_not_promoted",
+  "runtime_config_changed": false,
+  "next_check": "Compare same-marker RGB PnP and aligned depth at three stationary arm poses, three repeated captures per pose; no robot motion commands."
+}

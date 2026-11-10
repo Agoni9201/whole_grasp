@@ -1,0 +1,82 @@
+{
+  "status": "completed",
+  "operator_arm_state": "teaching",
+  "robot_commands_sent": false,
+  "raw_calibration_changed": false,
+  "camera_to_motion_time_offset_s": null,
+  "limitations": [
+    "Static clock data cannot certify exposure-to-motion alignment.",
+    "A fixed clock bias cannot repair old image/pose pairs without historical robot trajectories.",
+    "One static mode recording does not establish historical exposure-to-motion timing.",
+    "SDK feedback stamps are host-side feedback timestamps, not independently synchronized robot controller exposure stamps.",
+    "Video playback uses nominal FPS; frames.jsonl holds actual per-frame times."
+  ],
+  "frames_callback": 600,
+  "frames_consumed": 600,
+  "camera_callback_hz": 29.97921031701253,
+  "consumed_sequence_nonincreasing": 0,
+  "callback_sequence_nonincreasing": 0,
+  "callback_sequence_gap_frames": 0,
+  "consumed_sequence_gap_frames": 0,
+  "device_timestamp_nonincreasing": 0,
+  "sdk_system_timestamp_nonincreasing": 0,
+  "consumed_device_timestamp_nonincreasing": 0,
+  "callback_to_read_ms": {
+    "median": 3.91637250140775,
+    "p99": 6.669929537456483,
+    "max": 17.33505999436602
+  },
+  "callback_to_read_over_two_frame_periods": 0,
+  "device_to_callback_monotonic_fit": {
+    "slope": 0.999494437334529,
+    "rate_difference_ppm": -505.56266547097107,
+    "sensor_origin_s": 5046.678322,
+    "host_origin_s": 179084.843505708,
+    "centered_intercept_ms": 0.09729405101498578,
+    "raw_host_minus_sensor_ms_median": 174038160.1958715,
+    "residual_median_ms": -0.03181643111194177,
+    "residual_p01_ms": -0.7889260437146284,
+    "residual_p99_ms": 1.366043485227485,
+    "residual_peak_to_peak_ms": 2.977228952673272,
+    "meaning": "Clock relation plus delivery delay; not an identified camera-to-motion offset"
+  },
+  "host_wall_minus_monotonic_step_max_ms": 0.00286102294921875,
+  "joint_polls": 2002,
+  "joint_unique_feedback": 1940,
+  "joint_poll_hz": 99.9995611513141,
+  "joint_unique_feedback_observed_hz": 96.90112397421191,
+  "joint_feedback_timestamp_backwards": 0,
+  "joint_feedback_age_max_ms": 18.764495849609375,
+  "joint_poll_interval_max_ms": 12.981460022274405,
+  "joint_range_deg": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "old_dataset_repairable": null,
+  "interpretation": "Static run cannot identify fixed camera-to-motion delay or certify historical frame/pose pairing",
+  "device_to_sdk_system_fit": {
+    "slope": 0.9994792308377572,
+    "rate_difference_ppm": -520.7691622427512,
+    "sensor_origin_s": 5046.678322,
+    "host_origin_s": 1793629044.835495,
+    "centered_intercept_ms": 0.06049620798305717,
+    "raw_host_minus_sensor_ms_median": 1793623998151.8809,
+    "residual_median_ms": -0.031774910761228625,
+    "residual_p01_ms": -0.28396055759983163,
+    "residual_p99_ms": 0.7327628787175653,
+    "residual_peak_to_peak_ms": 1.2741035200782846,
+    "meaning": "Clock relation plus delivery delay; not an identified camera-to-motion offset"
+  },
+  "global_timestamp_valid_frames": 600,
+  "sdk_system_minus_global_ms": {
+    "median": 16.181,
+    "min": 15.482000000000001,
+    "max": 17.282,
+    "meaning": "SDK global clock mapping dependent; not independent latency ground truth"
+  }
+}

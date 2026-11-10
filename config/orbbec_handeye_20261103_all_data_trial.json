@@ -1,0 +1,139 @@
+{
+  "method": "multi_session_robust_joint_fit",
+  "status": "offline_trial_not_contact_validated",
+  "convention": "flange_camera_xyzw",
+  "parent_frame": "SDK_feedback_flange",
+  "child_frame": "orbbec_color_optical_frame",
+  "position": [
+    0.057399875701330094,
+    -0.07624363499411463,
+    -0.005040159312827897
+  ],
+  "orientation": [
+    -0.12241303118409018,
+    0.6940578308802814,
+    0.13057484632303895,
+    0.6973155574758078
+  ],
+  "flange_camera_xyzw": [
+    0.057399875701330094,
+    -0.07624363499411463,
+    -0.005040159312827897,
+    -0.12241303118409018,
+    0.6940578308802814,
+    0.13057484632303895,
+    0.6973155574758078
+  ],
+  "T_flange_camera": [
+    [
+      0.0024678738029470515,
+      -0.35202718930235544,
+      0.9359865210518667,
+      0.057399875701330094
+    ],
+    [
+      0.012180297721915923,
+      0.9359305186080755,
+      0.35197401137786355,
+      -0.07624363499411463
+    ],
+    [
+      -0.9999227719910666,
+      0.010531967048114405,
+      0.006597554380163462,
+      -0.005040159312827897
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "matrix_4x4": [
+    [
+      0.0024678738029470515,
+      -0.35202718930235544,
+      0.9359865210518667,
+      0.057399875701330094
+    ],
+    [
+      0.012180297721915923,
+      0.9359305186080755,
+      0.35197401137786355,
+      -0.07624363499411463
+    ],
+    [
+      -0.9999227719910666,
+      0.010531967048114405,
+      0.006597554380163462,
+      -0.005040159312827897
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "provenance": {
+    "source": "artifacts/orbbec_all_today_20261103/comparison.json",
+    "capture_groups": [
+      "old14",
+      "old8",
+      "new16",
+      "six",
+      "live1",
+      "live2"
+    ],
+    "board_pose": "estimated separately for each capture group",
+    "objective": "Huber 0.004 m; translation plus 0.2 m/rad rotation residual",
+    "selection_metric": "equal group mean position RMS",
+    "selection_metric_mm": 6.9225269432411025,
+    "limitations": "Trained on all six groups; live2 still has 23 mm pairwise board-position drift; contact-only trial before full grasp."
+  },
+  "group_metrics": {
+    "old14": {
+      "count": 14,
+      "position_rms_mm": 4.455172482118521,
+      "position_max_mm": 7.623112478397635,
+      "orientation_rms_deg": 1.0931224815705165,
+      "pairwise_position_span_mm": 12.092693960270559
+    },
+    "old8": {
+      "count": 8,
+      "position_rms_mm": 4.424446233103317,
+      "position_max_mm": 8.121425324462763,
+      "orientation_rms_deg": 1.446058474616945,
+      "pairwise_position_span_mm": 14.225727013602203
+    },
+    "new16": {
+      "count": 16,
+      "position_rms_mm": 9.295467063102615,
+      "position_max_mm": 14.735659205620946,
+      "orientation_rms_deg": 1.1510002733309659,
+      "pairwise_position_span_mm": 26.849679132588143
+    },
+    "six": {
+      "count": 6,
+      "position_rms_mm": 6.655730776188506,
+      "position_max_mm": 6.697500992094118,
+      "orientation_rms_deg": 0.6687899694216426,
+      "pairwise_position_span_mm": 13.393993602478567
+    },
+    "live1": {
+      "count": 2,
+      "position_rms_mm": 5.206510040388631,
+      "position_max_mm": 5.206510040388632,
+      "orientation_rms_deg": 0.40633711275658285,
+      "pairwise_position_span_mm": 10.413020080777262
+    },
+    "live2": {
+      "count": 2,
+      "position_rms_mm": 11.497835064545027,
+      "position_max_mm": 11.497835064545027,
+      "orientation_rms_deg": 1.5555603518210996,
+      "pairwise_position_span_mm": 22.995670129090055
+    }
+  }
+}

@@ -1,0 +1,27 @@
+board:
+  squares_x: 8
+  squares_y: 6
+  # Historical measurements: grid about 229 x 173 mm, excluding white border.
+  # This value averaged 229/8 and 173/6; it is not a freshly verified square side.
+  square_length_m: 0.028729
+  # Historical black marker measurement, excluding surrounding white area.
+  marker_length_m: 0.020950
+  dictionary: DICT_5X5_100
+  legacy_pattern: false
+
+measurement_provenance:
+  source: historical_board_measurements
+  grid_width_mm: 229
+  grid_height_mm: 173
+  marker_side_mm: 20.95
+  square_side_derivation: average_of_width_over_8_and_height_over_6
+  current_board_matches_historical_dimensions_confirmed: true
+  confirmation_date: "2026-11-02"
+  precision: approximate_historical_measurements
+  note: User confirmed the latest physical board has the historical dimensions; this is not a new high-precision dimensional measurement.
+
+quality:
+  min_charuco_corners: 12
+  warning_reprojection_error_px: 1.0
+  max_reprojection_error_px: 2.0
+  axis_length_m: 0.06

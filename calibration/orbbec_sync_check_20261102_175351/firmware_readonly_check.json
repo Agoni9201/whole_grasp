@@ -1,0 +1,9 @@
+{
+  "firmware": {
+    "software_version": "1.121"
+  },
+  "profile": "V111",
+  "motion_commands_sent": false,
+  "gripper_commands_sent": false,
+  "operation": "firmware request only"
+}

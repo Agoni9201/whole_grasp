@@ -1,0 +1,113 @@
+{
+  "status": "input_motion_incompatibility_confirmed_physical_source_unresolved",
+  "samples": 9,
+  "independent_robot_poses": 3,
+  "image_host_receive_to_read_age_ms": {
+    "min": 0.927562010474503,
+    "max": 2.3022850218694657,
+    "note": "Host callback receive to read-return; not total exposure-to-host sensor latency."
+  },
+  "all_images_inside_feedback_request_bracket": true,
+  "maximum_joint_delta_during_capture_deg": 0.0,
+  "maximum_fk_feedback_difference_mm": 0.014924911828277654,
+  "maximum_fk_feedback_rotation_difference_deg": 0.002509458496345766,
+  "within_pose_repeatability": [
+    {
+      "pose": 1,
+      "translation_spread_max_mm": 0.1300107216841457,
+      "rotation_spread_max_deg": 0.04070410614967218
+    },
+    {
+      "pose": 2,
+      "translation_spread_max_mm": 0.18826449316157118,
+      "rotation_spread_max_deg": 0.0791845581547975
+    },
+    {
+      "pose": 3,
+      "translation_spread_max_mm": 0.07376178192098413,
+      "rotation_spread_max_deg": 0.05237112160464529
+    }
+  ],
+  "old_candidate_heldout_validation": {
+    "translation_mm": {
+      "mean": 15.8094722791971,
+      "median": 17.86112418154904,
+      "std": 4.885652461342839,
+      "max": 20.532099622222145
+    },
+    "rotation_deg": {
+      "mean": 0.814244517308011,
+      "median": 0.9243821718577236,
+      "std": 0.3310377580008116,
+      "max": 1.162699852353904
+    }
+  },
+  "across_session_same_pose_camera_difference": {
+    "old_sample": 20,
+    "new_sample": 0,
+    "translation_mm": 0.05264461266757948,
+    "rotation_deg": 0.015496647414376886
+  },
+  "conclusions": [
+    "No obvious queued-frame or within-capture-motion issue in these nine samples.",
+    "Nominal joint FK and Cartesian feedback agree at all three poses; this is not independent physical pose accuracy.",
+    "The candidate remains inconsistent across poses. These nine captures represent only three independent robot configurations.",
+    "Do not repeat whole handeye capture or alter camera depth scale to force agreement. Check the common fixed-frame/mechanical assumptions and physical robot geometry next."
+  ],
+  "mounting_assumption_confirmed": "Camera rotates with joint7 and gripper",
+  "runtime_calibration_updated": false,
+  "robot_commands_sent": false,
+  "base_mounting_user_confirmed": {
+    "bolted": true,
+    "shared_table_with_board": true,
+    "connection_firm": true,
+    "source": "user_confirmation_2026-11-02"
+  },
+  "next_step": "Investigate physical-versus-recorded robot motion/pose relationship with independent evidence. Do not request board dimensions again, blindly change joint zeros, or declare a handeye solution validated.",
+  "rotation_audit": "../orbbec_rotation_audit/20261102_183716_661875/analysis.json",
+  "isolated_joint7_rotation_audit": "../orbbec_rotation_audit/20261102_184614_965188/analysis.json",
+  "isolated_joint6_rotation_audit": "../orbbec_rotation_audit/20261102_185244_191052/analysis.json",
+  "wrist_pair_handeye_consistency": "../orbbec_rotation_audit/20261102_185244_191052/wrist_pair_analysis.json",
+  "camera_attachment_user_confirmed": "screws and metal bracket; deflection has not been independently measured",
+  "latest_board_dimension_status": {
+    "historical_grid_mm": [
+      229,
+      173
+    ],
+    "marker_mm": 20.95,
+    "current_board_matches_historical_dimensions_user_confirmed": true,
+    "precision": "historical_approximate_not_new_precision_measurement",
+    "model_grid_mm": [
+      229.832,
+      172.374
+    ]
+  },
+  "additional_offline_audits": [
+    "../orbbec_oldboard_check_20261102_172656/board_dimension_assumption_audit.json",
+    "../orbbec_oldboard_check_20261102_172656/full_intrinsics_pose_audit.json",
+    "joint_zero_crosscheck.json"
+  ],
+  "capture_state_user_confirmed": "Operator released the arm; arm enabled and holding position when saving each of the latest21 samples",
+  "dimension_free_motion_audit": "../orbbec_oldboard_check_20261102_172656/dimension_free_homography_audit.json",
+  "firmware_query": {
+    "reported": "1.121",
+    "sdk_resolved_profile": "V112",
+    "configured_profile": "V111",
+    "same_pose_and_joint_reader_implementation": true,
+    "profile_change_not_proven_to_resolve_handeye": true
+  },
+  "user_requested_20260901_comparison": "../../artifacts/orbbec_handeye_diagnosis_20261102/compare_20260901_extrinsic.json",
+  "user_requested_20260901_result": {
+    "translation_improved": true,
+    "rotation_worsened": true,
+    "runtime_updated": false,
+    "same_board_heldout_translation_mean_mm_before_after": [
+      17.689069009980877,
+      12.615899301142793
+    ],
+    "same_board_heldout_rotation_mean_deg_before_after": [
+      0.9998891970827442,
+      2.3358998175722476
+    ]
+  }
+}

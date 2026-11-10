@@ -1,0 +1,55 @@
+{
+  "status": "diagnostic_only",
+  "angles": {
+    "gyro_deg": 10.41537829799774,
+    "robot_deg": 10.806804449169945,
+    "vision_deg": 10.630813415757913
+  },
+  "joint_change_deg": [
+    0.001999999999999955,
+    0.0030000000000001315,
+    0.0009999999999997788,
+    -0.005999999999997082,
+    0.0010000000000001763,
+    -10.802,
+    -0.0019999999999947868
+  ],
+  "duration_s": 53.697000000000116,
+  "gyro_bias_window_sensitivity": [
+    {
+      "prestart_window_s": 1,
+      "gyro_angle_deg": 10.447182651908577
+    },
+    {
+      "prestart_window_s": 2,
+      "gyro_angle_deg": 10.41537829799774
+    },
+    {
+      "prestart_window_s": 3,
+      "gyro_angle_deg": 10.404019980777331
+    },
+    {
+      "prestart_window_s": 5,
+      "gyro_angle_deg": 10.449492766019542
+    }
+  ],
+  "gyro_fixed_start_bias_angle_deg": 10.5825432002947,
+  "gyro_baseline_std_rad_s": [
+    0.00533620072266746,
+    0.008807177288636687,
+    0.006467094792352461
+  ],
+  "gyro_end_std_rad_s": [
+    0.006827775717967114,
+    0.004304859542718997,
+    0.008768373465453509
+  ],
+  "conclusions": [
+    "Other joints varied at most .006 deg while joint6 moved -10.802 deg.",
+    "Vision differs from robot by -.176 deg. One motion does not establish a physical joint error.",
+    "The gyro integration interval is 53.697 seconds, with noticeable stationary vibration; its -.391 deg discrepancy is not sufficient evidence for an encoder correction.",
+    "See wrist_pair_analysis.json for joint6/joint7 handeye consistency and heldout refit results."
+  ],
+  "robot_commands_sent": false,
+  "runtime_calibration_updated": false
+}

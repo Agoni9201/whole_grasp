@@ -1,0 +1,2901 @@
+{
+  "status": "diagnostic_only",
+  "method": "Estimate relative image homographies from shared corner IDs, decompose with the saved RGB K and filter visible-point cheirality. No board square or marker size is used. Report all physically visible branch angle magnitudes and their minimum robot discrepancy.",
+  "pairs": [
+    {
+      "samples": [
+        5,
+        14
+      ],
+      "robot_angle_deg": 23.550075826171703,
+      "pnp_angle_deg": 30.391806449411966,
+      "valid_homography_angles_deg": [
+        30.577005464336185,
+        32.99647978403692
+      ],
+      "min_abs_difference_from_robot_deg": 7.026929638164482,
+      "homography_fit_mean_px": 0.2177730836812546
+    },
+    {
+      "samples": [
+        6,
+        14
+      ],
+      "robot_angle_deg": 7.980824247722005,
+      "pnp_angle_deg": 14.990838134784969,
+      "valid_homography_angles_deg": [
+        14.974205400114776,
+        39.00393387425776
+      ],
+      "min_abs_difference_from_robot_deg": 6.993381152392772,
+      "homography_fit_mean_px": 0.269884016528244
+    },
+    {
+      "samples": [
+        14,
+        18
+      ],
+      "robot_angle_deg": 31.135697995178447,
+      "pnp_angle_deg": 37.4608683256657,
+      "valid_homography_angles_deg": [
+        41.659794953827294,
+        37.65317778136583
+      ],
+      "min_abs_difference_from_robot_deg": 6.51747978618738,
+      "homography_fit_mean_px": 0.4375974775351257
+    },
+    {
+      "samples": [
+        4,
+        14
+      ],
+      "robot_angle_deg": 20.958787269607893,
+      "pnp_angle_deg": 27.127549860335368,
+      "valid_homography_angles_deg": [
+        27.28490500828641,
+        43.80500773672987
+      ],
+      "min_abs_difference_from_robot_deg": 6.326117738678519,
+      "homography_fit_mean_px": 0.19901406582612258
+    },
+    {
+      "samples": [
+        4,
+        13
+      ],
+      "robot_angle_deg": 9.996488094246656,
+      "pnp_angle_deg": 15.682851371263075,
+      "valid_homography_angles_deg": [
+        16.13007825196488,
+        42.53855186874452
+      ],
+      "min_abs_difference_from_robot_deg": 6.133590157718222,
+      "homography_fit_mean_px": 0.2362715320811304
+    },
+    {
+      "samples": [
+        6,
+        15
+      ],
+      "robot_angle_deg": 22.413511582049402,
+      "pnp_angle_deg": 16.434475009484974,
+      "valid_homography_angles_deg": [
+        16.354206210733306
+      ],
+      "min_abs_difference_from_robot_deg": 6.059305371316096,
+      "homography_fit_mean_px": 0.38713330264521395
+    },
+    {
+      "samples": [
+        0,
+        18
+      ],
+      "robot_angle_deg": 7.137994145593977,
+      "pnp_angle_deg": 12.535975481598417,
+      "valid_homography_angles_deg": [
+        30.43539183984429,
+        12.801144230051436
+      ],
+      "min_abs_difference_from_robot_deg": 5.66315008445746,
+      "homography_fit_mean_px": 0.33040518147530995
+    },
+    {
+      "samples": [
+        5,
+        13
+      ],
+      "robot_angle_deg": 21.554436856532735,
+      "pnp_angle_deg": 26.75326104967791,
+      "valid_homography_angles_deg": [
+        26.947661025556016,
+        33.20643066518325
+      ],
+      "min_abs_difference_from_robot_deg": 5.393224169023281,
+      "homography_fit_mean_px": 0.2447530456103579
+    },
+    {
+      "samples": [
+        3,
+        15
+      ],
+      "robot_angle_deg": 26.92535874069378,
+      "pnp_angle_deg": 22.051912063513228,
+      "valid_homography_angles_deg": [
+        21.75228710828423
+      ],
+      "min_abs_difference_from_robot_deg": 5.1730716324095525,
+      "homography_fit_mean_px": 0.35690022167204566
+    },
+    {
+      "samples": [
+        2,
+        13
+      ],
+      "robot_angle_deg": 25.52697157241341,
+      "pnp_angle_deg": 30.590637153648633,
+      "valid_homography_angles_deg": [
+        30.47665855808404,
+        17.960268830207017
+      ],
+      "min_abs_difference_from_robot_deg": 4.949686985670631,
+      "homography_fit_mean_px": 0.2435844361057032
+    },
+    {
+      "samples": [
+        9,
+        17
+      ],
+      "robot_angle_deg": 25.64693208019689,
+      "pnp_angle_deg": 20.59243961600297,
+      "valid_homography_angles_deg": [
+        20.152638841838648,
+        20.71377926416307
+      ],
+      "min_abs_difference_from_robot_deg": 4.933152816033822,
+      "homography_fit_mean_px": 0.25889369454709493
+    },
+    {
+      "samples": [
+        4,
+        15
+      ],
+      "robot_angle_deg": 23.169116146727106,
+      "pnp_angle_deg": 18.208573790354972,
+      "valid_homography_angles_deg": [
+        18.341802668393598
+      ],
+      "min_abs_difference_from_robot_deg": 4.827313478333508,
+      "homography_fit_mean_px": 0.24096874113376984
+    },
+    {
+      "samples": [
+        13,
+        18
+      ],
+      "robot_angle_deg": 24.676617711222118,
+      "pnp_angle_deg": 29.156370152818486,
+      "valid_homography_angles_deg": [
+        43.34145579095263,
+        29.489212500340606
+      ],
+      "min_abs_difference_from_robot_deg": 4.812594789118489,
+      "homography_fit_mean_px": 0.4339979855427469
+    },
+    {
+      "samples": [
+        12,
+        15
+      ],
+      "robot_angle_deg": 37.99353124240852,
+      "pnp_angle_deg": 33.07332721857343,
+      "valid_homography_angles_deg": [
+        26.11363684431134,
+        33.22044158276266
+      ],
+      "min_abs_difference_from_robot_deg": 4.773089659645862,
+      "homography_fit_mean_px": 0.2524727517749266
+    },
+    {
+      "samples": [
+        15,
+        19
+      ],
+      "robot_angle_deg": 26.74084238335153,
+      "pnp_angle_deg": 22.133001651499747,
+      "valid_homography_angles_deg": [
+        22.19976517300668
+      ],
+      "min_abs_difference_from_robot_deg": 4.541077210344852,
+      "homography_fit_mean_px": 0.2632444791149517
+    },
+    {
+      "samples": [
+        15,
+        20
+      ],
+      "robot_angle_deg": 26.716742306920295,
+      "pnp_angle_deg": 22.084267674626695,
+      "valid_homography_angles_deg": [
+        22.196223669017737
+      ],
+      "min_abs_difference_from_robot_deg": 4.520518637902558,
+      "homography_fit_mean_px": 0.2608990647396376
+    },
+    {
+      "samples": [
+        0,
+        3
+      ],
+      "robot_angle_deg": 22.083231216532436,
+      "pnp_angle_deg": 18.054167986066293,
+      "valid_homography_angles_deg": [
+        17.64759714299251,
+        13.02764086441038
+      ],
+      "min_abs_difference_from_robot_deg": 4.4356340735399264,
+      "homography_fit_mean_px": 0.2316614249876918
+    },
+    {
+      "samples": [
+        7,
+        13
+      ],
+      "robot_angle_deg": 26.62585185522725,
+      "pnp_angle_deg": 30.949412097511008,
+      "valid_homography_angles_deg": [
+        31.054495934855467,
+        20.96165964261273
+      ],
+      "min_abs_difference_from_robot_deg": 4.428644079628217,
+      "homography_fit_mean_px": 0.23871453482880126
+    },
+    {
+      "samples": [
+        8,
+        13
+      ],
+      "robot_angle_deg": 31.05062161508258,
+      "pnp_angle_deg": 35.373514210512035,
+      "valid_homography_angles_deg": [
+        35.39696740222552,
+        19.878693860580075
+      ],
+      "min_abs_difference_from_robot_deg": 4.3463457871429405,
+      "homography_fit_mean_px": 0.23932365746331985
+    },
+    {
+      "samples": [
+        1,
+        14
+      ],
+      "robot_angle_deg": 18.31013660313073,
+      "pnp_angle_deg": 22.501527769020683,
+      "valid_homography_angles_deg": [
+        22.65163412426196,
+        30.30854075068482
+      ],
+      "min_abs_difference_from_robot_deg": 4.341497521131231,
+      "homography_fit_mean_px": 0.20545124466352413
+    },
+    {
+      "samples": [
+        1,
+        15
+      ],
+      "robot_angle_deg": 10.396298471344908,
+      "pnp_angle_deg": 5.8807121896501515,
+      "valid_homography_angles_deg": [
+        29.294316437499262,
+        6.077114757204195
+      ],
+      "min_abs_difference_from_robot_deg": 4.319183714140713,
+      "homography_fit_mean_px": 0.3106832442985957
+    },
+    {
+      "samples": [
+        0,
+        12
+      ],
+      "robot_angle_deg": 31.336466820090166,
+      "pnp_angle_deg": 27.380924187778437,
+      "valid_homography_angles_deg": [
+        15.664541886420096,
+        27.283636817529317
+      ],
+      "min_abs_difference_from_robot_deg": 4.0528300025608495,
+      "homography_fit_mean_px": 0.1901773317185027
+    },
+    {
+      "samples": [
+        8,
+        14
+      ],
+      "robot_angle_deg": 27.31152617137359,
+      "pnp_angle_deg": 32.70061917625253,
+      "valid_homography_angles_deg": [
+        32.72265318985807,
+        23.27320561062848
+      ],
+      "min_abs_difference_from_robot_deg": 4.03832056074511,
+      "homography_fit_mean_px": 0.23094667107828498
+    },
+    {
+      "samples": [
+        6,
+        13
+      ],
+      "robot_angle_deg": 17.240623127398617,
+      "pnp_angle_deg": 21.352890686996695,
+      "valid_homography_angles_deg": [
+        21.27888214851118,
+        38.03760933244918
+      ],
+      "min_abs_difference_from_robot_deg": 4.038259021112562,
+      "homography_fit_mean_px": 0.26192368169506197
+    },
+    {
+      "samples": [
+        0,
+        6
+      ],
+      "robot_angle_deg": 22.878406398472585,
+      "pnp_angle_deg": 19.254852743513364,
+      "valid_homography_angles_deg": [
+        18.920877871988786,
+        28.439376034108385
+      ],
+      "min_abs_difference_from_robot_deg": 3.9575285264837987,
+      "homography_fit_mean_px": 0.286953927108772
+    },
+    {
+      "samples": [
+        14,
+        20
+      ],
+      "robot_angle_deg": 2.6384335741996874,
+      "pnp_angle_deg": 6.577595654710566,
+      "valid_homography_angles_deg": [
+        27.121772557542258,
+        6.563485917313255
+      ],
+      "min_abs_difference_from_robot_deg": 3.9250523431135673,
+      "homography_fit_mean_px": 0.3168858827727858
+    },
+    {
+      "samples": [
+        14,
+        19
+      ],
+      "robot_angle_deg": 2.6531249297778294,
+      "pnp_angle_deg": 6.5482894052900535,
+      "valid_homography_angles_deg": [
+        27.12051002880028,
+        6.54775950295533
+      ],
+      "min_abs_difference_from_robot_deg": 3.8946345731775005,
+      "homography_fit_mean_px": 0.35624161701074153
+    },
+    {
+      "samples": [
+        14,
+        16
+      ],
+      "robot_angle_deg": 26.646891915558868,
+      "pnp_angle_deg": 30.451511117390435,
+      "valid_homography_angles_deg": [
+        22.944673294842563,
+        30.35904719083176
+      ],
+      "min_abs_difference_from_robot_deg": 3.7022186207163053,
+      "homography_fit_mean_px": 0.37570630283414796
+    },
+    {
+      "samples": [
+        4,
+        11
+      ],
+      "robot_angle_deg": 6.733258538908433,
+      "pnp_angle_deg": 10.336412511314645,
+      "valid_homography_angles_deg": [
+        10.427248211431062
+      ],
+      "min_abs_difference_from_robot_deg": 3.693989672522629,
+      "homography_fit_mean_px": 0.18427970007567115
+    },
+    {
+      "samples": [
+        2,
+        18
+      ],
+      "robot_angle_deg": 29.707754984135946,
+      "pnp_angle_deg": 33.47795871355956,
+      "valid_homography_angles_deg": [
+        17.258672818518548,
+        33.393681230293936
+      ],
+      "min_abs_difference_from_robot_deg": 3.6859262461579902,
+      "homography_fit_mean_px": 0.3774994437523838
+    },
+    {
+      "samples": [
+        15,
+        16
+      ],
+      "robot_angle_deg": 29.267763864008266,
+      "pnp_angle_deg": 25.849093764376025,
+      "valid_homography_angles_deg": [
+        25.79876692418659,
+        24.306930496869846
+      ],
+      "min_abs_difference_from_robot_deg": 3.4689969398216753,
+      "homography_fit_mean_px": 0.18625097095214713
+    },
+    {
+      "samples": [
+        2,
+        9
+      ],
+      "robot_angle_deg": 46.818025082218554,
+      "pnp_angle_deg": 50.69446569337237,
+      "valid_homography_angles_deg": [
+        50.1834401892491
+      ],
+      "min_abs_difference_from_robot_deg": 3.365415107030543,
+      "homography_fit_mean_px": 0.27253732406018394
+    },
+    {
+      "samples": [
+        4,
+        10
+      ],
+      "robot_angle_deg": 22.197063146753344,
+      "pnp_angle_deg": 25.668680441295045,
+      "valid_homography_angles_deg": [
+        25.55819232730344
+      ],
+      "min_abs_difference_from_robot_deg": 3.3611291805500976,
+      "homography_fit_mean_px": 0.18244743387555393
+    },
+    {
+      "samples": [
+        1,
+        13
+      ],
+      "robot_angle_deg": 16.669959118964403,
+      "pnp_angle_deg": 19.88907636543436,
+      "valid_homography_angles_deg": [
+        20.005719951586027,
+        29.502137683663925
+      ],
+      "min_abs_difference_from_robot_deg": 3.3357608326216237,
+      "homography_fit_mean_px": 0.23256414081355362
+    },
+    {
+      "samples": [
+        0,
+        19
+      ],
+      "robot_angle_deg": 24.945809949632064,
+      "pnp_angle_deg": 21.856030364973876,
+      "valid_homography_angles_deg": [
+        21.618759941908092,
+        11.50711985449529
+      ],
+      "min_abs_difference_from_robot_deg": 3.3270500077239724,
+      "homography_fit_mean_px": 0.2555757961481199
+    },
+    {
+      "samples": [
+        2,
+        5
+      ],
+      "robot_angle_deg": 18.470082327611774,
+      "pnp_angle_deg": 21.655977335664957,
+      "valid_homography_angles_deg": [
+        13.344182449467999,
+        21.783543979370442
+      ],
+      "min_abs_difference_from_robot_deg": 3.3134616517586686,
+      "homography_fit_mean_px": 0.2900896602350806
+    },
+    {
+      "samples": [
+        0,
+        20
+      ],
+      "robot_angle_deg": 24.915447674505803,
+      "pnp_angle_deg": 21.806733337992583,
+      "valid_homography_angles_deg": [
+        21.626818778898603,
+        11.469422931386369
+      ],
+      "min_abs_difference_from_robot_deg": 3.2886288956072,
+      "homography_fit_mean_px": 0.24126056878499672
+    },
+    {
+      "samples": [
+        2,
+        10
+      ],
+      "robot_angle_deg": 48.28968576878808,
+      "pnp_angle_deg": 52.08940814399024,
+      "valid_homography_angles_deg": [
+        51.515905985772896
+      ],
+      "min_abs_difference_from_robot_deg": 3.2262202169848138,
+      "homography_fit_mean_px": 0.2303457526058574
+    },
+    {
+      "samples": [
+        3,
+        13
+      ],
+      "robot_angle_deg": 24.462435140701977,
+      "pnp_angle_deg": 27.50420835041226,
+      "valid_homography_angles_deg": [
+        27.62158959978075,
+        19.800577469244704
+      ],
+      "min_abs_difference_from_robot_deg": 3.159154459078774,
+      "homography_fit_mean_px": 0.2467377440489968
+    },
+    {
+      "samples": [
+        4,
+        12
+      ],
+      "robot_angle_deg": 26.985791772533005,
+      "pnp_angle_deg": 29.960825695584624,
+      "valid_homography_angles_deg": [
+        30.083695009475456,
+        38.25061515355631
+      ],
+      "min_abs_difference_from_robot_deg": 3.09790323694245,
+      "homography_fit_mean_px": 0.1827727953918884
+    },
+    {
+      "samples": [
+        7,
+        20
+      ],
+      "robot_angle_deg": 23.80091252064975,
+      "pnp_angle_deg": 26.611655159195717,
+      "valid_homography_angles_deg": [
+        26.771745785630394,
+        16.08250549232011
+      ],
+      "min_abs_difference_from_robot_deg": 2.9708332649806444,
+      "homography_fit_mean_px": 0.2724145819727303
+    },
+    {
+      "samples": [
+        11,
+        15
+      ],
+      "robot_angle_deg": 29.730590292005587,
+      "pnp_angle_deg": 26.80782266931106,
+      "valid_homography_angles_deg": [
+        25.43110124489696,
+        26.776267469233144
+      ],
+      "min_abs_difference_from_robot_deg": 2.9543228227724434,
+      "homography_fit_mean_px": 0.22685389425939934
+    },
+    {
+      "samples": [
+        7,
+        19
+      ],
+      "robot_angle_deg": 23.818657835585928,
+      "pnp_angle_deg": 26.633638927449706,
+      "valid_homography_angles_deg": [
+        26.748661214536135,
+        16.090081971923127
+      ],
+      "min_abs_difference_from_robot_deg": 2.9300033789502073,
+      "homography_fit_mean_px": 0.2798426319193078
+    },
+    {
+      "samples": [
+        2,
+        16
+      ],
+      "robot_angle_deg": 34.08256327165022,
+      "pnp_angle_deg": 37.40590535341253,
+      "valid_homography_angles_deg": [
+        18.72744305033169,
+        37.00411063373085
+      ],
+      "min_abs_difference_from_robot_deg": 2.9215473620806307,
+      "homography_fit_mean_px": 0.28669375888536053
+    },
+    {
+      "samples": [
+        7,
+        15
+      ],
+      "robot_angle_deg": 29.760032295764873,
+      "pnp_angle_deg": 27.19396425854157,
+      "valid_homography_angles_deg": [
+        26.87752828887563
+      ],
+      "min_abs_difference_from_robot_deg": 2.882504006889242,
+      "homography_fit_mean_px": 0.31503268223137093
+    },
+    {
+      "samples": [
+        7,
+        9
+      ],
+      "robot_angle_deg": 46.67870977783042,
+      "pnp_angle_deg": 49.97016042139081,
+      "valid_homography_angles_deg": [
+        49.55723695227361
+      ],
+      "min_abs_difference_from_robot_deg": 2.8785271744431924,
+      "homography_fit_mean_px": 0.2625794945435117
+    },
+    {
+      "samples": [
+        9,
+        15
+      ],
+      "robot_angle_deg": 40.39432963119669,
+      "pnp_angle_deg": 37.544554725427425,
+      "valid_homography_angles_deg": [
+        33.98655014628182,
+        37.518771175926545
+      ],
+      "min_abs_difference_from_robot_deg": 2.875558455270145,
+      "homography_fit_mean_px": 0.21922754348208942
+    },
+    {
+      "samples": [
+        6,
+        10
+      ],
+      "robot_angle_deg": 40.04809219018106,
+      "pnp_angle_deg": 43.30006914899485,
+      "valid_homography_angles_deg": [
+        42.92292149059203
+      ],
+      "min_abs_difference_from_robot_deg": 2.8748293004109726,
+      "homography_fit_mean_px": 0.3163806510318289
+    },
+    {
+      "samples": [
+        3,
+        14
+      ],
+      "robot_angle_deg": 20.788272062895658,
+      "pnp_angle_deg": 25.141179620950258,
+      "valid_homography_angles_deg": [
+        25.384199433976843,
+        23.652240061230735
+      ],
+      "min_abs_difference_from_robot_deg": 2.8639679983350774,
+      "homography_fit_mean_px": 0.22076254980687582
+    },
+    {
+      "samples": [
+        4,
+        20
+      ],
+      "robot_angle_deg": 22.67333190854169,
+      "pnp_angle_deg": 25.297828615060812,
+      "valid_homography_angles_deg": [
+        25.504710770370536
+      ],
+      "min_abs_difference_from_robot_deg": 2.8313788618288456,
+      "homography_fit_mean_px": 0.22402128486810308
+    },
+    {
+      "samples": [
+        4,
+        19
+      ],
+      "robot_angle_deg": 22.699006961953867,
+      "pnp_angle_deg": 25.342696986997687,
+      "valid_homography_angles_deg": [
+        25.515957437916406
+      ],
+      "min_abs_difference_from_robot_deg": 2.816950475962539,
+      "homography_fit_mean_px": 0.2660654053146304
+    },
+    {
+      "samples": [
+        8,
+        20
+      ],
+      "robot_angle_deg": 27.526900777783556,
+      "pnp_angle_deg": 30.274146024127656,
+      "valid_homography_angles_deg": [
+        30.31556811829618
+      ],
+      "min_abs_difference_from_robot_deg": 2.7886673405126245,
+      "homography_fit_mean_px": 0.28007073754099354
+    },
+    {
+      "samples": [
+        2,
+        4
+      ],
+      "robot_angle_deg": 30.31129313672337,
+      "pnp_angle_deg": 33.268795901057764,
+      "valid_homography_angles_deg": [
+        22.508467666703392,
+        33.068385267823245
+      ],
+      "min_abs_difference_from_robot_deg": 2.757092131099874,
+      "homography_fit_mean_px": 0.25373734002871096
+    },
+    {
+      "samples": [
+        8,
+        19
+      ],
+      "robot_angle_deg": 27.543621163818138,
+      "pnp_angle_deg": 30.296698527772186,
+      "valid_homography_angles_deg": [
+        30.29418751430976
+      ],
+      "min_abs_difference_from_robot_deg": 2.7505663504916207,
+      "homography_fit_mean_px": 0.29399909848943534
+    },
+    {
+      "samples": [
+        10,
+        15
+      ],
+      "robot_angle_deg": 45.351269480951586,
+      "pnp_angle_deg": 42.77817691285873,
+      "valid_homography_angles_deg": [
+        42.60713263088433,
+        32.07209576390308
+      ],
+      "min_abs_difference_from_robot_deg": 2.7441368500672567,
+      "homography_fit_mean_px": 0.24112816168824394
+    },
+    {
+      "samples": [
+        6,
+        9
+      ],
+      "robot_angle_deg": 38.130034467350065,
+      "pnp_angle_deg": 41.20084289289725,
+      "valid_homography_angles_deg": [
+        40.80038235500845
+      ],
+      "min_abs_difference_from_robot_deg": 2.6703478876583873,
+      "homography_fit_mean_px": 0.33270926928106037
+    },
+    {
+      "samples": [
+        6,
+        12
+      ],
+      "robot_angle_deg": 19.048788894052016,
+      "pnp_angle_deg": 21.644756874449627,
+      "valid_homography_angles_deg": [
+        21.684832466989153,
+        34.05597206994502
+      ],
+      "min_abs_difference_from_robot_deg": 2.6360435729371368,
+      "homography_fit_mean_px": 0.2671243182883644
+    },
+    {
+      "samples": [
+        12,
+        14
+      ],
+      "robot_angle_deg": 12.64644353420677,
+      "pnp_angle_deg": 10.037771018023387,
+      "valid_homography_angles_deg": [
+        10.012445569394329,
+        18.69419462976339
+      ],
+      "min_abs_difference_from_robot_deg": 2.6339979648124405,
+      "homography_fit_mean_px": 0.19386561907689498
+    },
+    {
+      "samples": [
+        16,
+        17
+      ],
+      "robot_angle_deg": 36.30446586904427,
+      "pnp_angle_deg": 33.01250195501803,
+      "valid_homography_angles_deg": [
+        33.696537417123906,
+        33.0949992720498
+      ],
+      "min_abs_difference_from_robot_deg": 2.6079284519203654,
+      "homography_fit_mean_px": 0.17212357289312621
+    },
+    {
+      "samples": [
+        6,
+        20
+      ],
+      "robot_angle_deg": 6.137272526172743,
+      "pnp_angle_deg": 8.707884502226875,
+      "valid_homography_angles_deg": [
+        8.731686621664903
+      ],
+      "min_abs_difference_from_robot_deg": 2.5944140954921595,
+      "homography_fit_mean_px": 0.35208334152011833
+    },
+    {
+      "samples": [
+        9,
+        14
+      ],
+      "robot_angle_deg": 32.48492527635878,
+      "pnp_angle_deg": 35.400280982429344,
+      "valid_homography_angles_deg": [
+        35.06940369492465,
+        38.952781860584956
+      ],
+      "min_abs_difference_from_robot_deg": 2.5844784185658725,
+      "homography_fit_mean_px": 0.20073736060195255
+    },
+    {
+      "samples": [
+        6,
+        19
+      ],
+      "robot_angle_deg": 6.14926984594489,
+      "pnp_angle_deg": 8.737105845719851,
+      "valid_homography_angles_deg": [
+        8.729069624984893
+      ],
+      "min_abs_difference_from_robot_deg": 2.5797997790400036,
+      "homography_fit_mean_px": 0.3385541957446763
+    },
+    {
+      "samples": [
+        2,
+        11
+      ],
+      "robot_angle_deg": 34.392693266711696,
+      "pnp_angle_deg": 37.46905460040969,
+      "valid_homography_angles_deg": [
+        36.969545583163764
+      ],
+      "min_abs_difference_from_robot_deg": 2.5768523164520687,
+      "homography_fit_mean_px": 0.2218840364441893
+    },
+    {
+      "samples": [
+        8,
+        15
+      ],
+      "robot_angle_deg": 30.959965368232385,
+      "pnp_angle_deg": 28.720227178303393,
+      "valid_homography_angles_deg": [
+        28.390950656050986
+      ],
+      "min_abs_difference_from_robot_deg": 2.5690147121813993,
+      "homography_fit_mean_px": 0.3147232110257822
+    },
+    {
+      "samples": [
+        1,
+        3
+      ],
+      "robot_angle_deg": 24.896440913979507,
+      "pnp_angle_deg": 22.33499716594498,
+      "valid_homography_angles_deg": [
+        18.084883336452503,
+        22.330323431256026
+      ],
+      "min_abs_difference_from_robot_deg": 2.566117482723481,
+      "homography_fit_mean_px": 0.2322469225879292
+    },
+    {
+      "samples": [
+        4,
+        18
+      ],
+      "robot_angle_deg": 17.984386453412217,
+      "pnp_angle_deg": 15.568062187902378,
+      "valid_homography_angles_deg": [
+        5.46294454300206,
+        15.425549228607167
+      ],
+      "min_abs_difference_from_robot_deg": 2.5588372248050497,
+      "homography_fit_mean_px": 0.23408651120426813
+    },
+    {
+      "samples": [
+        10,
+        17
+      ],
+      "robot_angle_deg": 34.93145626240265,
+      "pnp_angle_deg": 32.43161629002043,
+      "valid_homography_angles_deg": [
+        44.69532952208325,
+        32.39553006179495
+      ],
+      "min_abs_difference_from_robot_deg": 2.5359262006076975,
+      "homography_fit_mean_px": 0.22683441146028938
+    },
+    {
+      "samples": [
+        8,
+        9
+      ],
+      "robot_angle_deg": 51.10068336650559,
+      "pnp_angle_deg": 54.01235651622748,
+      "valid_homography_angles_deg": [
+        53.60442878932564
+      ],
+      "min_abs_difference_from_robot_deg": 2.503745422820046,
+      "homography_fit_mean_px": 0.26643323580243317
+    },
+    {
+      "samples": [
+        7,
+        12
+      ],
+      "robot_angle_deg": 23.585461781334573,
+      "pnp_angle_deg": 25.752647226233663,
+      "valid_homography_angles_deg": [
+        26.080567719970414,
+        14.179329261412164
+      ],
+      "min_abs_difference_from_robot_deg": 2.4951059386358416,
+      "homography_fit_mean_px": 0.22391259910285832
+    },
+    {
+      "samples": [
+        8,
+        12
+      ],
+      "robot_angle_deg": 28.01036451552247,
+      "pnp_angle_deg": 30.363488706928468,
+      "valid_homography_angles_deg": [
+        30.48500248633847,
+        13.327682565198874
+      ],
+      "min_abs_difference_from_robot_deg": 2.4746379708160013,
+      "homography_fit_mean_px": 0.22815715010809798
+    },
+    {
+      "samples": [
+        5,
+        20
+      ],
+      "robot_angle_deg": 24.0137266728694,
+      "pnp_angle_deg": 26.230329147005055,
+      "valid_homography_angles_deg": [
+        26.454485295299317
+      ],
+      "min_abs_difference_from_robot_deg": 2.440758622429918,
+      "homography_fit_mean_px": 0.27683242294942767
+    },
+    {
+      "samples": [
+        7,
+        10
+      ],
+      "robot_angle_deg": 44.70710924703545,
+      "pnp_angle_deg": 47.6768491642971,
+      "valid_homography_angles_deg": [
+        47.141462922642596
+      ],
+      "min_abs_difference_from_robot_deg": 2.4343536756071487,
+      "homography_fit_mean_px": 0.24397569315042733
+    },
+    {
+      "samples": [
+        4,
+        17
+      ],
+      "robot_angle_deg": 30.097016651153133,
+      "pnp_angle_deg": 27.822688391847464,
+      "valid_homography_angles_deg": [
+        15.004116111719433,
+        27.666602281441467
+      ],
+      "min_abs_difference_from_robot_deg": 2.4304143697116665,
+      "homography_fit_mean_px": 0.28193993968340564
+    },
+    {
+      "samples": [
+        0,
+        15
+      ],
+      "robot_angle_deg": 14.030921550841725,
+      "pnp_angle_deg": 11.60714122129312,
+      "valid_homography_angles_deg": [
+        17.694523431465647,
+        11.6037773054011
+      ],
+      "min_abs_difference_from_robot_deg": 2.4271442454406245,
+      "homography_fit_mean_px": 0.2691475758758802
+    },
+    {
+      "samples": [
+        5,
+        19
+      ],
+      "robot_angle_deg": 24.042757880306183,
+      "pnp_angle_deg": 26.277684384609056,
+      "valid_homography_angles_deg": [
+        26.4574237312413
+      ],
+      "min_abs_difference_from_robot_deg": 2.4146658509351155,
+      "homography_fit_mean_px": 0.33240886935346325
+    },
+    {
+      "samples": [
+        0,
+        7
+      ],
+      "robot_angle_deg": 24.22597974293999,
+      "pnp_angle_deg": 22.218511590995647,
+      "valid_homography_angles_deg": [
+        21.819064054012223,
+        14.461623412827846
+      ],
+      "min_abs_difference_from_robot_deg": 2.406915688927768,
+      "homography_fit_mean_px": 0.24735098868480346
+    },
+    {
+      "samples": [
+        9,
+        12
+      ],
+      "robot_angle_deg": 34.681370623567936,
+      "pnp_angle_deg": 37.36938925455458,
+      "valid_homography_angles_deg": [
+        37.0329042201326,
+        29.153180751690687
+      ],
+      "min_abs_difference_from_robot_deg": 2.351533596564664,
+      "homography_fit_mean_px": 0.18916642605037007
+    },
+    {
+      "samples": [
+        9,
+        10
+      ],
+      "robot_angle_deg": 10.495662519731376,
+      "pnp_angle_deg": 12.775459332108065,
+      "valid_homography_angles_deg": [
+        12.823927912453902
+      ],
+      "min_abs_difference_from_robot_deg": 2.3282653927225265,
+      "homography_fit_mean_px": 0.17415608022719223
+    },
+    {
+      "samples": [
+        8,
+        10
+      ],
+      "robot_angle_deg": 49.288588243664094,
+      "pnp_angle_deg": 52.10700722366429,
+      "valid_homography_angles_deg": [
+        51.59305068475239
+      ],
+      "min_abs_difference_from_robot_deg": 2.3044624410882975,
+      "homography_fit_mean_px": 0.252705925645201
+    },
+    {
+      "samples": [
+        18,
+        20
+      ],
+      "robot_angle_deg": 32.004301037765984,
+      "pnp_angle_deg": 34.01450105084689,
+      "valid_homography_angles_deg": [
+        34.25444907207958
+      ],
+      "min_abs_difference_from_robot_deg": 2.2501480343135967,
+      "homography_fit_mean_px": 0.2734180197426674
+    },
+    {
+      "samples": [
+        18,
+        19
+      ],
+      "robot_angle_deg": 32.03454682928784,
+      "pnp_angle_deg": 34.06492229445204,
+      "valid_homography_angles_deg": [
+        34.27366029182205
+      ],
+      "min_abs_difference_from_robot_deg": 2.239113462534206,
+      "homography_fit_mean_px": 0.27607069360218467
+    },
+    {
+      "samples": [
+        4,
+        9
+      ],
+      "robot_angle_deg": 18.58985744869202,
+      "pnp_angle_deg": 20.768282610484963,
+      "valid_homography_angles_deg": [
+        20.826180082820425
+      ],
+      "min_abs_difference_from_robot_deg": 2.236322634128406,
+      "homography_fit_mean_px": 0.22349400240027142
+    },
+    {
+      "samples": [
+        0,
+        8
+      ],
+      "robot_angle_deg": 26.74639760341973,
+      "pnp_angle_deg": 24.925362395263,
+      "valid_homography_angles_deg": [
+        12.451169285816889,
+        24.571096119504087
+      ],
+      "min_abs_difference_from_robot_deg": 2.175301483915643,
+      "homography_fit_mean_px": 0.2376509518494161
+    },
+    {
+      "samples": [
+        5,
+        15
+      ],
+      "robot_angle_deg": 13.978968991766653,
+      "pnp_angle_deg": 11.895153025931185,
+      "valid_homography_angles_deg": [
+        11.812424903744624
+      ],
+      "min_abs_difference_from_robot_deg": 2.166544088022029,
+      "homography_fit_mean_px": 0.3215866167598264
+    },
+    {
+      "samples": [
+        1,
+        6
+      ],
+      "robot_angle_deg": 15.505285169863537,
+      "pnp_angle_deg": 13.298409126225652,
+      "valid_homography_angles_deg": [
+        13.348099680988785,
+        12.513495228011378
+      ],
+      "min_abs_difference_from_robot_deg": 2.1571854888747524,
+      "homography_fit_mean_px": 0.32589201571499254
+    },
+    {
+      "samples": [
+        2,
+        14
+      ],
+      "robot_angle_deg": 17.83192859633479,
+      "pnp_angle_deg": 23.43197511753025,
+      "valid_homography_angles_deg": [
+        23.35996643365234,
+        19.888903709265623
+      ],
+      "min_abs_difference_from_robot_deg": 2.0569751129308322,
+      "homography_fit_mean_px": 0.20535160926306445
+    },
+    {
+      "samples": [
+        9,
+        19
+      ],
+      "robot_angle_deg": 34.48367323991038,
+      "pnp_angle_deg": 36.71602366915451,
+      "valid_homography_angles_deg": [
+        36.45282832127158,
+        10.854557508975375
+      ],
+      "min_abs_difference_from_robot_deg": 1.969155081361201,
+      "homography_fit_mean_px": 0.2806175936462068
+    },
+    {
+      "samples": [
+        9,
+        20
+      ],
+      "robot_angle_deg": 34.46953509945892,
+      "pnp_angle_deg": 36.691506667292195,
+      "valid_homography_angles_deg": [
+        36.42267424453401,
+        10.856780539105841
+      ],
+      "min_abs_difference_from_robot_deg": 1.9531391450750846,
+      "homography_fit_mean_px": 0.2705318104857011
+    },
+    {
+      "samples": [
+        0,
+        4
+      ],
+      "robot_angle_deg": 13.407740650487439,
+      "pnp_angle_deg": 11.558925457670192,
+      "valid_homography_angles_deg": [
+        31.785642369514225,
+        11.45972317847104
+      ],
+      "min_abs_difference_from_robot_deg": 1.9480174720163994,
+      "homography_fit_mean_px": 0.23186390124122355
+    },
+    {
+      "samples": [
+        7,
+        16
+      ],
+      "robot_angle_deg": 28.129992858500035,
+      "pnp_angle_deg": 30.546085746800248,
+      "valid_homography_angles_deg": [
+        13.941636952535553,
+        30.025970473934652
+      ],
+      "min_abs_difference_from_robot_deg": 1.8959776154346173,
+      "homography_fit_mean_px": 0.3256616368791523
+    },
+    {
+      "samples": [
+        4,
+        6
+      ],
+      "robot_angle_deg": 23.934047402501868,
+      "pnp_angle_deg": 25.849761232927225,
+      "valid_homography_angles_deg": [
+        25.809132219078982
+      ],
+      "min_abs_difference_from_robot_deg": 1.8750848165771146,
+      "homography_fit_mean_px": 0.28714300823254924
+    },
+    {
+      "samples": [
+        6,
+        7
+      ],
+      "robot_angle_deg": 21.541177644703627,
+      "pnp_angle_deg": 23.183889470045372,
+      "valid_homography_angles_deg": [
+        23.383637194538053
+      ],
+      "min_abs_difference_from_robot_deg": 1.8424595498344267,
+      "homography_fit_mean_px": 0.27616919708202975
+    },
+    {
+      "samples": [
+        5,
+        10
+      ],
+      "robot_angle_deg": 40.209565328422386,
+      "pnp_angle_deg": 42.44603984486774,
+      "valid_homography_angles_deg": [
+        42.0450942274785
+      ],
+      "min_abs_difference_from_robot_deg": 1.835528899056115,
+      "homography_fit_mean_px": 0.26321462774176996
+    },
+    {
+      "samples": [
+        3,
+        12
+      ],
+      "robot_angle_deg": 22.61289257338546,
+      "pnp_angle_deg": 24.14184126469187,
+      "valid_homography_angles_deg": [
+        24.4416431090304,
+        14.341751932986595
+      ],
+      "min_abs_difference_from_robot_deg": 1.828750535644943,
+      "homography_fit_mean_px": 0.22100258944904075
+    },
+    {
+      "samples": [
+        13,
+        14
+      ],
+      "robot_angle_deg": 11.989347419261632,
+      "pnp_angle_deg": 14.02638082364988,
+      "valid_homography_angles_deg": [
+        13.817094435282252,
+        9.079501782610018
+      ],
+      "min_abs_difference_from_robot_deg": 1.82774701602062,
+      "homography_fit_mean_px": 0.2189752541940234
+    },
+    {
+      "samples": [
+        3,
+        17
+      ],
+      "robot_angle_deg": 57.692837883894946,
+      "pnp_angle_deg": 56.331624617631576,
+      "valid_homography_angles_deg": [
+        18.89418124493291,
+        55.90538825951809
+      ],
+      "min_abs_difference_from_robot_deg": 1.7874496243768547,
+      "homography_fit_mean_px": 0.3446110691518186
+    },
+    {
+      "samples": [
+        2,
+        17
+      ],
+      "robot_angle_deg": 56.427690889598,
+      "pnp_angle_deg": 58.60364344022936,
+      "valid_homography_angles_deg": [
+        13.026507822556368,
+        58.21273350101942
+      ],
+      "min_abs_difference_from_robot_deg": 1.7850426114214244,
+      "homography_fit_mean_px": 0.3537162510902642
+    },
+    {
+      "samples": [
+        2,
+        20
+      ],
+      "robot_angle_deg": 16.40394202324073,
+      "pnp_angle_deg": 18.20691486930701,
+      "valid_homography_angles_deg": [
+        18.13587997532752,
+        4.176866222331047
+      ],
+      "min_abs_difference_from_robot_deg": 1.7319379520867884,
+      "homography_fit_mean_px": 0.28031149521966625
+    },
+    {
+      "samples": [
+        2,
+        19
+      ],
+      "robot_angle_deg": 16.41496177873807,
+      "pnp_angle_deg": 18.223414777225564,
+      "valid_homography_angles_deg": [
+        18.13445320193576,
+        4.216429747174979
+      ],
+      "min_abs_difference_from_robot_deg": 1.719491423197688,
+      "homography_fit_mean_px": 0.280160370725514
+    },
+    {
+      "samples": [
+        0,
+        1
+      ],
+      "robot_angle_deg": 12.76714588061843,
+      "pnp_angle_deg": 11.244018388450796,
+      "valid_homography_angles_deg": [
+        11.089618568511245,
+        19.25936190802985
+      ],
+      "min_abs_difference_from_robot_deg": 1.6775273121071859,
+      "homography_fit_mean_px": 0.1980113809013457
+    },
+    {
+      "samples": [
+        9,
+        11
+      ],
+      "robot_angle_deg": 14.480399638637047,
+      "pnp_angle_deg": 16.045727380315917,
+      "valid_homography_angles_deg": [
+        16.156600887446704,
+        16.786216716937293
+      ],
+      "min_abs_difference_from_robot_deg": 1.6762012488096563,
+      "homography_fit_mean_px": 0.19801462671508788
+    },
+    {
+      "samples": [
+        7,
+        14
+      ],
+      "robot_angle_deg": 23.29483985500005,
+      "pnp_angle_deg": 28.524451972705716,
+      "valid_homography_angles_deg": [
+        28.744810207778418,
+        24.95894100653096
+      ],
+      "min_abs_difference_from_robot_deg": 1.664101151530911,
+      "homography_fit_mean_px": 0.24064102695012793
+    },
+    {
+      "samples": [
+        6,
+        11
+      ],
+      "robot_angle_deg": 27.33637430886907,
+      "pnp_angle_deg": 29.38279126797754,
+      "valid_homography_angles_deg": [
+        28.995284579072624
+      ],
+      "min_abs_difference_from_robot_deg": 1.658910270203556,
+      "homography_fit_mean_px": 0.312453632989814
+    },
+    {
+      "samples": [
+        3,
+        7
+      ],
+      "robot_angle_deg": 3.2766927407684334,
+      "pnp_angle_deg": 5.426668576122336,
+      "valid_homography_angles_deg": [
+        5.404070371305635,
+        4.925516203276925
+      ],
+      "min_abs_difference_from_robot_deg": 1.6488234625084917,
+      "homography_fit_mean_px": 0.18821956522107317
+    },
+    {
+      "samples": [
+        2,
+        12
+      ],
+      "robot_angle_deg": 25.817021727577334,
+      "pnp_angle_deg": 27.453497484357914,
+      "valid_homography_angles_deg": [
+        27.455609501477685
+      ],
+      "min_abs_difference_from_robot_deg": 1.6385877739003512,
+      "homography_fit_mean_px": 0.2260106671981257
+    },
+    {
+      "samples": [
+        8,
+        16
+      ],
+      "robot_angle_deg": 31.895882446710562,
+      "pnp_angle_deg": 34.01505448955457,
+      "valid_homography_angles_deg": [
+        33.50720437730883
+      ],
+      "min_abs_difference_from_robot_deg": 1.611321930598269,
+      "homography_fit_mean_px": 0.3296904121072546
+    },
+    {
+      "samples": [
+        1,
+        18
+      ],
+      "robot_angle_deg": 18.107117738206135,
+      "pnp_angle_deg": 19.770001458965847,
+      "valid_homography_angles_deg": [
+        12.148895804337947,
+        19.7178741480603
+      ],
+      "min_abs_difference_from_robot_deg": 1.6107564098541651,
+      "homography_fit_mean_px": 0.359804389014369
+    },
+    {
+      "samples": [
+        13,
+        19
+      ],
+      "robot_angle_deg": 14.187251524640876,
+      "pnp_angle_deg": 15.733536844015893,
+      "valid_homography_angles_deg": [
+        15.73632204153198,
+        22.031618803090215
+      ],
+      "min_abs_difference_from_robot_deg": 1.5490705168911045,
+      "homography_fit_mean_px": 0.3351730367133614
+    },
+    {
+      "samples": [
+        13,
+        20
+      ],
+      "robot_angle_deg": 14.16532918004311,
+      "pnp_angle_deg": 15.711490344709203,
+      "valid_homography_angles_deg": [
+        15.706265108316131,
+        22.027605676765344
+      ],
+      "min_abs_difference_from_robot_deg": 1.5409359282730222,
+      "homography_fit_mean_px": 0.33083807602320386
+    },
+    {
+      "samples": [
+        3,
+        8
+      ],
+      "robot_angle_deg": 6.748561448558541,
+      "pnp_angle_deg": 8.388110730893157,
+      "valid_homography_angles_deg": [
+        8.239078651408505,
+        5.128883695278739
+      ],
+      "min_abs_difference_from_robot_deg": 1.490517202849964,
+      "homography_fit_mean_px": 0.2510362136207804
+    },
+    {
+      "samples": [
+        4,
+        7
+      ],
+      "robot_angle_deg": 30.781723845355653,
+      "pnp_angle_deg": 32.56572976271426,
+      "valid_homography_angles_deg": [
+        32.27046830165841
+      ],
+      "min_abs_difference_from_robot_deg": 1.4887444563027579,
+      "homography_fit_mean_px": 0.19527624921589945
+    },
+    {
+      "samples": [
+        15,
+        18
+      ],
+      "robot_angle_deg": 15.809534355506806,
+      "pnp_angle_deg": 17.101557685840515,
+      "valid_homography_angles_deg": [
+        17.251117614461442
+      ],
+      "min_abs_difference_from_robot_deg": 1.441583258954637,
+      "homography_fit_mean_px": 0.24772727112318244
+    },
+    {
+      "samples": [
+        10,
+        19
+      ],
+      "robot_angle_deg": 35.799760379198744,
+      "pnp_angle_deg": 37.59070080478166,
+      "valid_homography_angles_deg": [
+        15.262599728366492,
+        37.222109799009765
+      ],
+      "min_abs_difference_from_robot_deg": 1.4223494198110203,
+      "homography_fit_mean_px": 0.25466255528266574
+    },
+    {
+      "samples": [
+        10,
+        20
+      ],
+      "robot_angle_deg": 35.78649079807846,
+      "pnp_angle_deg": 37.574583099198456,
+      "valid_homography_angles_deg": [
+        15.275709519768354,
+        37.20352303556363
+      ],
+      "min_abs_difference_from_robot_deg": 1.4170322374851665,
+      "homography_fit_mean_px": 0.23429290321345406
+    },
+    {
+      "samples": [
+        3,
+        20
+      ],
+      "robot_angle_deg": 21.153886919762506,
+      "pnp_angle_deg": 22.360174466752493,
+      "valid_homography_angles_deg": [
+        22.55191888678353,
+        11.418839694212304
+      ],
+      "min_abs_difference_from_robot_deg": 1.3980319670210228,
+      "homography_fit_mean_px": 0.26999618578195705
+    },
+    {
+      "samples": [
+        3,
+        10
+      ],
+      "robot_angle_deg": 43.683792570953734,
+      "pnp_angle_deg": 45.61850201334131,
+      "valid_homography_angles_deg": [
+        45.07798282363842
+      ],
+      "min_abs_difference_from_robot_deg": 1.3941902526846874,
+      "homography_fit_mean_px": 0.2347122273824892
+    },
+    {
+      "samples": [
+        12,
+        17
+      ],
+      "robot_angle_deg": 55.19610415874347,
+      "pnp_angle_deg": 53.9839941642239,
+      "valid_homography_angles_deg": [
+        42.91134898952379,
+        53.83776352507874
+      ],
+      "min_abs_difference_from_robot_deg": 1.3583406336647315,
+      "homography_fit_mean_px": 0.27674371975555384
+    },
+    {
+      "samples": [
+        3,
+        19
+      ],
+      "robot_angle_deg": 21.172744073516526,
+      "pnp_angle_deg": 22.387350929368417,
+      "valid_homography_angles_deg": [
+        22.530935804702555,
+        11.421953975024667
+      ],
+      "min_abs_difference_from_robot_deg": 1.3581917311860288,
+      "homography_fit_mean_px": 0.29143152856931975
+    },
+    {
+      "samples": [
+        6,
+        8
+      ],
+      "robot_angle_deg": 24.554590877481917,
+      "pnp_angle_deg": 25.812550485481278,
+      "valid_homography_angles_deg": [
+        25.900208108979694
+      ],
+      "min_abs_difference_from_robot_deg": 1.3456172314977763,
+      "homography_fit_mean_px": 0.25609825063491753
+    },
+    {
+      "samples": [
+        0,
+        17
+      ],
+      "robot_angle_deg": 36.96413440626692,
+      "pnp_angle_deg": 38.464723854208366,
+      "valid_homography_angles_deg": [
+        28.17398615274904,
+        38.285727665787725
+      ],
+      "min_abs_difference_from_robot_deg": 1.321593259520803,
+      "homography_fit_mean_px": 0.27574043300417994
+    },
+    {
+      "samples": [
+        3,
+        9
+      ],
+      "robot_angle_deg": 44.988615493696045,
+      "pnp_angle_deg": 46.724077430758165,
+      "valid_homography_angles_deg": [
+        46.30915833528108
+      ],
+      "min_abs_difference_from_robot_deg": 1.3205428415850378,
+      "homography_fit_mean_px": 0.2760434844218773
+    },
+    {
+      "samples": [
+        5,
+        12
+      ],
+      "robot_angle_deg": 30.48769047938382,
+      "pnp_angle_deg": 32.25067058711847,
+      "valid_homography_angles_deg": [
+        32.50720281672453,
+        29.20406051001157
+      ],
+      "min_abs_difference_from_robot_deg": 1.2836299693722495,
+      "homography_fit_mean_px": 0.24493834218076585
+    },
+    {
+      "samples": [
+        6,
+        16
+      ],
+      "robot_angle_deg": 29.95121398901342,
+      "pnp_angle_deg": 31.490284192655373,
+      "valid_homography_angles_deg": [
+        31.195269918514068
+      ],
+      "min_abs_difference_from_robot_deg": 1.2440559295006466,
+      "homography_fit_mean_px": 0.4205763189049403
+    },
+    {
+      "samples": [
+        16,
+        19
+      ],
+      "robot_angle_deg": 28.823217410321412,
+      "pnp_angle_deg": 30.280470160423718,
+      "valid_homography_angles_deg": [
+        30.067200318743946
+      ],
+      "min_abs_difference_from_robot_deg": 1.2439829084225345,
+      "homography_fit_mean_px": 0.23730854162458323
+    },
+    {
+      "samples": [
+        16,
+        20
+      ],
+      "robot_angle_deg": 28.79623054741798,
+      "pnp_angle_deg": 30.240981734586818,
+      "valid_homography_angles_deg": [
+        30.02055323528827
+      ],
+      "min_abs_difference_from_robot_deg": 1.2243226878702878,
+      "homography_fit_mean_px": 0.23319758108963684
+    },
+    {
+      "samples": [
+        13,
+        16
+      ],
+      "robot_angle_deg": 16.410546826134553,
+      "pnp_angle_deg": 18.467354114565946,
+      "valid_homography_angles_deg": [
+        17.613002357640934,
+        18.64392048847168
+      ],
+      "min_abs_difference_from_robot_deg": 1.2024555315063807,
+      "homography_fit_mean_px": 0.30738156687105517
+    },
+    {
+      "samples": [
+        2,
+        7
+      ],
+      "robot_angle_deg": 17.124507233086966,
+      "pnp_angle_deg": 19.18138579188511,
+      "valid_homography_angles_deg": [
+        18.319533485058248,
+        19.38804865542109
+      ],
+      "min_abs_difference_from_robot_deg": 1.1950262519712815,
+      "homography_fit_mean_px": 0.22817779224068027
+    },
+    {
+      "samples": [
+        7,
+        18
+      ],
+      "robot_angle_deg": 28.788049968470578,
+      "pnp_angle_deg": 30.169538198351393,
+      "valid_homography_angles_deg": [
+        21.15118721425174,
+        29.945919384168636
+      ],
+      "min_abs_difference_from_robot_deg": 1.157869415698059,
+      "homography_fit_mean_px": 0.33752450820752783
+    },
+    {
+      "samples": [
+        12,
+        16
+      ],
+      "robot_angle_deg": 28.21946615516712,
+      "pnp_angle_deg": 29.52022659448891,
+      "valid_homography_angles_deg": [
+        10.298876696490286,
+        29.37386028976213
+      ],
+      "min_abs_difference_from_robot_deg": 1.1543941345950124,
+      "homography_fit_mean_px": 0.2184049433396692
+    },
+    {
+      "samples": [
+        12,
+        13
+      ],
+      "robot_angle_deg": 17.454316027454258,
+      "pnp_angle_deg": 16.389868818533866,
+      "valid_homography_angles_deg": [
+        12.668198398432889,
+        16.311489194609987
+      ],
+      "min_abs_difference_from_robot_deg": 1.1428268328442712,
+      "homography_fit_mean_px": 0.18304722002882157
+    },
+    {
+      "samples": [
+        4,
+        5
+      ],
+      "robot_angle_deg": 20.063505051855113,
+      "pnp_angle_deg": 19.39489522591418,
+      "valid_homography_angles_deg": [
+        9.363063761502145,
+        18.9238715872163
+      ],
+      "min_abs_difference_from_robot_deg": 1.1396334646388127,
+      "homography_fit_mean_px": 0.1996097866982184
+    },
+    {
+      "samples": [
+        1,
+        10
+      ],
+      "robot_angle_deg": 37.085959279442775,
+      "pnp_angle_deg": 38.66414979166348,
+      "valid_homography_angles_deg": [
+        38.220430528505936
+      ],
+      "min_abs_difference_from_robot_deg": 1.1344712490631608,
+      "homography_fit_mean_px": 0.1995103030738013
+    },
+    {
+      "samples": [
+        5,
+        9
+      ],
+      "robot_angle_deg": 38.562363547181704,
+      "pnp_angle_deg": 40.01882588401087,
+      "valid_homography_angles_deg": [
+        39.68548356739339
+      ],
+      "min_abs_difference_from_robot_deg": 1.1231200202116867,
+      "homography_fit_mean_px": 0.25662004941450633
+    },
+    {
+      "samples": [
+        5,
+        11
+      ],
+      "robot_angle_deg": 24.843968272152207,
+      "pnp_angle_deg": 26.24875198342995,
+      "valid_homography_angles_deg": [
+        25.948673243428818
+      ],
+      "min_abs_difference_from_robot_deg": 1.104704971276611,
+      "homography_fit_mean_px": 0.25610594569774114
+    },
+    {
+      "samples": [
+        1,
+        17
+      ],
+      "robot_angle_deg": 37.05695457843078,
+      "pnp_angle_deg": 38.622278218790406,
+      "valid_homography_angles_deg": [
+        4.753040989632996,
+        38.14744858569621
+      ],
+      "min_abs_difference_from_robot_deg": 1.090494007265427,
+      "homography_fit_mean_px": 0.32472832966988546
+    },
+    {
+      "samples": [
+        11,
+        14
+      ],
+      "robot_angle_deg": 22.584314310125254,
+      "pnp_angle_deg": 25.112214246341825,
+      "valid_homography_angles_deg": [
+        24.855307756400148,
+        23.601152960590273
+      ],
+      "min_abs_difference_from_robot_deg": 1.0168386504650186,
+      "homography_fit_mean_px": 0.1766750278319937
+    },
+    {
+      "samples": [
+        7,
+        11
+      ],
+      "robot_angle_deg": 32.58164846144843,
+      "pnp_angle_deg": 34.07714463527711,
+      "valid_homography_angles_deg": [
+        33.588000410107746
+      ],
+      "min_abs_difference_from_robot_deg": 1.006351948659315,
+      "homography_fit_mean_px": 0.2185291870753827
+    },
+    {
+      "samples": [
+        6,
+        18
+      ],
+      "robot_angle_deg": 29.663157197118537,
+      "pnp_angle_deg": 30.592096682587453,
+      "valid_homography_angles_deg": [
+        12.616248963908127,
+        30.668593781625656
+      ],
+      "min_abs_difference_from_robot_deg": 1.0054365845071196,
+      "homography_fit_mean_px": 0.39230814309539364
+    },
+    {
+      "samples": [
+        0,
+        14
+      ],
+      "robot_angle_deg": 24.002329278941666,
+      "pnp_angle_deg": 25.12538753777006,
+      "valid_homography_angles_deg": [
+        24.990965320561283,
+        14.718959502904593
+      ],
+      "min_abs_difference_from_robot_deg": 0.9886360416196176,
+      "homography_fit_mean_px": 0.19842489112795536
+    },
+    {
+      "samples": [
+        1,
+        9
+      ],
+      "robot_angle_deg": 32.24557905634939,
+      "pnp_angle_deg": 33.675833805107644,
+      "valid_homography_angles_deg": [
+        33.231712485029284
+      ],
+      "min_abs_difference_from_robot_deg": 0.9861334286798922,
+      "homography_fit_mean_px": 0.25000836123312176
+    },
+    {
+      "samples": [
+        10,
+        18
+      ],
+      "robot_angle_deg": 37.73818862028918,
+      "pnp_angle_deg": 38.85294683566849,
+      "valid_homography_angles_deg": [
+        38.69335501988086,
+        42.28185155086927
+      ],
+      "min_abs_difference_from_robot_deg": 0.9551663995916826,
+      "homography_fit_mean_px": 0.3174471814845526
+    },
+    {
+      "samples": [
+        0,
+        11
+      ],
+      "robot_angle_deg": 18.81244765821288,
+      "pnp_angle_deg": 18.083815846104503,
+      "valid_homography_angles_deg": [
+        17.85830866539219,
+        10.538320927231966
+      ],
+      "min_abs_difference_from_robot_deg": 0.9541389928206883,
+      "homography_fit_mean_px": 0.20623790539871564
+    },
+    {
+      "samples": [
+        11,
+        18
+      ],
+      "robot_angle_deg": 23.02230845787432,
+      "pnp_angle_deg": 23.893590370598513,
+      "valid_homography_angles_deg": [
+        33.304842565251334,
+        23.94290235101115
+      ],
+      "min_abs_difference_from_robot_deg": 0.9205938931368287,
+      "homography_fit_mean_px": 0.3050462187034709
+    },
+    {
+      "samples": [
+        5,
+        7
+      ],
+      "robot_angle_deg": 17.921408069002126,
+      "pnp_angle_deg": 19.15806365418406,
+      "valid_homography_angles_deg": [
+        19.17950505868707,
+        17.010937644128497
+      ],
+      "min_abs_difference_from_robot_deg": 0.9104704248736297,
+      "homography_fit_mean_px": 0.23979544511801754
+    },
+    {
+      "samples": [
+        4,
+        16
+      ],
+      "robot_angle_deg": 11.732631101356036,
+      "pnp_angle_deg": 11.008072666754458,
+      "valid_homography_angles_deg": [
+        37.251859708867926,
+        10.838581880105698
+      ],
+      "min_abs_difference_from_robot_deg": 0.8940492212503379,
+      "homography_fit_mean_px": 0.23874983036307473
+    },
+    {
+      "samples": [
+        0,
+        13
+      ],
+      "robot_angle_deg": 18.19017376619873,
+      "pnp_angle_deg": 18.87689729722598,
+      "valid_homography_angles_deg": [
+        19.078685130203787,
+        13.523249669450523
+      ],
+      "min_abs_difference_from_robot_deg": 0.8885113640050584,
+      "homography_fit_mean_px": 0.21850447979856671
+    },
+    {
+      "samples": [
+        17,
+        18
+      ],
+      "robot_angle_deg": 35.90716792240338,
+      "pnp_angle_deg": 35.13174958124614,
+      "valid_homography_angles_deg": [
+        35.02492074496738
+      ],
+      "min_abs_difference_from_robot_deg": 0.8822471774359997,
+      "homography_fit_mean_px": 0.25915274063336646
+    },
+    {
+      "samples": [
+        1,
+        11
+      ],
+      "robot_angle_deg": 21.988762403269046,
+      "pnp_angle_deg": 23.205316870764406,
+      "valid_homography_angles_deg": [
+        22.870978056480105
+      ],
+      "min_abs_difference_from_robot_deg": 0.882215653211059,
+      "homography_fit_mean_px": 0.21101577219556011
+    },
+    {
+      "samples": [
+        11,
+        16
+      ],
+      "robot_angle_deg": 10.251690801310733,
+      "pnp_angle_deg": 9.434367054109645,
+      "valid_homography_angles_deg": [
+        3.3297033730959478,
+        9.391703332781068
+      ],
+      "min_abs_difference_from_robot_deg": 0.8599874685296651,
+      "homography_fit_mean_px": 0.1706703261711215
+    },
+    {
+      "samples": [
+        11,
+        19
+      ],
+      "robot_angle_deg": 24.794747130233386,
+      "pnp_angle_deg": 25.947079618708617,
+      "valid_homography_angles_deg": [
+        25.63058993114143,
+        8.98887551302762
+      ],
+      "min_abs_difference_from_robot_deg": 0.8358428009080434,
+      "homography_fit_mean_px": 0.2244699503849906
+    },
+    {
+      "samples": [
+        11,
+        20
+      ],
+      "robot_angle_deg": 24.77235862801797,
+      "pnp_angle_deg": 25.914641840664775,
+      "valid_homography_angles_deg": [
+        25.60641072931958,
+        8.995505234941627
+      ],
+      "min_abs_difference_from_robot_deg": 0.8340521013016122,
+      "homography_fit_mean_px": 0.22146373454530696
+    },
+    {
+      "samples": [
+        8,
+        11
+      ],
+      "robot_angle_deg": 36.86631115995259,
+      "pnp_angle_deg": 38.15691603652646,
+      "valid_homography_angles_deg": [
+        37.686683017360664
+      ],
+      "min_abs_difference_from_robot_deg": 0.8203718574080767,
+      "homography_fit_mean_px": 0.21615725570154937
+    },
+    {
+      "samples": [
+        10,
+        13
+      ],
+      "robot_angle_deg": 23.084484332935148,
+      "pnp_angle_deg": 22.074640065433503,
+      "valid_homography_angles_deg": [
+        22.2778727075981,
+        20.524377850284438
+      ],
+      "min_abs_difference_from_robot_deg": 0.8066116253370481,
+      "homography_fit_mean_px": 0.1966962835856594
+    },
+    {
+      "samples": [
+        1,
+        19
+      ],
+      "robot_angle_deg": 18.161872622473616,
+      "pnp_angle_deg": 17.27209850272873,
+      "valid_homography_angles_deg": [
+        17.359771419066167,
+        12.534926014268246
+      ],
+      "min_abs_difference_from_robot_deg": 0.8021012034074495,
+      "homography_fit_mean_px": 0.27432480173225343
+    },
+    {
+      "samples": [
+        4,
+        8
+      ],
+      "robot_angle_deg": 34.68472270212572,
+      "pnp_angle_deg": 35.82571154846642,
+      "valid_homography_angles_deg": [
+        35.48268424133757
+      ],
+      "min_abs_difference_from_robot_deg": 0.7979615392118546,
+      "homography_fit_mean_px": 0.19939619137610806
+    },
+    {
+      "samples": [
+        12,
+        20
+      ],
+      "robot_angle_deg": 14.405422617917676,
+      "pnp_angle_deg": 15.181596923608781,
+      "valid_homography_angles_deg": [
+        18.41615500371141,
+        15.188521862493644
+      ],
+      "min_abs_difference_from_robot_deg": 0.7830992445759684,
+      "homography_fit_mean_px": 0.19915608094088055
+    },
+    {
+      "samples": [
+        1,
+        20
+      ],
+      "robot_angle_deg": 18.137449895519214,
+      "pnp_angle_deg": 17.222830683246137,
+      "valid_homography_angles_deg": [
+        17.361076374747363,
+        12.508995544371919
+      ],
+      "min_abs_difference_from_robot_deg": 0.7763735207718518,
+      "homography_fit_mean_px": 0.25653126652846436
+    },
+    {
+      "samples": [
+        13,
+        15
+      ],
+      "robot_angle_deg": 26.079014821995507,
+      "pnp_angle_deg": 25.024006466688338,
+      "valid_homography_angles_deg": [
+        18.539106856166825,
+        25.312294335051384
+      ],
+      "min_abs_difference_from_robot_deg": 0.7667204869441235,
+      "homography_fit_mean_px": 0.30566351568576955
+    },
+    {
+      "samples": [
+        12,
+        19
+      ],
+      "robot_angle_deg": 14.402543135307479,
+      "pnp_angle_deg": 15.164993082069808,
+      "valid_homography_angles_deg": [
+        18.417686817064148,
+        15.166201336627998
+      ],
+      "min_abs_difference_from_robot_deg": 0.7636582013205189,
+      "homography_fit_mean_px": 0.21737785933705844
+    },
+    {
+      "samples": [
+        8,
+        18
+      ],
+      "robot_angle_deg": 30.5693720602077,
+      "pnp_angle_deg": 31.521261751998058,
+      "valid_homography_angles_deg": [
+        21.25957771278603,
+        31.328546101216897
+      ],
+      "min_abs_difference_from_robot_deg": 0.7591740410091958,
+      "homography_fit_mean_px": 0.3150256150184765
+    },
+    {
+      "samples": [
+        0,
+        2
+      ],
+      "robot_angle_deg": 24.158853822741214,
+      "pnp_angle_deg": 23.798655947524654,
+      "valid_homography_angles_deg": [
+        23.415614091843082
+      ],
+      "min_abs_difference_from_robot_deg": 0.7432397308981322,
+      "homography_fit_mean_px": 0.23796308021835974
+    },
+    {
+      "samples": [
+        10,
+        14
+      ],
+      "robot_angle_deg": 33.379049536318846,
+      "pnp_angle_deg": 34.40952263234032,
+      "valid_homography_angles_deg": [
+        34.118568619368496,
+        27.51413942835124
+      ],
+      "min_abs_difference_from_robot_deg": 0.7395190830496503,
+      "homography_fit_mean_px": 0.1733477147707324
+    },
+    {
+      "samples": [
+        1,
+        8
+      ],
+      "robot_angle_deg": 30.618919115150913,
+      "pnp_angle_deg": 29.990147574690432,
+      "valid_homography_angles_deg": [
+        21.31571182196919,
+        29.89763177107324
+      ],
+      "min_abs_difference_from_robot_deg": 0.7212873440776733,
+      "homography_fit_mean_px": 0.25664663799886
+    },
+    {
+      "samples": [
+        5,
+        17
+      ],
+      "robot_angle_deg": 44.90890130801848,
+      "pnp_angle_deg": 44.582967264151385,
+      "valid_homography_angles_deg": [
+        7.90321280667907,
+        44.20213772053724
+      ],
+      "min_abs_difference_from_robot_deg": 0.706763587481241,
+      "homography_fit_mean_px": 0.3518134050337561
+    },
+    {
+      "samples": [
+        10,
+        12
+      ],
+      "robot_angle_deg": 31.643942953254623,
+      "pnp_angle_deg": 32.90337398882996,
+      "valid_homography_angles_deg": [
+        32.34485576042491,
+        10.219001223903287
+      ],
+      "min_abs_difference_from_robot_deg": 0.7009128071702904,
+      "homography_fit_mean_px": 0.136255635286986
+    },
+    {
+      "samples": [
+        5,
+        8
+      ],
+      "robot_angle_deg": 19.602000584511742,
+      "pnp_angle_deg": 20.306021432590885,
+      "valid_homography_angles_deg": [
+        17.289529327478075,
+        20.2912790402227
+      ],
+      "min_abs_difference_from_robot_deg": 0.6892784557109586,
+      "homography_fit_mean_px": 0.21233361663075298
+    },
+    {
+      "samples": [
+        11,
+        13
+      ],
+      "robot_angle_deg": 10.616449231315514,
+      "pnp_angle_deg": 11.346952095255254,
+      "valid_homography_angles_deg": [
+        11.293013815983555,
+        18.399717689008934
+      ],
+      "min_abs_difference_from_robot_deg": 0.676564584668041,
+      "homography_fit_mean_px": 0.20232834975198974
+    },
+    {
+      "samples": [
+        5,
+        6
+      ],
+      "robot_angle_deg": 20.592312622752473,
+      "pnp_angle_deg": 21.11477024992752,
+      "valid_homography_angles_deg": [
+        21.26646914391758
+      ],
+      "min_abs_difference_from_robot_deg": 0.6741565211651057,
+      "homography_fit_mean_px": 0.2979654017474332
+    },
+    {
+      "samples": [
+        3,
+        16
+      ],
+      "robot_angle_deg": 27.185289489686134,
+      "pnp_angle_deg": 28.33052857293669,
+      "valid_homography_angles_deg": [
+        14.028529585086066,
+        27.84168587506594
+      ],
+      "min_abs_difference_from_robot_deg": 0.6563963853798072,
+      "homography_fit_mean_px": 0.29998429249066066
+    },
+    {
+      "samples": [
+        11,
+        17
+      ],
+      "robot_angle_deg": 31.57520252252809,
+      "pnp_angle_deg": 30.525440371137382,
+      "valid_homography_angles_deg": [
+        32.21727220851314,
+        30.54153645414397
+      ],
+      "min_abs_difference_from_robot_deg": 0.6420696859850459,
+      "homography_fit_mean_px": 0.23354653606115033
+    },
+    {
+      "samples": [
+        10,
+        16
+      ],
+      "robot_angle_deg": 21.763398211449317,
+      "pnp_angle_deg": 22.58880716152528,
+      "valid_homography_angles_deg": [
+        10.521650199127873,
+        22.402557420253345
+      ],
+      "min_abs_difference_from_robot_deg": 0.6391592088040277,
+      "homography_fit_mean_px": 0.1615683554426283
+    },
+    {
+      "samples": [
+        17,
+        20
+      ],
+      "robot_angle_deg": 49.113908227386965,
+      "pnp_angle_deg": 48.64851455533543,
+      "valid_homography_angles_deg": [
+        48.48900852609786
+      ],
+      "min_abs_difference_from_robot_deg": 0.6248997012891024,
+      "homography_fit_mean_px": 0.2481174436365603
+    },
+    {
+      "samples": [
+        17,
+        19
+      ],
+      "robot_angle_deg": 49.1328458893657,
+      "pnp_angle_deg": 48.68439134195747,
+      "valid_homography_angles_deg": [
+        48.508177903984325
+      ],
+      "min_abs_difference_from_robot_deg": 0.6246679853813717,
+      "homography_fit_mean_px": 0.26638355554656046
+    },
+    {
+      "samples": [
+        14,
+        15
+      ],
+      "robot_angle_deg": 27.199157048010637,
+      "pnp_angle_deg": 27.606708638125383,
+      "valid_homography_angles_deg": [
+        19.896546674563144,
+        27.80862218592603
+      ],
+      "min_abs_difference_from_robot_deg": 0.609465137915393,
+      "homography_fit_mean_px": 0.39887124628462717
+    },
+    {
+      "samples": [
+        5,
+        16
+      ],
+      "robot_angle_deg": 20.67701309973517,
+      "pnp_angle_deg": 21.6330881118388,
+      "valid_homography_angles_deg": [
+        21.27055373133109
+      ],
+      "min_abs_difference_from_robot_deg": 0.5935406315959213,
+      "homography_fit_mean_px": 0.33923756556404666
+    },
+    {
+      "samples": [
+        0,
+        16
+      ],
+      "robot_angle_deg": 15.58659321297776,
+      "pnp_angle_deg": 15.203723505741097,
+      "valid_homography_angles_deg": [
+        11.579439877300775,
+        15.018941761877803
+      ],
+      "min_abs_difference_from_robot_deg": 0.5676514510999571,
+      "homography_fit_mean_px": 0.2532513776601156
+    },
+    {
+      "samples": [
+        1,
+        12
+      ],
+      "robot_angle_deg": 29.613774494896358,
+      "pnp_angle_deg": 28.669923552515513,
+      "valid_homography_angles_deg": [
+        28.809546167991442,
+        29.051338171342064
+      ],
+      "min_abs_difference_from_robot_deg": 0.5624363235542944,
+      "homography_fit_mean_px": 0.2075931433895164
+    },
+    {
+      "samples": [
+        1,
+        2
+      ],
+      "robot_angle_deg": 19.54590697774714,
+      "pnp_angle_deg": 20.094984094346284,
+      "valid_homography_angles_deg": [
+        20.080126847429675,
+        8.948010928727754
+      ],
+      "min_abs_difference_from_robot_deg": 0.5342198696825342,
+      "homography_fit_mean_px": 0.22773866278924731
+    },
+    {
+      "samples": [
+        13,
+        17
+      ],
+      "robot_angle_deg": 38.25007509038194,
+      "pnp_angle_deg": 37.61765347266344,
+      "valid_homography_angles_deg": [
+        46.80781586945611,
+        37.72806404340799
+      ],
+      "min_abs_difference_from_robot_deg": 0.522011046973951,
+      "homography_fit_mean_px": 0.3581617454583935
+    },
+    {
+      "samples": [
+        16,
+        18
+      ],
+      "robot_angle_deg": 18.185960017186837,
+      "pnp_angle_deg": 17.657802342655508,
+      "valid_homography_angles_deg": [
+        17.665624353400634
+      ],
+      "min_abs_difference_from_robot_deg": 0.5203356637862022,
+      "homography_fit_mean_px": 0.2589004675804846
+    },
+    {
+      "samples": [
+        2,
+        8
+      ],
+      "robot_angle_deg": 18.134689222473032,
+      "pnp_angle_deg": 20.0041296288119,
+      "valid_homography_angles_deg": [
+        17.665548375277062,
+        20.08176550357313
+      ],
+      "min_abs_difference_from_robot_deg": 0.4691408471959697,
+      "homography_fit_mean_px": 0.26181197332710504
+    },
+    {
+      "samples": [
+        2,
+        15
+      ],
+      "robot_angle_deg": 21.407928032565657,
+      "pnp_angle_deg": 20.231328796204192,
+      "valid_homography_angles_deg": [
+        21.862956926963086,
+        19.928388774768198
+      ],
+      "min_abs_difference_from_robot_deg": 0.45502889439742944,
+      "homography_fit_mean_px": 0.3297924357273193
+    },
+    {
+      "samples": [
+        1,
+        16
+      ],
+      "robot_angle_deg": 24.350211712453447,
+      "pnp_angle_deg": 24.168938553275524,
+      "valid_homography_angles_deg": [
+        26.912003569541856,
+        23.911109529812208
+      ],
+      "min_abs_difference_from_robot_deg": 0.4391021826412391,
+      "homography_fit_mean_px": 0.28598300225369383
+    },
+    {
+      "samples": [
+        3,
+        5
+      ],
+      "robot_angle_deg": 15.741681851227987,
+      "pnp_angle_deg": 15.3201949938479,
+      "valid_homography_angles_deg": [
+        14.11088111575309,
+        15.319049952870673
+      ],
+      "min_abs_difference_from_robot_deg": 0.42263189835731474,
+      "homography_fit_mean_px": 0.28163283229173774
+    },
+    {
+      "samples": [
+        8,
+        17
+      ],
+      "robot_angle_deg": 63.21487203243779,
+      "pnp_angle_deg": 63.21420092337023,
+      "valid_homography_angles_deg": [
+        20.138521790673053,
+        62.80029324697606
+      ],
+      "min_abs_difference_from_robot_deg": 0.4145787854617282,
+      "homography_fit_mean_px": 0.33072888451101046
+    },
+    {
+      "samples": [
+        14,
+        17
+      ],
+      "robot_angle_deg": 48.054241459847816,
+      "pnp_angle_deg": 49.843197089981885,
+      "valid_homography_angles_deg": [
+        48.459977470306924,
+        49.71824339476216
+      ],
+      "min_abs_difference_from_robot_deg": 0.40573601045910834,
+      "homography_fit_mean_px": 0.3901185128146357
+    },
+    {
+      "samples": [
+        11,
+        12
+      ],
+      "robot_angle_deg": 25.50530217259405,
+      "pnp_angle_deg": 25.442801604085183,
+      "valid_homography_angles_deg": [
+        25.112222369368038,
+        12.934904647601234
+      ],
+      "min_abs_difference_from_robot_deg": 0.3930798032260121,
+      "homography_fit_mean_px": 0.14153827968458024
+    },
+    {
+      "samples": [
+        1,
+        7
+      ],
+      "robot_angle_deg": 27.964876060403398,
+      "pnp_angle_deg": 27.61058308663352,
+      "valid_homography_angles_deg": [
+        21.98090659025831,
+        27.57241482481417
+      ],
+      "min_abs_difference_from_robot_deg": 0.3924612355892272,
+      "homography_fit_mean_px": 0.2250436886432747
+    },
+    {
+      "samples": [
+        10,
+        11
+      ],
+      "robot_angle_deg": 15.808350645248321,
+      "pnp_angle_deg": 16.361424427591214,
+      "valid_homography_angles_deg": [
+        16.195733843344712
+      ],
+      "min_abs_difference_from_robot_deg": 0.38738319809639066,
+      "homography_fit_mean_px": 0.16143145190876812
+    },
+    {
+      "samples": [
+        9,
+        13
+      ],
+      "robot_angle_deg": 21.766796146289906,
+      "pnp_angle_deg": 22.319266228686367,
+      "valid_homography_angles_deg": [
+        22.123927474232886,
+        33.91878557060108
+      ],
+      "min_abs_difference_from_robot_deg": 0.3571313279429802,
+      "homography_fit_mean_px": 0.17936770567169874
+    },
+    {
+      "samples": [
+        0,
+        10
+      ],
+      "robot_angle_deg": 34.38726395897698,
+      "pnp_angle_deg": 34.417196363451495,
+      "valid_homography_angles_deg": [
+        34.05348018588226
+      ],
+      "min_abs_difference_from_robot_deg": 0.33378377309472285,
+      "homography_fit_mean_px": 0.18934482177068193
+    },
+    {
+      "samples": [
+        5,
+        18
+      ],
+      "robot_angle_deg": 12.024717441041382,
+      "pnp_angle_deg": 12.563042650227294,
+      "valid_homography_angles_deg": [
+        4.418688382482651,
+        12.323353119879028
+      ],
+      "min_abs_difference_from_robot_deg": 0.2986356788376465,
+      "homography_fit_mean_px": 0.2713916887011208
+    },
+    {
+      "samples": [
+        3,
+        18
+      ],
+      "robot_angle_deg": 27.04799561263426,
+      "pnp_angle_deg": 27.01435426441576,
+      "valid_homography_angles_deg": [
+        18.52313276408318,
+        26.754561008981398
+      ],
+      "min_abs_difference_from_robot_deg": 0.29343460365286234,
+      "homography_fit_mean_px": 0.3500296457620768
+    },
+    {
+      "samples": [
+        3,
+        4
+      ],
+      "robot_angle_deg": 28.68631813258588,
+      "pnp_angle_deg": 28.705671844300895,
+      "valid_homography_angles_deg": [
+        22.282331089411358,
+        28.40335606353568
+      ],
+      "min_abs_difference_from_robot_deg": 0.2829620690501997,
+      "homography_fit_mean_px": 0.23040580753058013
+    },
+    {
+      "samples": [
+        3,
+        11
+      ],
+      "robot_angle_deg": 30.947352671703953,
+      "pnp_angle_deg": 31.175693132253485,
+      "valid_homography_angles_deg": [
+        30.68692334219158
+      ],
+      "min_abs_difference_from_robot_deg": 0.2604293295123732,
+      "homography_fit_mean_px": 0.24086867392367997
+    },
+    {
+      "samples": [
+        0,
+        5
+      ],
+      "robot_angle_deg": 8.147389997392873,
+      "pnp_angle_deg": 8.495741490108037,
+      "valid_homography_angles_deg": [
+        22.53892630478748,
+        8.399798207154369
+      ],
+      "min_abs_difference_from_robot_deg": 0.25240820976149614,
+      "homography_fit_mean_px": 0.2778798196726791
+    },
+    {
+      "samples": [
+        6,
+        17
+      ],
+      "robot_angle_deg": 50.06802019739217,
+      "pnp_angle_deg": 50.15456727075502,
+      "valid_homography_angles_deg": [
+        49.821293066997434
+      ],
+      "min_abs_difference_from_robot_deg": 0.24672713039473848,
+      "homography_fit_mean_px": 0.44750537269854823
+    },
+    {
+      "samples": [
+        2,
+        3
+      ],
+      "robot_angle_deg": 14.219096266237948,
+      "pnp_angle_deg": 15.046695956893021,
+      "valid_homography_angles_deg": [
+        13.977559993811317,
+        15.208569153145827
+      ],
+      "min_abs_difference_from_robot_deg": 0.24153627242663056,
+      "homography_fit_mean_px": 0.21350082280151916
+    },
+    {
+      "samples": [
+        7,
+        8
+      ],
+      "robot_angle_deg": 4.799189974289962,
+      "pnp_angle_deg": 4.828785988769843,
+      "valid_homography_angles_deg": [
+        2.2265993505308717,
+        4.5988040880763235
+      ],
+      "min_abs_difference_from_robot_deg": 0.2003858862136383,
+      "homography_fit_mean_px": 0.18524616051788936
+    },
+    {
+      "samples": [
+        12,
+        18
+      ],
+      "robot_angle_deg": 38.13412081817549,
+      "pnp_angle_deg": 39.39506676876814,
+      "valid_homography_angles_deg": [
+        37.9479201180039,
+        39.558174543053
+      ],
+      "min_abs_difference_from_robot_deg": 0.18620070017158952,
+      "homography_fit_mean_px": 0.3318837918461738
+    },
+    {
+      "samples": [
+        3,
+        6
+      ],
+      "robot_angle_deg": 18.52333436494325,
+      "pnp_angle_deg": 18.207197233864147,
+      "valid_homography_angles_deg": [
+        18.35503817427853
+      ],
+      "min_abs_difference_from_robot_deg": 0.16829619066471935,
+      "homography_fit_mean_px": 0.2908430148721973
+    },
+    {
+      "samples": [
+        1,
+        4
+      ],
+      "robot_angle_deg": 15.769458965775588,
+      "pnp_angle_deg": 15.782121939267475,
+      "valid_homography_angles_deg": [
+        16.444809616924378,
+        15.611954383756876
+      ],
+      "min_abs_difference_from_robot_deg": 0.15750458201871176,
+      "homography_fit_mean_px": 0.2540025134491336
+    },
+    {
+      "samples": [
+        2,
+        6
+      ],
+      "robot_angle_deg": 10.759502603208258,
+      "pnp_angle_deg": 10.673372986724669,
+      "valid_homography_angles_deg": [
+        10.617394066337644,
+        18.53619293081035
+      ],
+      "min_abs_difference_from_robot_deg": 0.1421085368706141,
+      "homography_fit_mean_px": 0.2807062819253805
+    },
+    {
+      "samples": [
+        9,
+        16
+      ],
+      "robot_angle_deg": 22.986309436806728,
+      "pnp_angle_deg": 22.83919417903954,
+      "valid_homography_angles_deg": [
+        18.67322412008012,
+        22.85761553220717
+      ],
+      "min_abs_difference_from_robot_deg": 0.1286939045995581,
+      "homography_fit_mean_px": 0.23132459863692198
+    },
+    {
+      "samples": [
+        9,
+        18
+      ],
+      "robot_angle_deg": 34.692184978848665,
+      "pnp_angle_deg": 34.55222266791734,
+      "valid_homography_angles_deg": [
+        17.88062234464922,
+        34.582028280751445
+      ],
+      "min_abs_difference_from_robot_deg": 0.11015669809722084,
+      "homography_fit_mean_px": 0.3294424511553768
+    },
+    {
+      "samples": [
+        1,
+        5
+      ],
+      "robot_angle_deg": 14.994202886705795,
+      "pnp_angle_deg": 14.905859653815911,
+      "valid_homography_angles_deg": [
+        9.135841499054793,
+        14.88569512371174
+      ],
+      "min_abs_difference_from_robot_deg": 0.10850776299405496,
+      "homography_fit_mean_px": 0.2923962605530191
+    },
+    {
+      "samples": [
+        7,
+        17
+      ],
+      "robot_angle_deg": 59.9289672190133,
+      "pnp_angle_deg": 60.25202169046272,
+      "valid_homography_angles_deg": [
+        22.2106948623438,
+        59.82061392731142
+      ],
+      "min_abs_difference_from_robot_deg": 0.10835329170188146,
+      "homography_fit_mean_px": 0.3504731703619851
+    },
+    {
+      "samples": [
+        15,
+        17
+      ],
+      "robot_angle_deg": 40.15498498113484,
+      "pnp_angle_deg": 40.25267262184639,
+      "valid_homography_angles_deg": [
+        34.79456919426496,
+        40.22609924608052
+      ],
+      "min_abs_difference_from_robot_deg": 0.07111426494568462,
+      "homography_fit_mean_px": 0.20561549278417235
+    },
+    {
+      "samples": [
+        0,
+        9
+      ],
+      "robot_angle_deg": 31.670660946078886,
+      "pnp_angle_deg": 31.84070990240113,
+      "valid_homography_angles_deg": [
+        22.385641025297442,
+        31.69662968325052
+      ],
+      "min_abs_difference_from_robot_deg": 0.025968737171634615,
+      "homography_fit_mean_px": 0.2562770668503632
+    },
+    {
+      "samples": [
+        19,
+        20
+      ],
+      "robot_angle_deg": 0.030623077821215972,
+      "pnp_angle_deg": 0.05112877428171183,
+      "valid_homography_angles_deg": [],
+      "min_abs_difference_from_robot_deg": null,
+      "homography_fit_mean_px": 0.21583565151163983
+    }
+  ],
+  "limitations": [
+    "Known RGB intrinsics and a rigid planar stationary board are assumed.",
+    "The minimum over visible branches is an optimistic discrepancy bound, not a chosen physical pose.",
+    "Does not distinguish camera intrinsic error, board nonplanarity, frame/pose association error or actual robot kinematic error."
+  ],
+  "robot_commands_sent": false,
+  "runtime_calibration_updated": false,
+  "sample_06_14_intrinsic_sensitivity": [
+    {
+      "model": "sdk",
+      "visible_solution_angles_deg": [
+        14.974205400114776,
+        39.00393387425776
+      ]
+    },
+    {
+      "model": "brown5_free",
+      "visible_solution_angles_deg": [
+        15.133574912850568,
+        38.63380734933175
+      ]
+    }
+  ]
+}

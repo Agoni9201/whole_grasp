@@ -1,0 +1,17 @@
+{
+  "samples": 202,
+  "latest_gyro_minus_color_s_min": 0.009260000000722357,
+  "latest_gyro_minus_color_s_max": 0.020414999999047723,
+  "gyro_mean_rad_s": [
+    0.0038749384463276013,
+    -0.009322506753672468,
+    -0.0026579285294075707
+  ],
+  "gyro_std_rad_s": [
+    0.003007035200301683,
+    0.000837520565237556,
+    0.0010449491718678304
+  ],
+  "gyro_timestamp_monotonic": true,
+  "robot_commands_sent": false
+}

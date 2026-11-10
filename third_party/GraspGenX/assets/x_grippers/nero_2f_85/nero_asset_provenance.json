@@ -1,0 +1,16 @@
+{
+  "source_urdf": "models/nero_with_gripper.urdf",
+  "source_meshes": [
+    "models/meshes/gripper_flange.stl",
+    "models/meshes/gripper_base.stl",
+    "models/meshes/gripper_link1.stl",
+    "models/meshes/gripper_link2.stl"
+  ],
+  "canonical_frame": "+Z approach, +X jaw opening; source flange rotated -90 degrees around Z",
+  "jaw_gap_source": "URDF geometry at joint1=+0.0425 m, joint2=-0.0425 m",
+  "open_gap_m": 0.084999999464102,
+  "closed_gap_m": -5.35897920269294e-10,
+  "finger_tip_z_m": 0.1413000013263474,
+  "conditioning": "sweep_volume_v2; TSDF and pointnet-VAE assets not generated",
+  "hardware_validation": "Offline geometry only; verify joint-width map and TCP against the real Nero gripper"
+}

@@ -1,0 +1,460 @@
+{
+  "status": "hypothesis_only_no_runtime_changes",
+  "weighting": "5 mm position / .5 deg rotation per endpoint",
+  "independent_groups": [
+    "three_pose_sync",
+    "mixed",
+    "joint7",
+    "joint6"
+  ],
+  "models": [
+    {
+      "joints": [],
+      "offset_hypothesis_deg": [],
+      "training_errors": {
+        "position_endpoint_errors_mm": [
+          16.7948469712224,
+          10.730862722404044,
+          7.288775070879733,
+          9.691826440597222,
+          8.215920954802993
+        ],
+        "rotation_endpoint_errors_deg": [
+          0.9770812164475354,
+          2.6813033006659897,
+          1.3935469424778009,
+          1.1171820515720436,
+          1.379560269922072
+        ]
+      }
+    },
+    {
+      "joints": [
+        2
+      ],
+      "offset_hypothesis_deg": [
+        1.2358588581683132
+      ],
+      "training_errors": {
+        "position_endpoint_errors_mm": [
+          18.463899480927434,
+          10.734563975506799,
+          5.010161081490972,
+          7.381356798747237,
+          7.839981803293793
+        ],
+        "rotation_endpoint_errors_deg": [
+          1.3992879940296277,
+          2.3329145097695765,
+          1.1416077450205293,
+          0.9008630174988772,
+          1.2731452006888613
+        ]
+      }
+    },
+    {
+      "joints": [
+        3
+      ],
+      "offset_hypothesis_deg": [
+        -5.522758479478659
+      ],
+      "training_errors": {
+        "position_endpoint_errors_mm": [
+          5.604167579343404,
+          10.134000493016742,
+          4.543365403942853,
+          4.119199657685218,
+          8.531878874127308
+        ],
+        "rotation_endpoint_errors_deg": [
+          0.9043147402856825,
+          2.0100188256350338,
+          0.6452909898955708,
+          0.1776326805870357,
+          1.2863398739634844
+        ]
+      }
+    },
+    {
+      "joints": [
+        4
+      ],
+      "offset_hypothesis_deg": [
+        -3.676015470380914
+      ],
+      "training_errors": {
+        "position_endpoint_errors_mm": [
+          9.837086232657763,
+          8.96056755633298,
+          7.954743507643001,
+          9.136824578385635,
+          5.963273049248497
+        ],
+        "rotation_endpoint_errors_deg": [
+          1.3609027572561052,
+          1.957107170061891,
+          1.698480542310325,
+          1.2533430440257114,
+          0.888590543706964
+        ]
+      }
+    },
+    {
+      "joints": [
+        5
+      ],
+      "offset_hypothesis_deg": [
+        1.1880163372084172
+      ],
+      "training_errors": {
+        "position_endpoint_errors_mm": [
+          17.386589499126167,
+          8.189711642426623,
+          7.386191330457313,
+          10.563878032215401,
+          7.031854220875223
+        ],
+        "rotation_endpoint_errors_deg": [
+          0.9624826694149007,
+          2.4633852583119715,
+          1.3485185345907773,
+          1.1432117446120915,
+          1.3058360583261122
+        ]
+      }
+    },
+    {
+      "joints": [
+        6
+      ],
+      "offset_hypothesis_deg": [
+        -0.7583480480377591
+      ],
+      "training_errors": {
+        "position_endpoint_errors_mm": [
+          17.295040880133627,
+          13.759175969352968,
+          5.473607557742325,
+          9.21924444471302,
+          8.773732434655887
+        ],
+        "rotation_endpoint_errors_deg": [
+          1.0517900977482229,
+          2.4981419586177696,
+          1.1292018079609818,
+          1.050024587439128,
+          1.448949117637894
+        ]
+      }
+    },
+    {
+      "joints": [
+        5,
+        6
+      ],
+      "offset_hypothesis_deg": [
+        1.6119041082593861,
+        -1.2732669913116719
+      ],
+      "training_errors": {
+        "position_endpoint_errors_mm": [
+          17.295169023485258,
+          10.95415182426066,
+          4.378048829766621,
+          10.108745197507458,
+          7.6057225844191905
+        ],
+        "rotation_endpoint_errors_deg": [
+          1.261548014421202,
+          2.0739597665718366,
+          0.9073129297399256,
+          1.0740830227134157,
+          1.4027969132414086
+        ]
+      }
+    },
+    {
+      "joints": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "offset_hypothesis_deg": [
+        1.146661784604194,
+        -4.308382949526314,
+        -3.719869168841433,
+        0.9620208692795315,
+        -0.952678762993175
+      ],
+      "training_errors": {
+        "position_endpoint_errors_mm": [
+          2.235282140491425,
+          2.0081166835051993,
+          2.8342797409662337,
+          1.8741784424605072,
+          5.348254174480979
+        ],
+        "rotation_endpoint_errors_deg": [
+          0.23727968953509715,
+          0.061988851750613715,
+          1.0119162109323474,
+          0.22949755263687086,
+          0.7180323069930968
+        ]
+      }
+    }
+  ],
+  "leave_one_group_out": [
+    {
+      "heldout": "three_pose_sync",
+      "joints": [],
+      "offset_hypothesis_deg": [],
+      "heldout_errors": {
+        "position_endpoint_errors_mm": [
+          16.80384141513631,
+          9.83524605478581
+        ],
+        "rotation_endpoint_errors_deg": [
+          1.1850688462068817,
+          4.883581408492227
+        ]
+      },
+      "jacobian_singular_values": [
+        75.94507594793913,
+        68.94489276726806,
+        62.00003614095922,
+        47.121650234608076,
+        39.91968835479323,
+        34.369949207065154
+      ]
+    },
+    {
+      "heldout": "three_pose_sync",
+      "joints": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "offset_hypothesis_deg": [
+        14.999998276504527,
+        -14.999956514788764,
+        3.40852663753751,
+        1.4068578116203934,
+        -0.029998997377711323
+      ],
+      "heldout_errors": {
+        "position_endpoint_errors_mm": [
+          27.549488037266123,
+          122.22211389909442
+        ],
+        "rotation_endpoint_errors_deg": [
+          5.09121320167204,
+          20.928807647767734
+        ]
+      },
+      "jacobian_singular_values": [
+        76.01490688296235,
+        70.36430920981955,
+        62.82050350144227,
+        52.056471274949836,
+        39.93115674087276,
+        34.442330425118996,
+        20.684924797259182,
+        1.953659074931841,
+        1.263670078116285,
+        0.69370655271209,
+        0.2578337534622534
+      ]
+    },
+    {
+      "heldout": "mixed",
+      "joints": [],
+      "offset_hypothesis_deg": [],
+      "heldout_errors": {
+        "position_endpoint_errors_mm": [
+          9.85899623877989
+        ],
+        "rotation_endpoint_errors_deg": [
+          1.717634098576974
+        ]
+      },
+      "jacobian_singular_values": [
+        147.8449929675479,
+        126.97902732882328,
+        95.11285007396664,
+        70.01443780529497,
+        66.35263488738062,
+        49.54462164141177
+      ]
+    },
+    {
+      "heldout": "mixed",
+      "joints": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "offset_hypothesis_deg": [
+        1.2942449397060496,
+        -4.476679579846577,
+        -4.357856981293002,
+        1.0270773265824806,
+        -0.8891091727830527
+      ],
+      "heldout_errors": {
+        "position_endpoint_errors_mm": [
+          4.104004573311289
+        ],
+        "rotation_endpoint_errors_deg": [
+          1.3948438599647597
+        ]
+      },
+      "jacobian_singular_values": [
+        209.9617033762342,
+        153.4054334750887,
+        143.71973686321022,
+        125.63276814245654,
+        106.85203107513335,
+        98.62465163922201,
+        92.56829752112897,
+        78.43386206848834,
+        51.13606959895839,
+        35.93921384047043,
+        32.68445399686079
+      ]
+    },
+    {
+      "heldout": "joint7",
+      "joints": [],
+      "offset_hypothesis_deg": [],
+      "heldout_errors": {
+        "position_endpoint_errors_mm": [
+          13.570503874708711
+        ],
+        "rotation_endpoint_errors_deg": [
+          1.4124892882449886
+        ]
+      },
+      "jacobian_singular_values": [
+        141.90864673706886,
+        129.87218941947575,
+        100.18050084282766,
+        73.1657471046917,
+        66.05692704846162,
+        50.28029608446558
+      ]
+    },
+    {
+      "heldout": "joint7",
+      "joints": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "offset_hypothesis_deg": [
+        1.1262889026994691,
+        -4.062495738260731,
+        -3.729611747853036,
+        1.033536362876135,
+        -0.9714101718681575
+      ],
+      "heldout_errors": {
+        "position_endpoint_errors_mm": [
+          2.648801518482673
+        ],
+        "rotation_endpoint_errors_deg": [
+          0.3121631711343939
+        ]
+      },
+      "jacobian_singular_values": [
+        209.9726979388975,
+        154.7005340560199,
+        140.80113218245208,
+        126.63650857203756,
+        109.80590028226756,
+        97.65945013006903,
+        94.46536864444423,
+        78.38247635296955,
+        55.53766961230406,
+        40.80322149157206,
+        31.36700939593057
+      ]
+    },
+    {
+      "heldout": "joint6",
+      "joints": [],
+      "offset_hypothesis_deg": [],
+      "heldout_errors": {
+        "position_endpoint_errors_mm": [
+          9.484266174170282
+        ],
+        "rotation_endpoint_errors_deg": [
+          1.5431131494576644
+        ]
+      },
+      "jacobian_singular_values": [
+        143.830903107008,
+        136.10658601022027,
+        97.34736135432507,
+        74.40220082652121,
+        73.79574015807607,
+        53.941165915210675
+      ]
+    },
+    {
+      "heldout": "joint6",
+      "joints": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "offset_hypothesis_deg": [
+        1.0397046922898008,
+        -4.361449308073582,
+        -3.3636624384540954,
+        0.8386493962417209,
+        -0.9848805822906577
+      ],
+      "heldout_errors": {
+        "position_endpoint_errors_mm": [
+          6.613350972443495
+        ],
+        "rotation_endpoint_errors_deg": [
+          0.86324645151639
+        ]
+      },
+      "jacobian_singular_values": [
+        211.02781866346155,
+        156.2535830226769,
+        143.10488920948626,
+        127.08360349988845,
+        113.21280198699777,
+        98.33975092105047,
+        94.4625922365888,
+        78.90583262586061,
+        59.80451124504938,
+        40.47300050136603,
+        39.389176270795176
+      ]
+    }
+  ],
+  "limitations": [
+    "Joint1 offset is a base-frame gauge and joint7 offset is absorbed by handeye; both remain fixed.",
+    "The three-pose group is essential for identifying upstream offsets. Do not treat group-wise fit parameters as measured physical offsets.",
+    "The available poses cannot establish a validated full kinematic calibration."
+  ],
+  "robot_commands_sent": false,
+  "runtime_calibration_updated": false,
+  "conclusion": "No single fixed internal joint-zero offset resolves all groups. A multi-offset model fits more closely but does not validate a physical correction; heldout behavior and near-degenerate wrist-only fitting must be checked."
+}

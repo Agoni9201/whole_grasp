@@ -1,0 +1,63 @@
+{
+  "board_measurement_provenance": {
+    "date": "2026-11-02",
+    "source": "user_measured_current_physical_board",
+    "same_as_previous_d435_board": false,
+    "grid_width_mm": 214,
+    "grid_height_mm": 160,
+    "marker_side_mm": 20,
+    "precision": "approximate_not_exact"
+  },
+  "old_handeye_residual": {
+    "translation_mm": {
+      "mean": 24.367651140792887,
+      "median": 22.788394777758526,
+      "std": 11.716552725169597,
+      "max": 57.000712388538936
+    },
+    "rotation_deg": {
+      "mean": 2.3881005439138034,
+      "median": 2.1946441165486057,
+      "std": 1.2549951196484854,
+      "max": 5.791889308620279
+    }
+  },
+  "new_handeye_residual": {
+    "translation_mm": {
+      "mean": 23.16898889174282,
+      "median": 22.296082248929046,
+      "std": 10.955149600499876,
+      "max": 55.03261711314283
+    },
+    "rotation_deg": {
+      "mean": 2.3896360393517795,
+      "median": 2.185374240413933,
+      "std": 1.2553573710013513,
+      "max": 5.791236345781435
+    }
+  },
+  "new_dataset": "calibration/orbbec_handeye_20261102_161824_board214x160",
+  "new_camera_distance_groups": [
+    {
+      "pose": 1,
+      "depth_z_mm": 434.33335423469543,
+      "whole_board_rgb_z_mm": 423.3176445488368,
+      "depth_minus_whole_board_z_mm": 11.01570968585859
+    },
+    {
+      "pose": 2,
+      "depth_z_mm": 394.00002360343933,
+      "whole_board_rgb_z_mm": 382.12000076521343,
+      "depth_minus_whole_board_z_mm": 11.880022838225917
+    },
+    {
+      "pose": 3,
+      "depth_z_mm": 496.0000216960907,
+      "whole_board_rgb_z_mm": 481.5937783906805,
+      "depth_minus_whole_board_z_mm": 14.406243305410195
+    }
+  ],
+  "status": "unvalidated_remaining_cross_pose_inconsistency",
+  "old_data_preserved": true,
+  "runtime_parameters_changed": false
+}

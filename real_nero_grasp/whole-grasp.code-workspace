@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../Visual Servo"
+		},
+		{
+			"path": "../../real-nero-grasp-main"
+		},
+		{
+			"path": "../../object_pose_workspace_source_20260928/object_pose_workspace"
+		},
+		{
+			"path": "../../../../../下载/charuco_handeye"
+		}
+	],
+	"settings": {}
+}

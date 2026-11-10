@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "description": "Fixed measured black finger silhouette at 100.466 mm reported gap, for 100 mm working opening. RGB thresholds unchanged; online masking never grows a connected component.",
+  "sources": [
+    "logs/banana_mgpc/A_single/2026-10-26_20-27-37_925872_p66274/2026-10-26_20-27-50_713738/color.png"
+  ],
+  "profile": {
+    "serial": "243622072771",
+    "width": 1920,
+    "height": 1080,
+    "depth_width": 1280,
+    "depth_height": 720
+  },
+  "intrinsics": {
+    "fx": 1366.716552734375,
+    "fy": 1366.286376953125,
+    "cx": 940.2300415039062,
+    "cy": 573.4287109375
+  },
+  "gripper_open_width_m": 0.1,
+  "polygons_px": [
+    [
+      [
+        850,
+        853
+      ],
+      [
+        848,
+        851
+      ],
+      [
+        832,
+        851
+      ],
+      [
+        826,
+        854
+      ],
+      [
+        783,
+        857
+      ],
+      [
+        774,
+        862
+      ],
+      [
+        746,
+        907
+      ],
+      [
+        699,
+        972
+      ],
+      [
+        642,
+        1040
+      ],
+      [
+        605,
+        1079
+      ],
+      [
+        852,
+        1079
+      ],
+      [
+        853,
+        1029
+      ],
+      [
+        855,
+        1023
+      ],
+      [
+        853,
+        1020
+      ],
+      [
+        853,
+        894
+      ]
+    ]
+  ],
+  "rgb_guard": {
+    "max_gray": 80,
+    "min_core_dark_fraction": 0.995,
+    "min_silhouette_dark_fraction": 0.97,
+    "max_outer_dark_fraction": 0.15
+  },
+  "provenance": {
+    "source_reported_opening_m": 0.100466,
+    "source_commanded_opening_m": 0.085,
+    "source_note": "Earlier open-arrival check incorrectly accepted feedback above the requested width. The saved image represents the reported 100.466 mm gap, not an achieved 85 mm gap.",
+    "working_opening_m": 0.1,
+    "validation_scope": "One saved capture; every future frame must pass unchanged RGB/profile checks."
+  }
+}

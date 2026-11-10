@@ -1,0 +1,43 @@
+{
+  "status": "diagnostic_only_not_physical_board_measurement",
+  "models": [
+    {
+      "label": "known_scale",
+      "estimated_scale": 1.0,
+      "training_residual": {
+        "translation_mm": {
+          "mean": 20.543289049567555,
+          "median": 18.297309385288465,
+          "std": 12.218655393552908,
+          "max": 47.686114201070325
+        },
+        "rotation_deg": {
+          "mean": 2.4429435474801604,
+          "median": 2.184662731938865,
+          "std": 1.28754674172848,
+          "max": 5.215645757707353
+        }
+      }
+    },
+    {
+      "label": "fit_scale",
+      "estimated_scale": 0.8786926915888704,
+      "training_residual": {
+        "translation_mm": {
+          "mean": 19.616195203901878,
+          "median": 21.11178898717018,
+          "std": 10.641379418079705,
+          "max": 44.54914916557814
+        },
+        "rotation_deg": {
+          "mean": 2.4429435474801604,
+          "median": 2.184662731938865,
+          "std": 1.28754674172848,
+          "max": 5.215645757707353
+        }
+      }
+    }
+  ],
+  "runtime_calibration_updated": false,
+  "robot_commands_sent": false
+}

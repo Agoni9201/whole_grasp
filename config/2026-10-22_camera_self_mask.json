@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "description": "Measured bottom-centre black finger silhouette for the current wrist mount, open at 85 mm. No image rescaling or connected-component growth. Other robot parts still use the existing 3-D self filter.",
+  "sources": [
+    "logs/2026-10-22_22-19-22_028479_p211282/2026-10-22_22-19-30_246701/color.png",
+    "logs/2026-10-22_22-19-22_028479_p211282/2026-10-22_22-19-44_899913/color.png",
+    "logs/2026-10-22_22-19-22_028479_p211282/2026-10-22_22-20-35_411404/color.png"
+  ],
+  "profile": {"serial": "243622072771", "width": 1920, "height": 1080, "depth_width": 1280, "depth_height": 720},
+  "intrinsics": {"fx": 1366.716552734375, "fy": 1366.286376953125, "cx": 940.2300415039062, "cy": 573.4287109375},
+  "gripper_open_width_m": 0.085,
+  "polygons_px": [[[740,1079],[778,1028],[818,965],[851,902],[861,872],[875,862],[915,859],[932,855],[940,857],[943,860],[945,887],[943,1079]]],
+  "rgb_guard": {"max_gray": 80, "min_core_dark_fraction": 0.995, "min_silhouette_dark_fraction": 0.97, "max_outer_dark_fraction": 0.15}
+}

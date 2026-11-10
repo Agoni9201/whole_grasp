@@ -1,0 +1,41 @@
+{
+  "imu_samples": 236,
+  "board_frames": 40,
+  "accel_mean": [
+    -2.0039059247000743,
+    -5.02917912652937,
+    -8.136504652136463
+  ],
+  "accel_norm": 9.772972403317482,
+  "imu_to_color_rotation": [
+    [
+      0.9999998211860657,
+      -0.000599099847022444,
+      8.328699186677113e-05
+    ],
+    [
+      0.0005991986254230142,
+      0.9999991059303284,
+      -0.0011913117486983538
+    ],
+    [
+      -8.257320587290451e-05,
+      0.0011913614580407739,
+      0.9999992847442627
+    ]
+  ],
+  "gravity_direction_camera": [
+    -0.20480670297597117,
+    -0.5137313460238895,
+    -0.8331472370047177
+  ],
+  "board_normal_camera_mean": [
+    0.2016314563910583,
+    0.5099017500669418,
+    0.8362604039396047
+  ],
+  "board_gravity_normal_angle_mean_deg": 0.34654763805194344,
+  "board_gravity_normal_angle_max_deg": 1.0319861323290263,
+  "robot_commands_sent": false,
+  "assumption": "Board lies horizontal on the shared tabletop; IMU-to-color factory extrinsics and accelerometer bias have not been independently calibrated."
+}

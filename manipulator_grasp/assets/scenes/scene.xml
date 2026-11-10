@@ -1,0 +1,191 @@
+<mujoco model="scene">
+
+    <include file="../nero/nero7.xml" />
+
+    <compiler angle="radian" autolimits="true" />
+	
+        <option timestep="0.002" integrator="implicitfast" solver="PGS" gravity="0 0 -9.82"
+                cone="elliptic" iterations="80">
+		<!--		 <flag multiccd="enable"/>-->
+    </option>
+
+	<!-- 利用mujoco软件来调整Visualization->Free Camera->点击Align更新查看，需要在env代码里进行设置，不能自动启用 -->
+    <statistic center="1.8 1.1 1.7" extent="0.8" meansize="0.08" />
+
+    <visual>
+        <headlight diffuse="0.6 0.6 0.6" ambient="0.1 0.1 0.1" specular="0 0 0" />
+        <rgba haze="0.15 0.25 0.35 1" />
+
+		<!-- 利用mujoco软件来调整Visualization->Free Camera->点击Align更新查看，需要在env代码里进行设置，不能自动启用 -->
+		<global azimuth="210" elevation="-35" offheight="1280" offwidth="1280"/>
+    </visual>
+
+    <asset>
+        <texture type="skybox" builtin="gradient" rgb1="0.3 0.5 0.7" rgb2="0 0 0" width="512"
+                 height="3072" />
+        <texture type="2d" name="groundplane" builtin="checker" mark="edge" rgb1="0.2 0.3 0.4"
+                 rgb2="0.1 0.2 0.3" markrgb="0.8 0.8 0.8" width="300" height="300" />
+        <material name="groundplane" texture="groundplane" texuniform="true" texrepeat="5 5"
+                  reflectance="0.2" />
+
+        <!--meshes-->
+        <mesh name ="table" file="../table/sigmund_table.stl" scale= "1 1 1"/>
+		<mesh name ="Apple" file="../fruit/Apple.STL" scale= "0.001 0.001 0.001"/>
+		<mesh name ="Banana" file="../fruit/Banana.STL" scale= "0.001 0.001 0.001"/>
+		<mesh name ="scissor" file="../fruit/scissor.obj" scale= "1 1 1"/>
+		<mesh name ="bottle" file="../fruit/bottle.obj" scale= "1 1 1"/>
+		<mesh name ="mouse" file="../fruit/mouse.obj" scale= "1 1 1"/>
+		<mesh name ="cup" file="../fruit/cup.obj" scale= "0.8 0.8 0.8"/>
+		<!-- <mesh name ="box" file="../fruit/box.obj" scale= "0.5 0.5 0.5"/> -->
+
+
+		<texture name="apple_tex" type="2d" file="../fruit/mesh/red-apple.png"/>
+		<material name="apple_mat" texture="apple_tex"/>
+		<texture name="banana_tex" type="2d" file="../fruit/mesh/yellow-banana.png"/>
+		<material name="banana_mat" texture="banana_tex"/>
+		<!-- <texture name="scissor_tex" type="2d" file="../fruit/mesh/scissor.png"/>
+		<material name="scissor_mat" texture="scissor_tex"/> -->
+		<texture name="bottle_tex" type="2d" file="../fruit/mesh/bottle.png"/>
+		<material name="bottle_mat" texture="bottle_tex"/>
+		<texture name="mouse_tex" type="2d" file="../fruit/mesh/mouse.png"/>
+		<material name="mouse_mat" texture="mouse_tex"/>
+		<texture name="cup_tex" type="2d" file="../fruit/mesh/cup.png"/>
+		<material name="cup_mat" texture="cup_tex"/>
+		<!-- <texture name="box_tex" type="2d" file="../fruit/mesh/box.png"/>
+		<material name="box_mat" texture="box_tex"/> -->
+		
+
+    </asset>
+
+    <worldbody>
+        <!-- <light pos="0 0 1.5" dir="0 0 -1" directional="true" /> -->
+		<light pos="1.3 3 2.5" dir="0 0 -1" directional="true" />
+		<geom name="floor" size="0 0 0.05" type="plane" material="groundplane" />
+		<geom name="x-aixs" group="2" type="cylinder" contype="0" conaffinity="0"
+			fromto="0 0 0 1 0 0" size="0.01" rgba="1 0 0 1" />
+		<geom name="y-aixs" group="2" type="cylinder" contype="0" conaffinity="0"
+			fromto="0 0 0 0 1 0" size="0.01" rgba="0 1 0 1" />
+		<geom name="z-aixs" group="2" type="cylinder" contype="0" conaffinity="0"
+			fromto="0 0 0 0 0 1" size="0.01" rgba="0 0 1 1" />
+
+		<!-- 利用mujoco软件来调整Rendering->Camera -->
+		<camera name="cam" pos="0.85 0.8 1.6" xyaxes="0 -1 0 1 0 0.5" mode="fixed" />
+
+		<body name="mocap" mocap="true" pos="0.95 0.6 0.74">
+			<geom name="mocap" type="sphere" size="0.000001"/>
+		</body>
+
+		<!-- <body name="Apple" pos="1.4 0.8 0.9" quat="0 1 0 0"> -->
+		<body name="Apple" pos="1.27 0.63 0.85" quat="0.5 0.5 0.7071 0">
+			<joint name="Apple_joint" type="free" damping="0.1"/>
+			<geom name="Apple" type="mesh" mesh="Apple" material="apple_mat" mass="0.08"
+				  condim="6" friction="1.4 0.08 0.02" solimp="0.90 0.98 0.002" solref="0.012 1.2"/>
+		</body>
+
+		<!-- <body name="scissor" pos="1.35 0.7 1" quat="1 0 0 0">
+			<joint name="scissor_joint" type="free" damping="0.1"/>
+			<geom name="scissor" type="mesh" mesh="scissor" material="scissor_mat" />
+		</body> -->
+		
+		<body name="bottle" pos="1.22 2 1" quat="0.7071 0.7071 0 0">
+			<joint name="bottle_joint" type="free" damping="0.1"/>
+			<geom name="bottle" type="mesh" mesh="bottle" rgba="0.2 0.5 0.6 1" />
+		</body>
+
+		<body name="cup" pos="1.2 0.55 1.1" quat="0.7071 0.7071 0 0">
+			<joint name="cup" type="free" damping="0.1"/>
+			<geom name="cup" type="mesh" mesh="cup" rgba="0.8 0.3 0.7 1" condim="6" friction="1.0 0.08 0.02" solimp="0.95 0.99 0.001" solref="0.004 1"/>
+		</body>
+
+		<!-- <body name="box" pos="1.35 0.7 1" quat="0.7071 0.7071 0 0">
+			<joint name="box" type="free" damping="0.1"/>
+			<geom name="box" type="mesh" mesh="box" material="box_mat" />
+		</body> -->
+
+		<body name="Bottle" pos="1.3 2 0.9" quat="0.7 0.7 0 0.7">
+			<joint name="Bottle_joint" type="free" damping="0.1"/>
+			<geom name="Bottle_body" type="cylinder" size="0.028 0.09" rgba="0.5 0.2 0.2 1" condim="6"/>
+			<geom name="Bottle_neck" type="cylinder" pos="0 0 0.11" size="0.012 0.025" rgba="0.5 0.3 0.2 1" condim="6"/>
+		</body>
+		
+		<!-- <body name="Scissors" pos="1.47 0.64 1.20" quat="1 0 0 0">
+			<joint name="Scissors_joint" type="free" damping="0.1"/>
+			<geom name="Scissor_blade1" type="box" pos="0.00 0.00 0.00" euler="0 0 0.35"
+				size="0.055 0.006 0.003" rgba="0.75 0.75 0.75 1" condim="6"/>
+			<geom name="Scissor_blade2" type="box" pos="0.00 0.00 0.00" euler="0 0 -0.35"
+				size="0.055 0.006 0.003" rgba="0.75 0.75 0.75 1" condim="6"/>
+			<geom name="Scissor_handle1" type="capsule" fromto="-0.03 0.02 0  -0.06 0.05 0"
+				size="0.008" rgba="0.75 0.75 0.75 1" condim="6"/>
+			<geom name="Scissor_handle2" type="capsule" fromto="-0.03 -0.02 0  -0.06 -0.05 0"
+				size="0.008" rgba="0.75 0.75 0.75 1" condim="6"/>
+		</body> -->
+		
+		<!-- <body name="Occluder1" pos="1.3 1.65 0.9" quat="1 0 0 0">
+    		<joint name="Occluder1" type="free" />
+			<geom name="Occluder1" type="box" size="0.055 0.055 0.08" rgba="0 1 1 1" condim="6"/>
+		</body> -->
+
+		<body name="Banana" pos="1.3 0.62 0.74" quat="1 0.7071 0 0.7071">
+			<joint name="Banana_joint" type="free" damping="0.1"/>
+			<geom name="Banana" type="mesh" mesh="Banana" material="banana_mat" mass="0.07"
+				  condim="6" friction="1.4 0.08 0.02" solimp="0.90 0.98 0.002" solref="0.012 1.2"/>
+		</body>
+		
+		<!-- <body name="Mug1" pos="1.36 0.74 0.90" quat="1 0 0 0">
+			<joint name="Mug1_joint" type="free" damping="0.1"/>
+			<geom name="Mug1_body" type="cylinder" size="0.040 0.050" rgba="0.80 0.20 0.20 1" condim="6"/>
+			<geom name="Mug1_handle" type="capsule"
+				fromto="0.048 0.000 0.008  0.048 0.000 0.065"
+				size="0.010" rgba="0.80 0.20 0.20 1" condim="6"/>
+		</body> -->
+		
+		 <!-- <body name="Spoon1" pos="1.28 0.76 0.90" quat="1 0 0 0">
+			<joint name="Spoon1_joint" type="free" damping="0.1"/>
+			<geom name="Spoon1_handle" type="box" size="0.060 0.006 0.0025" rgba="0.78 0.78 0.80 1" condim="6"/>
+			<geom name="Spoon1_head" type="ellipsoid" pos="0.070 0 0" size="0.018 0.012 0.004"
+				rgba="0.78 0.78 0.80 1" condim="6"/>
+		</body> -->
+		
+		<body name="Box" pos="1.4 0.4 0.94" quat="1 0 0 0">
+			<joint name="Box" type="free" />
+			<geom name="Box" type="box" size="0.025 0.025 0.025" rgba="1 0 1 1" condim="6"/>
+		</body>
+
+		<body name="T_block" pos="1.26 0.66 0.94" quat="0 0.7 0 0">
+			<joint name="T_block" type="free" damping="0.1" />
+			<geom name="T_block_pt1" type="box" size="0.06 0.02 0.025" rgba="0 0.62 1 1" mass="0.08"
+				  condim="6" friction="1.2 0.08 0.02" solimp="0.90 0.98 0.002" solref="0.012 1.2"/>
+			<geom name="T_block_pt2" type="box" size="0.02 0.06 0.025" pos="0.08 0 0" rgba="0 0.62 1 1" mass="0.05"
+				  condim="6" friction="1.2 0.08 0.02" solimp="0.90 0.98 0.002" solref="0.012 1.2"/>
+		</body>
+
+		<!--Zones-->
+		<body name="zone_pickup" pos="1.4 0.6 0.77" quat="1 0 0 0">
+			<geom name="zone_pickup" type="box" size="0.2 0.6 0.01" rgba="0 1 0 0.1" contype="0" conaffinity="0"/>
+		</body>
+		<body name="zone_drop" pos="0.2 0.2 0.73" quat="1 0 0 0">
+			<geom name="zone_drop" type="box" size="0.2 0.2 0.01" rgba="1 0 0 0.1" contype="0" conaffinity="0"/>
+		</body>
+
+        <!--table -->
+		<body name = "table1" euler="0 0 0" pos= "0.8 0 0.74" >
+		  <geom name = "table1" type="mesh" mesh="table" group="2" rgba="0.35 0.35 0.35 1" mass="0" contype="0" conaffinity="0"/>
+		</body>
+		<body name = "table2" euler="0 0 0" pos= "1.6 0 0.74" >
+		  <geom name = "table2" type="mesh" mesh="table" group="2" rgba="0.35 0.35 0.35 1" mass="0" contype="0" conaffinity="0"/>
+		</body>
+
+		<body name="simple_table" pos="0.8 0.6 0.73" quat="1 0 0 0">
+			<geom name="simple_table" type="box" size="0.8 0.6 0.05" rgba="0.5 0.5 0.5 0.1"
+				  condim="6" friction="1.2 0.08 0.02" solimp="0.90 0.98 0.002" solref="0.012 1.2"/>
+		</body>
+    </worldbody>
+
+    <contact>
+	</contact>
+
+	<equality>
+		<weld name="attach_mocap" body1="mocap" body2="nero_base" active="false" />
+	</equality>
+
+</mujoco>

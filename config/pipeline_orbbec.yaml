@@ -1,0 +1,36 @@
+# Orbbec Gemini 330 series replacing the wrist D435.
+# Camera-to-flange calibration from the 2026-11-03 independent offline trial.
+global_camera:
+  enabled: false
+wrist_camera:
+  enabled: true
+  backend: orbbec
+  serial: "CP0T963000S4"
+  width: 1280
+  height: 720
+  fps: 30
+  depth_width: 1280
+  depth_height: 800
+  depth_fps: 30
+  depth_filters: all  # Orbbec: noise removal only; no temporal/spatial filling.
+  depth_preset: high_density
+  emitter_enabled: null
+  laser_power: null  # Do not copy the D435-specific 360 value.
+  timeout: 10.0
+  warmup: 30
+  # Fixed 100 mm-open silhouette measured on three Orbbec captures, including the 2026-11-05 mismatch frame.
+  self_mask: true
+  self_mask_calibration: orbbec_self_mask_20261105_100mm_threeframe_trial.json
+  grasp_calib_json: orbbec_handeye_20261103_trial.json
+  grasp_convention: flange_camera_xyzw
+  servo_calib_json: orbbec_handeye_20261103_trial.json
+  servo_convention: link7_cam
+  servo_mount_frame: feedback_link7
+grasp:
+  post_grasp_hold_joints_deg: [-0.002, 0.0, 0.002, 100.6, 0.0, 0.0, 0.0]
+servo:
+  target_source: mediapipe
+  max_linear_vel: 0.03
+  max_joint_vel: 0.08
+  follow_min_qdot: 0.02
+  follow_kp_rise_time: 0.20

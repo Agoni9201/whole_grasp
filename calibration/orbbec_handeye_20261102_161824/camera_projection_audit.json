@@ -1,0 +1,34 @@
+{
+  "model": "OBCameraDistortionModel.BROWN_CONRADY_K6",
+  "K": [
+    [
+      692.4848022460938,
+      0.0,
+      638.6749267578125
+    ],
+    [
+      0.0,
+      692.33984375,
+      358.3328857421875
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "D": [
+    0.003842410398647189,
+    -0.04514729231595993,
+    -0.00048493960639461875,
+    0.0005586472689174116,
+    0.03125256299972534,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "tested_rays": 35,
+  "sdk_vs_opencv_projection_max_px": 3.6966153923980656,
+  "sdk_vs_opencv_projection_mean_px": 0.7969028975534117,
+  "interpretation": "Legacy transformation3dto2d returns pinhole projections for BROWN_CONRADY_K6. With the same coefficients and BROWN_CONRADY it agrees with OpenCV. Here k4/k5/k6 are zero. The initial legacy-helper mismatch alone does not establish a rectification bug."
+}

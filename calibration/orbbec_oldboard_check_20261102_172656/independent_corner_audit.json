@@ -1,0 +1,309 @@
+{
+  "status": "diagnostic_not_promoted",
+  "method": "Mask detected ArUco marker interiors, then independently locate the 7x5 chessboard intersections with findChessboardCornersSB. Match to the saved ChArUco IDs by image-space nearest assignment, then recompute poses.",
+  "datasets": {
+    "orbbec_oldboard_check_20261102_172656": [
+      {
+        "sample_id": 0,
+        "stored_vs_redetected_max_px": 0.0,
+        "sb_success": true,
+        "sb_vs_charuco_median_px": 0.7146040203087373,
+        "sb_vs_charuco_max_px": 0.9998204141718697,
+        "pose_difference_mm": 0.675429769420477,
+        "pose_difference_deg": 0.19966618827863067
+      },
+      {
+        "sample_id": 1,
+        "stored_vs_redetected_max_px": 0.0,
+        "sb_success": true,
+        "sb_vs_charuco_median_px": 0.7129307467784205,
+        "sb_vs_charuco_max_px": 1.0301158752908963,
+        "pose_difference_mm": 0.45995170264797725,
+        "pose_difference_deg": 0.0726180004425944
+      },
+      {
+        "sample_id": 2,
+        "stored_vs_redetected_max_px": 0.0,
+        "sb_success": true,
+        "sb_vs_charuco_median_px": 0.7024788801829831,
+        "sb_vs_charuco_max_px": 1.336772270290546,
+        "pose_difference_mm": 0.7925826678292358,
+        "pose_difference_deg": 0.12127973000526189
+      },
+      {
+        "sample_id": 3,
+        "stored_vs_redetected_max_px": 0.0,
+        "sb_success": true,
+        "sb_vs_charuco_median_px": 0.7385175751832156,
+        "sb_vs_charuco_max_px": 1.105313698915351,
+        "pose_difference_mm": 0.49390876554256363,
+        "pose_difference_deg": 0.1523601849209606
+      },
+      {
+        "sample_id": 4,
+        "stored_vs_redetected_max_px": 0.0,
+        "sb_success": true,
+        "sb_vs_charuco_median_px": 0.790800112930095,
+        "sb_vs_charuco_max_px": 1.3063861820318738,
+        "pose_difference_mm": 0.6089465578180017,
+        "pose_difference_deg": 0.17267745094212655
+      },
+      {
+        "sample_id": 5,
+        "stored_vs_redetected_max_px": 0.0,
+        "sb_success": true,
+        "sb_vs_charuco_median_px": 0.758304801041068,
+        "sb_vs_charuco_max_px": 1.2048951447490048,
+        "pose_difference_mm": 0.41299359761469906,
+        "pose_difference_deg": 0.08474459635243287
+      },
+      {
+        "sample_id": 6,
+        "stored_vs_redetected_max_px": 0.0,
+        "sb_success": true,
+        "sb_vs_charuco_median_px": 0.7555629189827296,
+        "sb_vs_charuco_max_px": 1.1945931294365804,
+        "pose_difference_mm": 0.4476336883101134,
+        "pose_difference_deg": 0.09618999052305525
+      },
+      {
+        "sample_id": 7,
+        "stored_vs_redetected_max_px": 0.0,
+        "sb_success": true,
+        "sb_vs_charuco_median_px": 0.7548335197771052,
+        "sb_vs_charuco_max_px": 1.147633036531421,
+        "pose_difference_mm": 0.7332614019998939,
+        "pose_difference_deg": 0.10921588501987275
+      },
+      {
+        "sample_id": 8,
+        "stored_vs_redetected_max_px": 0.0,
+        "sb_success": true,
+        "sb_vs_charuco_median_px": 0.7528664553718072,
+        "sb_vs_charuco_max_px": 1.4661962457858078,
+        "pose_difference_mm": 0.9828667919734234,
+        "pose_difference_deg": 0.1492473956058426
+      },
+      {
+        "sample_id": 9,
+        "stored_vs_redetected_max_px": 0.0,
+        "sb_success": true,
+        "sb_vs_charuco_median_px": 0.8336491933017331,
+        "sb_vs_charuco_max_px": 1.334167446002273,
+        "pose_difference_mm": 0.506117332998889,
+        "pose_difference_deg": 0.05936791300677765
+      },
+      {
+        "sample_id": 10,
+        "stored_vs_redetected_max_px": 0.0,
+        "sb_success": true,
+        "sb_vs_charuco_median_px": 0.8433758382882124,
+        "sb_vs_charuco_max_px": 4.381378952236843,
+        "matching_rejected": true
+      },
+      {
+        "sample_id": 11,
+        "stored_vs_redetected_max_px": 0.0,
+        "sb_success": true,
+        "sb_vs_charuco_median_px": 0.7392503079458012,
+        "sb_vs_charuco_max_px": 1.0438554296213909,
+        "pose_difference_mm": 0.4767544874002234,
+        "pose_difference_deg": 0.09067669593213
+      },
+      {
+        "sample_id": 12,
+        "stored_vs_redetected_max_px": 0.0,
+        "sb_success": true,
+        "sb_vs_charuco_median_px": 0.7174024232862933,
+        "sb_vs_charuco_max_px": 0.9807853434557632,
+        "pose_difference_mm": 0.5439906641907739,
+        "pose_difference_deg": 0.05111691382497116
+      },
+      {
+        "sample_id": 13,
+        "stored_vs_redetected_max_px": 0.0,
+        "sb_success": true,
+        "sb_vs_charuco_median_px": 0.6518706930718641,
+        "sb_vs_charuco_max_px": 1.098675537974006,
+        "pose_difference_mm": 0.4789195785263184,
+        "pose_difference_deg": 0.0553811759235533
+      },
+      {
+        "sample_id": 14,
+        "stored_vs_redetected_max_px": 0.0,
+        "sb_success": true,
+        "sb_vs_charuco_median_px": 0.7164634356508149,
+        "sb_vs_charuco_max_px": 1.0222294152726685,
+        "pose_difference_mm": 0.7463131610488453,
+        "pose_difference_deg": 0.08715662302910415
+      },
+      {
+        "sample_id": 15,
+        "stored_vs_redetected_max_px": 0.0,
+        "sb_success": true,
+        "sb_vs_charuco_median_px": 0.6644517150630714,
+        "sb_vs_charuco_max_px": 1.230481405041725,
+        "pose_difference_mm": 0.36763899244938036,
+        "pose_difference_deg": 0.07895049818557034
+      },
+      {
+        "sample_id": 16,
+        "stored_vs_redetected_max_px": 0.0,
+        "sb_success": true,
+        "sb_vs_charuco_median_px": 0.9717253899489267,
+        "sb_vs_charuco_max_px": 2.9887220223188686,
+        "matching_rejected": true
+      },
+      {
+        "sample_id": 17,
+        "stored_vs_redetected_max_px": 0.0,
+        "sb_success": true,
+        "sb_vs_charuco_median_px": 0.7315684739755086,
+        "sb_vs_charuco_max_px": 1.4969460740797351,
+        "pose_difference_mm": 0.4002047961580688,
+        "pose_difference_deg": 0.17020887251107145
+      },
+      {
+        "sample_id": 18,
+        "stored_vs_redetected_max_px": 0.0,
+        "sb_success": true,
+        "sb_vs_charuco_median_px": 0.7152919523709338,
+        "sb_vs_charuco_max_px": 1.307351998552416,
+        "pose_difference_mm": 0.3070890368498481,
+        "pose_difference_deg": 0.006506439709588727
+      },
+      {
+        "sample_id": 19,
+        "stored_vs_redetected_max_px": 0.0,
+        "sb_success": true,
+        "sb_vs_charuco_median_px": 0.7482273704818735,
+        "sb_vs_charuco_max_px": 1.3820647077273462,
+        "pose_difference_mm": 0.5578120581404268,
+        "pose_difference_deg": 0.26311134177461554
+      },
+      {
+        "sample_id": 20,
+        "stored_vs_redetected_max_px": 0.0,
+        "sb_success": true,
+        "sb_vs_charuco_median_px": 0.6691788231034264,
+        "sb_vs_charuco_max_px": 0.9988267416864274,
+        "pose_difference_mm": 0.31071982645697743,
+        "pose_difference_deg": 0.11010991953151568
+      }
+    ],
+    "orbbec_sync_check_20261102_175351": [
+      {
+        "sample_id": 0,
+        "stored_vs_redetected_max_px": 0.0,
+        "sb_success": true,
+        "sb_vs_charuco_median_px": 0.7006255999765881,
+        "sb_vs_charuco_max_px": 1.123304841641107,
+        "pose_difference_mm": 0.35772775211299845,
+        "pose_difference_deg": 0.07355766584127807
+      },
+      {
+        "sample_id": 1,
+        "stored_vs_redetected_max_px": 0.0,
+        "sb_success": true,
+        "sb_vs_charuco_median_px": 0.6919315573208251,
+        "sb_vs_charuco_max_px": 1.3450362979247137,
+        "pose_difference_mm": 0.5522576320296979,
+        "pose_difference_deg": 0.1521782664170483
+      },
+      {
+        "sample_id": 2,
+        "stored_vs_redetected_max_px": 0.0,
+        "sb_success": true,
+        "sb_vs_charuco_median_px": 0.7136266398657528,
+        "sb_vs_charuco_max_px": 1.1243238673165112,
+        "pose_difference_mm": 0.37784533514940977,
+        "pose_difference_deg": 0.08202982774393902
+      },
+      {
+        "sample_id": 3,
+        "stored_vs_redetected_max_px": 0.0,
+        "sb_success": true,
+        "sb_vs_charuco_median_px": 0.7683949480224299,
+        "sb_vs_charuco_max_px": 1.2462560293343588,
+        "pose_difference_mm": 0.5339931271709079,
+        "pose_difference_deg": 0.13704457330944847
+      },
+      {
+        "sample_id": 4,
+        "stored_vs_redetected_max_px": 0.0,
+        "sb_success": true,
+        "sb_vs_charuco_median_px": 0.7397974707762415,
+        "sb_vs_charuco_max_px": 1.2903322895316556,
+        "pose_difference_mm": 0.572496402072591,
+        "pose_difference_deg": 0.27872597505344704
+      },
+      {
+        "sample_id": 5,
+        "stored_vs_redetected_max_px": 0.0,
+        "sb_success": true,
+        "sb_vs_charuco_median_px": 0.7711263435464994,
+        "sb_vs_charuco_max_px": 1.2851853555786559,
+        "pose_difference_mm": 0.6070187723262456,
+        "pose_difference_deg": 0.20316102027525781
+      },
+      {
+        "sample_id": 6,
+        "stored_vs_redetected_max_px": 0.0,
+        "sb_success": true,
+        "sb_vs_charuco_median_px": 0.7174333928184893,
+        "sb_vs_charuco_max_px": 1.274203322148787,
+        "pose_difference_mm": 0.4769116359021802,
+        "pose_difference_deg": 0.21631435543146338
+      },
+      {
+        "sample_id": 7,
+        "stored_vs_redetected_max_px": 0.0,
+        "sb_success": true,
+        "sb_vs_charuco_median_px": 0.7078268707839671,
+        "sb_vs_charuco_max_px": 1.4389412855848238,
+        "pose_difference_mm": 0.5631094280490196,
+        "pose_difference_deg": 0.27835506901069607
+      },
+      {
+        "sample_id": 8,
+        "stored_vs_redetected_max_px": 0.0,
+        "sb_success": true,
+        "sb_vs_charuco_median_px": 0.722888460740449,
+        "sb_vs_charuco_max_px": 1.4462313007028713,
+        "pose_difference_mm": 0.4966168080637848,
+        "pose_difference_deg": 0.22225619030077984
+      }
+    ]
+  },
+  "handeye_fit_method": "DANIILIDIS",
+  "training_residual": {
+    "translation_mm": {
+      "mean": 21.669178131525154,
+      "median": 20.849889461748386,
+      "std": 12.314856769106772,
+      "max": 46.81590931747782
+    },
+    "rotation_deg": {
+      "mean": 2.4889274344083905,
+      "median": 2.0609008329937355,
+      "std": 1.3481059471157886,
+      "max": 5.292749964607158
+    }
+  },
+  "heldout_residual": {
+    "translation_mm": {
+      "mean": 16.11412626605771,
+      "median": 17.893133123723263,
+      "std": 5.590015177527544,
+      "max": 21.97143133470425
+    },
+    "rotation_deg": {
+      "mean": 0.8479288339605158,
+      "median": 0.8252351171262736,
+      "std": 0.2562199928065949,
+      "max": 1.2087958116215822
+    }
+  },
+  "robot_commands_sent": false,
+  "runtime_calibration_updated": false
+}

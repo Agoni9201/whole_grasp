@@ -1,0 +1,102 @@
+{
+  "status": "diagnostic_evidence_not_kinematic_calibration",
+  "robot_commands_sent": false,
+  "runtime_calibration_updated": false,
+  "source_result": "result.json",
+  "angles": {
+    "gyro_deg": 15.935960997927904,
+    "robot_deg": 15.42062399908664,
+    "vision_deg": 15.872981669709793
+  },
+  "vision_minus_robot_deg": 0.4523576706231527,
+  "gyro_minus_robot_deg": 0.5153369988412635,
+  "gyro_minus_vision_angle_deg": 0.06297932821811081,
+  "vision_vs_gyro_full_rotation_error_deg": 0.26243015789148405,
+  "duration_s": 52.72899999999936,
+  "gyro_samples": 15466,
+  "gyro_sample_interval_ms_percentiles": {
+    "min": 5.046999998739921,
+    "median": 5.04700000055891,
+    "p99": 5.048000000897446,
+    "max": 5.048000000897446
+  },
+  "start_bias_sensitivity": [
+    {
+      "prestart_window_s": 1.0,
+      "samples": 198,
+      "bias_rad_s": [
+        0.0038967838515574582,
+        -0.009303907534540301,
+        -0.002499316522682255
+      ],
+      "std_rad_s": [
+        0.003426291611363662,
+        0.0013063930438600513,
+        0.001219409601734582
+      ],
+      "angle_deg": 15.90596244990347
+    },
+    {
+      "prestart_window_s": 2.0,
+      "samples": 396,
+      "bias_rad_s": [
+        0.003902158737558909,
+        -0.009287782909461495,
+        -0.002489910492758182
+      ],
+      "std_rad_s": [
+        0.0034459945385800933,
+        0.0012757318430295594,
+        0.0012519960233026014
+      ],
+      "angle_deg": 15.893761659663529
+    },
+    {
+      "prestart_window_s": 3.0,
+      "samples": 594,
+      "bias_rad_s": [
+        0.0039155959176771366,
+        -0.009286887104927189,
+        -0.0024939416484399276
+      ],
+      "std_rad_s": [
+        0.003335971294511778,
+        0.001301424284572531,
+        0.001218686806009699
+      ],
+      "angle_deg": 15.88612134234572
+    },
+    {
+      "prestart_window_s": 5.0,
+      "samples": 991,
+      "bias_rad_s": [
+        0.003896073357406045,
+        -0.009271430484593425,
+        -0.0025010900684716
+      ],
+      "std_rad_s": [
+        0.0034691477488293697,
+        0.0013471683263309438,
+        0.0011617726689706475
+      ],
+      "angle_deg": 15.86555936399384
+    }
+  ],
+  "joint_change_deg": [
+    0.005000000000000484,
+    -0.00799999999999982,
+    0.7140000000000003,
+    -0.1460000000000011,
+    -13.934000000000001,
+    -5.166,
+    -2.8540000000000094
+  ],
+  "conclusions": [
+    "Vision and gyro rotation magnitudes agree within 0.063 deg; their full rotations differ by 0.262 deg using previously read factory IMU-to-color extrinsics.",
+    "Alternative 1/2/3/5-second pre-START still biases give gyro angles 15.866 to 15.906 deg, still above robot 15.421 deg.",
+    "Multiple joints changed, especially joint5/joint6/joint7. This was not an isolated single-joint test and cannot locate a joint error.",
+    "The initial baseline had a transient and the integration lasted 52.729 seconds; do not turn one trial into a global encoder scale or joint offset correction.",
+    "A constant handeye transform preserves relative rotation magnitude, so cannot remove a real relative-angle discrepancy.",
+    "Inspect an isolated joint7 turn before changing kinematic parameters. Camera mount deformation and sensor estimation error remain possible; physical robot error is not proven."
+  ]
+}

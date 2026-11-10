@@ -1,0 +1,43 @@
+# Runtime logs
+logs/
+Log/
+real_nero_single_grasp_logs/
+*.log
+*.log.txt
+
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+.venv_*/
+**/.venv/
+
+# Secrets and local tool state
+.env
+.aws/
+.claude/
+.codex/
+.agents/
+.ultralytics/
+
+# Experiment outputs and raw captures
+artifacts/
+captures/
+
+# Raw calibration images and videos. yaml/json results stay.
+calibration/**/*.png
+calibration/**/*.jpg
+calibration/**/*.jpeg
+calibration/**/*.zip
+calibration/**/*.avi
+calibration/**/*.mp4
+calibration/**/*.npy
+calibration/**/*.jsonl
+
+# Third-party checkpoints and local weights (over GitHub file size limit)
+third_party/GraspGenX/.venv/
+third_party/GraspGenX/ext/graspgenx_checkpoints/
+third_party/MGPC/pretrained/

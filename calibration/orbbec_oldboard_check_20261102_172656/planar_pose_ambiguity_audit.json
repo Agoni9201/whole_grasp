@@ -1,0 +1,278 @@
+{
+  "status": "diagnostic_not_promoted",
+  "samples": [
+    {
+      "sample": 0,
+      "solutions": [
+        {
+          "reprojection_rms_px": 0.18622332764926047,
+          "rotation_from_handeye_prediction_deg": 3.318536636427978
+        },
+        {
+          "reprojection_rms_px": 1.9123373509188037,
+          "rotation_from_handeye_prediction_deg": 12.101603680056911
+        }
+      ]
+    },
+    {
+      "sample": 1,
+      "solutions": [
+        {
+          "reprojection_rms_px": 0.17865962226574594,
+          "rotation_from_handeye_prediction_deg": 2.074430131872676
+        },
+        {
+          "reprojection_rms_px": 4.300221569282452,
+          "rotation_from_handeye_prediction_deg": 24.384200031814277
+        }
+      ]
+    },
+    {
+      "sample": 2,
+      "solutions": [
+        {
+          "reprojection_rms_px": 0.16533856097242502,
+          "rotation_from_handeye_prediction_deg": 2.6620063690903293
+        },
+        {
+          "reprojection_rms_px": 6.5706479692986335,
+          "rotation_from_handeye_prediction_deg": 45.09355868987017
+        }
+      ]
+    },
+    {
+      "sample": 3,
+      "solutions": [
+        {
+          "reprojection_rms_px": 0.20719364034865975,
+          "rotation_from_handeye_prediction_deg": 1.9584052042098155
+        },
+        {
+          "reprojection_rms_px": 7.9147436623940095,
+          "rotation_from_handeye_prediction_deg": 41.68373120288798
+        }
+      ]
+    },
+    {
+      "sample": 4,
+      "solutions": [
+        {
+          "reprojection_rms_px": 0.17895258454517557,
+          "rotation_from_handeye_prediction_deg": 3.7234437878310906
+        },
+        {
+          "reprojection_rms_px": 7.288992782257103,
+          "rotation_from_handeye_prediction_deg": 30.03099781339963
+        }
+      ]
+    },
+    {
+      "sample": 5,
+      "solutions": [
+        {
+          "reprojection_rms_px": 0.20771330065326696,
+          "rotation_from_handeye_prediction_deg": 1.8782194309720905
+        },
+        {
+          "reprojection_rms_px": 12.795539999586833,
+          "rotation_from_handeye_prediction_deg": 53.74988395170866
+        }
+      ]
+    },
+    {
+      "sample": 6,
+      "solutions": [
+        {
+          "reprojection_rms_px": 0.24540756218521187,
+          "rotation_from_handeye_prediction_deg": 2.870046322809895
+        },
+        {
+          "reprojection_rms_px": 13.853659692489295,
+          "rotation_from_handeye_prediction_deg": 71.74130302334017
+        }
+      ]
+    },
+    {
+      "sample": 7,
+      "solutions": [
+        {
+          "reprojection_rms_px": 0.20268734270884586,
+          "rotation_from_handeye_prediction_deg": 2.2329613408551414
+        },
+        {
+          "reprojection_rms_px": 9.443260361250854,
+          "rotation_from_handeye_prediction_deg": 47.01858257239502
+        }
+      ]
+    },
+    {
+      "sample": 8,
+      "solutions": [
+        {
+          "reprojection_rms_px": 0.2048168388663034,
+          "rotation_from_handeye_prediction_deg": 2.475424395922208
+        },
+        {
+          "reprojection_rms_px": 11.939209244332178,
+          "rotation_from_handeye_prediction_deg": 54.893143874896744
+        }
+      ]
+    },
+    {
+      "sample": 9,
+      "solutions": [
+        {
+          "reprojection_rms_px": 0.17973924190659382,
+          "rotation_from_handeye_prediction_deg": 3.7428585816482243
+        },
+        {
+          "reprojection_rms_px": 6.095630144279002,
+          "rotation_from_handeye_prediction_deg": 32.083280870221174
+        }
+      ]
+    },
+    {
+      "sample": 10,
+      "solutions": [
+        {
+          "reprojection_rms_px": 0.15221767468784717,
+          "rotation_from_handeye_prediction_deg": 1.7085114941512938
+        },
+        {
+          "reprojection_rms_px": 10.461347628015895,
+          "rotation_from_handeye_prediction_deg": 64.06856080589581
+        }
+      ]
+    },
+    {
+      "sample": 11,
+      "solutions": [
+        {
+          "reprojection_rms_px": 0.16582416130537483,
+          "rotation_from_handeye_prediction_deg": 0.8689433457695183
+        },
+        {
+          "reprojection_rms_px": 6.586041113365647,
+          "rotation_from_handeye_prediction_deg": 35.470645624866606
+        }
+      ]
+    },
+    {
+      "sample": 12,
+      "solutions": [
+        {
+          "reprojection_rms_px": 0.13781892287085465,
+          "rotation_from_handeye_prediction_deg": 0.2047483914528605
+        },
+        {
+          "reprojection_rms_px": 4.9326380892451755,
+          "rotation_from_handeye_prediction_deg": 45.308754317267784
+        }
+      ]
+    },
+    {
+      "sample": 13,
+      "solutions": [
+        {
+          "reprojection_rms_px": 0.1667914125949109,
+          "rotation_from_handeye_prediction_deg": 3.5845797629141907
+        },
+        {
+          "reprojection_rms_px": 5.913489377386025,
+          "rotation_from_handeye_prediction_deg": 51.35593105442001
+        }
+      ]
+    },
+    {
+      "sample": 14,
+      "solutions": [
+        {
+          "reprojection_rms_px": 0.1391248636862013,
+          "rotation_from_handeye_prediction_deg": 5.214011974557593
+        },
+        {
+          "reprojection_rms_px": 3.8949219549355867,
+          "rotation_from_handeye_prediction_deg": 55.1004428003126
+        }
+      ]
+    },
+    {
+      "sample": 15,
+      "solutions": [
+        {
+          "reprojection_rms_px": 0.20956132678266187,
+          "rotation_from_handeye_prediction_deg": 4.894387233295147
+        },
+        {
+          "reprojection_rms_px": 8.78142546307257,
+          "rotation_from_handeye_prediction_deg": 29.775951399407237
+        }
+      ]
+    },
+    {
+      "sample": 16,
+      "solutions": [
+        {
+          "reprojection_rms_px": 0.18361662102012008,
+          "rotation_from_handeye_prediction_deg": 2.3271681676623834
+        },
+        {
+          "reprojection_rms_px": 12.542722692361357,
+          "rotation_from_handeye_prediction_deg": 37.163443256704916
+        }
+      ]
+    },
+    {
+      "sample": 17,
+      "solutions": [
+        {
+          "reprojection_rms_px": 0.1815653020502723,
+          "rotation_from_handeye_prediction_deg": 1.9142959910503436
+        },
+        {
+          "reprojection_rms_px": 17.67204594699495,
+          "rotation_from_handeye_prediction_deg": 49.26847750253879
+        }
+      ]
+    },
+    {
+      "sample": 18,
+      "solutions": [
+        {
+          "reprojection_rms_px": 0.17214191909293944,
+          "rotation_from_handeye_prediction_deg": 1.6535853565259693
+        },
+        {
+          "reprojection_rms_px": 23.050953565345264,
+          "rotation_from_handeye_prediction_deg": 65.87800538656714
+        }
+      ]
+    },
+    {
+      "sample": 19,
+      "solutions": [
+        {
+          "reprojection_rms_px": 0.20176644996150564,
+          "rotation_from_handeye_prediction_deg": 1.004843316588874
+        },
+        {
+          "reprojection_rms_px": 8.684025557346901,
+          "rotation_from_handeye_prediction_deg": 43.46913463095071
+        }
+      ]
+    },
+    {
+      "sample": 20,
+      "solutions": [
+        {
+          "reprojection_rms_px": 0.1897629465283643,
+          "rotation_from_handeye_prediction_deg": 0.9981674387980096
+        },
+        {
+          "reprojection_rms_px": 8.680662052333847,
+          "rotation_from_handeye_prediction_deg": 43.43510405831935
+        }
+      ]
+    }
+  ]
+}

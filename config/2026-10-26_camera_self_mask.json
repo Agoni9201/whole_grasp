@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "description": "Fixed black finger silhouette at 85 mm command / 85.128 mm reported opening. Updated from the settled 2026-10-26 capture; original RGB thresholds retained. Other robot parts still use the 3-D self filter.",
+  "sources": [
+    "logs/banana_mgpc/A_single/2026-10-26_20-35-40_474704_p67749/2026-10-26_20-35-50_959168/color.png"
+  ],
+  "profile": {
+    "serial": "243622072771",
+    "width": 1920,
+    "height": 1080,
+    "depth_width": 1280,
+    "depth_height": 720
+  },
+  "intrinsics": {
+    "fx": 1366.716552734375,
+    "fy": 1366.286376953125,
+    "cx": 940.2300415039062,
+    "cy": 573.4287109375
+  },
+  "gripper_open_width_m": 0.085,
+  "polygons_px": [
+    [
+      [
+        730,
+        1079
+      ],
+      [
+        768,
+        1028
+      ],
+      [
+        808,
+        965
+      ],
+      [
+        841,
+        902
+      ],
+      [
+        851,
+        872
+      ],
+      [
+        865,
+        862
+      ],
+      [
+        905,
+        859
+      ],
+      [
+        922,
+        855
+      ],
+      [
+        930,
+        857
+      ],
+      [
+        933,
+        860
+      ],
+      [
+        935,
+        887
+      ],
+      [
+        933,
+        1079
+      ]
+    ]
+  ],
+  "rgb_guard": {
+    "max_gray": 80,
+    "min_core_dark_fraction": 0.995,
+    "min_silhouette_dark_fraction": 0.97,
+    "max_outer_dark_fraction": 0.15
+  },
+  "provenance": {
+    "previous_calibration": "config/2026-10-22_camera_self_mask.json",
+    "polygon_translation_px": [
+      -10,
+      0
+    ],
+    "source_reported_opening_m": 0.085128,
+    "mount_change_reported": false,
+    "validation_scope": "One saved settled RGB-D capture; every future capture must pass the unchanged RGB/profile guards."
+  }
+}

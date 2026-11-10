@@ -1,0 +1,17 @@
+board:
+  squares_x: 8
+  squares_y: 6
+  # Only valid for the previously measured physical board: 229 mm / 8 and
+  # 173 mm / 6, averaged to one square side. Re-measure after every reprint.
+  square_length_m: 0.02725
+  # Mean measured black ArUco marker side; the surrounding white area is not
+  # part of this length.
+  marker_length_m: 0.020
+  dictionary: DICT_5X5_100
+  legacy_pattern: false
+
+quality:
+  min_charuco_corners: 12
+  warning_reprojection_error_px: 1.0
+  max_reprojection_error_px: 2.0
+  axis_length_m: 0.06

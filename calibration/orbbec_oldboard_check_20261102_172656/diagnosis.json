@@ -1,0 +1,48 @@
+{
+  "samples": 21,
+  "board": "config/charuco_board.yaml",
+  "status": "unvalidated_remaining_cross_pose_inconsistency",
+  "new_board_residual": {
+    "translation_mm": {
+      "mean": 23.16898889174282,
+      "median": 22.296082248929046,
+      "std": 10.955149600499876,
+      "max": 55.03261711314283
+    },
+    "rotation_deg": {
+      "mean": 2.3896360393517795,
+      "median": 2.185374240413933,
+      "std": 1.2553573710013513,
+      "max": 5.791236345781435
+    }
+  },
+  "old_board_residual": {
+    "translation_mm": {
+      "mean": 21.043435691711363,
+      "median": 18.954494078535696,
+      "std": 11.908500751684016,
+      "max": 46.83177526907113
+    },
+    "rotation_deg": {
+      "mean": 2.4429435474801604,
+      "median": 2.184662731938865,
+      "std": 1.28754674172848,
+      "max": 5.215645757707353
+    }
+  },
+  "camera_mount_confirmed_by_user": "Camera rotates with joint7 and gripper",
+  "software_pose_conversion_matches_sdk_math": true,
+  "live_feedback_position_difference_mm": 0.015142740087491675,
+  "live_feedback_rotation_difference_deg": 0.002421727647795286,
+  "live_feedback_limitation": "Single current pose. Agreement between nominal FK and Cartesian feedback is not independent physical accuracy validation.",
+  "pinhole_and_radial_refit_did_not_resolve_inconsistency": true,
+  "planar_pnp_alternative_not_supported_by_reprojection": true,
+  "missing_historical_fields": [
+    "joint feedback angles",
+    "host image reception time",
+    "camera read-return time"
+  ],
+  "next_diagnostic": "Record three stationary poses, three samples each, with joint angles and host image timing. One candidate frame per sample.",
+  "runtime_calibration_updated": false,
+  "robot_commands_sent": false
+}

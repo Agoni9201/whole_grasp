@@ -1,0 +1,71 @@
+{
+  "timestamp_semantics": "Relative clock drift only; absolute sensor latency not recorded.",
+  "relative_clock_residual_ms": [
+    8.055925369262695,
+    33.391475677490234,
+    -46.213388442993164,
+    19.00792121887207,
+    5.87916374206543,
+    73.85611534118652,
+    67.12651252746582,
+    0.0,
+    -46.31638526916504,
+    -17.394065856933594,
+    -84.34033393859863,
+    5.470514297485352,
+    41.23544692993164,
+    -64.81504440307617,
+    27.756452560424805,
+    -73.90379905700684,
+    19.11473274230957,
+    -3.2052993774414062,
+    -128.83806228637695,
+    -31.542539596557617,
+    -47.84989356994629
+  ],
+  "relative_clock_max_abs_ms": 128.83806228637695,
+  "nearest_pairs": [
+    {
+      "i": 20,
+      "j": 19,
+      "robot_translation_mm": 0.0223830292856153,
+      "robot_rotation_deg": 0.03062307782121404,
+      "camera_rotation_deg": 0.05112877428171091
+    },
+    {
+      "i": 7,
+      "j": 3,
+      "robot_translation_mm": 30.76083035290177,
+      "robot_rotation_deg": 3.276692740768433,
+      "camera_rotation_deg": 5.426668576122335
+    },
+    {
+      "i": 8,
+      "j": 7,
+      "robot_translation_mm": 30.845941726586947,
+      "robot_rotation_deg": 4.7991899742899635,
+      "camera_rotation_deg": 4.828785988769842
+    },
+    {
+      "i": 11,
+      "j": 9,
+      "robot_translation_mm": 27.731996700562277,
+      "robot_rotation_deg": 14.480399638637047,
+      "camera_rotation_deg": 16.045727380315927
+    },
+    {
+      "i": 8,
+      "j": 3,
+      "robot_translation_mm": 57.90307495288999,
+      "robot_rotation_deg": 6.748561448558539,
+      "camera_rotation_deg": 8.388110730893157
+    },
+    {
+      "i": 16,
+      "j": 15,
+      "robot_translation_mm": 27.153393857858713,
+      "robot_rotation_deg": 29.267763864008266,
+      "camera_rotation_deg": 25.849093764376025
+    }
+  ]
+}

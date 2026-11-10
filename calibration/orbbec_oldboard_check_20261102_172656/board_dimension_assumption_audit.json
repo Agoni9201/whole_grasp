@@ -1,0 +1,171 @@
+{
+  "status": "diagnostic_not_physical_measurement",
+  "reference": "Grid dimensions exclude the white border; no original images or runtime configuration changed.",
+  "models": [
+    {
+      "grid_width_mm": 229.832,
+      "grid_height_mm": 172.374,
+      "method": "DANIILIDIS",
+      "training_residual": {
+        "translation_mm": {
+          "mean": 21.043435691711363,
+          "median": 18.954494078535696,
+          "std": 11.908500751684016,
+          "max": 46.83177526907113
+        },
+        "rotation_deg": {
+          "mean": 2.4429435474801604,
+          "median": 2.184662731938865,
+          "std": 1.28754674172848,
+          "max": 5.215645757707353
+        }
+      },
+      "heldout_residual": {
+        "translation_mm": {
+          "mean": 15.8094722791971,
+          "median": 17.86112418154904,
+          "std": 4.885652461342839,
+          "max": 20.532099622222145
+        },
+        "rotation_deg": {
+          "mean": 0.814244517308011,
+          "median": 0.9243821718577236,
+          "std": 0.3310377580008116,
+          "max": 1.162699852353904
+        }
+      }
+    },
+    {
+      "grid_width_mm": 229.0,
+      "grid_height_mm": 173.0,
+      "method": "DANIILIDIS",
+      "training_residual": {
+        "translation_mm": {
+          "mean": 19.779935372373043,
+          "median": 17.783514400958193,
+          "std": 11.278303186585598,
+          "max": 45.75350551757669
+        },
+        "rotation_deg": {
+          "mean": 2.480773329446639,
+          "median": 2.271336029079461,
+          "std": 1.29496961700947,
+          "max": 5.475539265106478
+        }
+      },
+      "heldout_residual": {
+        "translation_mm": {
+          "mean": 15.287199337343663,
+          "median": 18.18751252637511,
+          "std": 4.666504207260595,
+          "max": 18.99537654146989
+        },
+        "rotation_deg": {
+          "mean": 0.5746763663764538,
+          "median": 0.7665256240889147,
+          "std": 0.32795521498354885,
+          "max": 0.8547793430206485
+        }
+      }
+    },
+    {
+      "grid_width_mm": 214.0,
+      "grid_height_mm": 160.0,
+      "method": "DANIILIDIS",
+      "training_residual": {
+        "translation_mm": {
+          "mean": 20.265857271401092,
+          "median": 18.7145694226655,
+          "std": 10.94299985061588,
+          "max": 43.3413575130597
+        },
+        "rotation_deg": {
+          "mean": 2.4828198332343097,
+          "median": 2.279693112094556,
+          "std": 1.276559676108367,
+          "max": 5.127297447047609
+        }
+      },
+      "heldout_residual": {
+        "translation_mm": {
+          "mean": 12.931433433558984,
+          "median": 18.691073044772235,
+          "std": 9.134568400549743,
+          "max": 20.125316409040334
+        },
+        "rotation_deg": {
+          "mean": 0.9503690712498644,
+          "median": 0.990761146900234,
+          "std": 0.3395585312583613,
+          "max": 1.353578618057036
+        }
+      }
+    },
+    {
+      "grid_width_mm": 229.832,
+      "grid_height_mm": 170.0,
+      "method": "DANIILIDIS",
+      "training_residual": {
+        "translation_mm": {
+          "mean": 24.11465963777233,
+          "median": 23.85778804299689,
+          "std": 12.270620588459883,
+          "max": 47.028774746333006
+        },
+        "rotation_deg": {
+          "mean": 2.8168710483102415,
+          "median": 2.841792750786458,
+          "std": 1.2815011598001276,
+          "max": 5.635087324056839
+        }
+      },
+      "heldout_residual": {
+        "translation_mm": {
+          "mean": 16.523031372894955,
+          "median": 15.956467814240039,
+          "std": 6.842438120350965,
+          "max": 25.199266042251004
+        },
+        "rotation_deg": {
+          "mean": 1.5002241053433578,
+          "median": 1.3165376855970028,
+          "std": 0.49691857004983064,
+          "max": 2.1889353466203496
+        }
+      }
+    },
+    {
+      "grid_width_mm": 229.832,
+      "grid_height_mm": 175.0,
+      "method": "DANIILIDIS",
+      "training_residual": {
+        "translation_mm": {
+          "mean": 19.03067550095032,
+          "median": 17.00443342048715,
+          "std": 10.893793600104118,
+          "max": 45.74578772404093
+        },
+        "rotation_deg": {
+          "mean": 2.691565564296655,
+          "median": 2.5991288364787715,
+          "std": 1.3457419540872035,
+          "max": 5.78913640046977
+        }
+      },
+      "heldout_residual": {
+        "translation_mm": {
+          "mean": 15.300598147077093,
+          "median": 16.251445369762795,
+          "std": 4.520232218585792,
+          "max": 20.32536533083771
+        },
+        "rotation_deg": {
+          "mean": 0.7439386837754379,
+          "median": 0.6589156015111295,
+          "std": 0.16805337899151046,
+          "max": 0.9880040007132198
+        }
+      }
+    }
+  ]
+}

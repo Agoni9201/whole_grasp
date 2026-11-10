@@ -1,0 +1,18 @@
+{
+  "operator_arm_state": "teaching",
+  "sdk_arm_state_at_start": {
+    "ctrl_mode": "TEACHING_MODE(0x2)",
+    "mode_feedback": "MOVE_J(0x1)",
+    "arm_status": "NORMAL(0x0)",
+    "timestamp": 1793629044.5039437
+  },
+  "serial": "CP0T963000S4",
+  "width": 1280,
+  "height": 720,
+  "fps": 30,
+  "firmware_profile": "V112",
+  "requested_joint_poll_hz": 100.0,
+  "global_timestamp_supported": true,
+  "camera_clock_settings_changed": false,
+  "robot_commands_sent": false
+}

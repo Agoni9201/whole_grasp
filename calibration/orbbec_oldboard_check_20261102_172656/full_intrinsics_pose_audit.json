@@ -1,0 +1,177 @@
+{
+  "status": "diagnostic_only_not_promoted",
+  "image_space": "already_rectified_color",
+  "models": {
+    "sdk": {
+      "K": [
+        [
+          692.4848022460938,
+          0.0,
+          638.6749267578125
+        ],
+        [
+          0.0,
+          692.33984375,
+          358.3328857421875
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "D": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "training_image_rms_px": null,
+      "handeye_method": "DANIILIDIS",
+      "training_residual": {
+        "translation_mm": {
+          "mean": 21.043435691711363,
+          "median": 18.954494078535696,
+          "std": 11.908500751684016,
+          "max": 46.83177526907113
+        },
+        "rotation_deg": {
+          "mean": 2.4429435474801604,
+          "median": 2.184662731938865,
+          "std": 1.28754674172848,
+          "max": 5.215645757707353
+        }
+      },
+      "heldout_three_pose_residual": {
+        "translation_mm": {
+          "mean": 15.8094722791971,
+          "median": 17.86112418154904,
+          "std": 4.885652461342839,
+          "max": 20.532099622222145
+        },
+        "rotation_deg": {
+          "mean": 0.814244517308011,
+          "median": 0.9243821718577236,
+          "std": 0.3310377580008116,
+          "max": 1.162699852353904
+        }
+      }
+    },
+    "pinhole_free_principal": {
+      "K": [
+        [
+          696.2369408925223,
+          0.0,
+          638.7021526278537
+        ],
+        [
+          0.0,
+          697.0027303677583,
+          358.4280721482609
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "D": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "training_image_rms_px": 0.24169733873830718,
+      "handeye_method": "DANIILIDIS",
+      "training_residual": {
+        "translation_mm": {
+          "mean": 20.943037269614234,
+          "median": 18.80163269724893,
+          "std": 11.801558152137916,
+          "max": 46.37723121594988
+        },
+        "rotation_deg": {
+          "mean": 2.4449168132108374,
+          "median": 2.1585896875910837,
+          "std": 1.2962185803284307,
+          "max": 5.3103497257492585
+        }
+      },
+      "heldout_three_pose_residual": {
+        "translation_mm": {
+          "mean": 16.189224156196786,
+          "median": 18.031988451825146,
+          "std": 4.521875527080336,
+          "max": 20.604228389237065
+        },
+        "rotation_deg": {
+          "mean": 0.8083807496159733,
+          "median": 0.8858624640813995,
+          "std": 0.3095607904566079,
+          "max": 1.1519744780140992
+        }
+      }
+    },
+    "brown5_free": {
+      "K": [
+        [
+          697.996206692412,
+          0.0,
+          637.0620227050443
+        ],
+        [
+          0.0,
+          698.916699259718,
+          357.6687538736699
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "D": [
+        0.01742469202977497,
+        -0.046307826162466086,
+        -7.06542518760406e-05,
+        -0.000809340160483753,
+        0.04138368517095044
+      ],
+      "training_image_rms_px": 0.23738714518559995,
+      "handeye_method": "DANIILIDIS",
+      "training_residual": {
+        "translation_mm": {
+          "mean": 21.15916425781875,
+          "median": 18.866097059544376,
+          "std": 11.8919671755829,
+          "max": 46.713373899158455
+        },
+        "rotation_deg": {
+          "mean": 2.4708112590205094,
+          "median": 2.1319900746146043,
+          "std": 1.2847236947204033,
+          "max": 5.30557957507193
+        }
+      },
+      "heldout_three_pose_residual": {
+        "translation_mm": {
+          "mean": 16.532315872999185,
+          "median": 18.32522623248241,
+          "std": 4.322610828932557,
+          "max": 20.724358566639093
+        },
+        "rotation_deg": {
+          "mean": 0.7950405846060075,
+          "median": 0.9257387115074907,
+          "std": 0.33230022655754815,
+          "max": 1.1299311352695889
+        }
+      }
+    }
+  },
+  "robot_commands_sent": false,
+  "runtime_calibration_updated": false,
+  "conclusion": "Allowing principal point and all five Brown distortion coefficients did not remove the cross-pose handeye inconsistency. Do not promote a new camera model from image RMS alone."
+}

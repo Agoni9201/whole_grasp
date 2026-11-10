@@ -1,0 +1,146 @@
+{
+  "convention": "flange_camera_xyzw",
+  "method": "100mm_finger_silhouette_geometry_fit",
+  "status": "offline_local_geometry_trial_not_globally_validated",
+  "parent_frame": "SDK_feedback_flange",
+  "child_frame": "orbbec_color_optical_frame",
+  "position": [
+    0.07963389614221279,
+    -0.07047348634061536,
+    0.003384379002073201
+  ],
+  "orientation": [
+    -0.1274797548380716,
+    0.7109430664652434,
+    0.112832260912618,
+    0.6823325796477612
+  ],
+  "flange_camera_xyzw": [
+    0.07963389614221279,
+    -0.07047348634061536,
+    0.003384379002073201,
+    -0.1274797548380716,
+    0.7109430664652434,
+    0.112832260912618,
+    0.6823325796477612
+  ],
+  "matrix_4x4": [
+    [
+      -0.036342325715313734,
+      -0.3352399509456241,
+      0.9414315751299072,
+      0.07963389614221279
+    ],
+    [
+      -0.02728344032164045,
+      0.9420355860075441,
+      0.33440180708189743,
+      -0.07047348634061536
+    ],
+    [
+      -0.9989668909657708,
+      -0.013532552804205003,
+      -0.04338226329715724,
+      0.003384379002073201
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "T_flange_camera": [
+    [
+      -0.036342325715313734,
+      -0.3352399509456241,
+      0.9414315751299072,
+      0.07963389614221279
+    ],
+    [
+      -0.02728344032164045,
+      0.9420355860075441,
+      0.33440180708189743,
+      -0.07047348634061536
+    ],
+    [
+      -0.9989668909657708,
+      -0.013532552804205003,
+      -0.04338226329715724,
+      0.003384379002073201
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "provenance": {
+    "source_calibration": "config/sept01_joint_refined_candidate.json",
+    "source_capture": "logs/orbbec_handeye_trial/contact_check_sept_joint/2026-11-05_20-33-53_594963_p255695/2026-11-05_20-34-10_770965",
+    "opening_m": 0.1,
+    "silhouette_iou": 0.9378922064777327,
+    "delta_camera_mm_deg": [
+      -1.8341128060866696,
+      0.2706945095694757,
+      6.450733917042598,
+      -0.5490247341925792,
+      0.9361156836824858,
+      0.34153467286069655
+    ],
+    "report": "artifacts/orbbec_20261105_contact_projection/silhouette_fit.json",
+    "limitation": "Partial CAD silhouette hypothesis; review cross-view and board checks before contact-only testing."
+  },
+  "metadata": {
+    "camera_serial": "CP0T963000S4",
+    "camera_width": 1280,
+    "camera_height": 720,
+    "camera_frame": "orbbec_color_optical_frame"
+  },
+  "validation": {
+    "static_object_snapshots": {
+      "all_data_1941": {
+        "visible_points": 2676,
+        "inside_yellow": 0.9671150971599403,
+        "distance_p90_px": 0.0,
+        "median_x_at_row550": 871.0
+      },
+      "sept_joint_2035": {
+        "visible_points": 2274,
+        "inside_yellow": 0.8927000879507476,
+        "distance_p90_px": 2.3243000507354736,
+        "median_x_at_row550": 893.0
+      }
+    },
+    "historical_board_consistency": {
+      "old14": {
+        "translation_rms_mm": 8.571621542677585,
+        "translation_max_mm": 14.72752227793105,
+        "rotation_rms_deg": 1.2965909060091567
+      },
+      "old8": {
+        "translation_rms_mm": 15.766173092194109,
+        "translation_max_mm": 25.7248769328491,
+        "rotation_rms_deg": 1.776694145193643
+      },
+      "new16": {
+        "translation_rms_mm": 12.315013605323013,
+        "translation_max_mm": 19.50757942889973,
+        "rotation_rms_deg": 1.3350577692730683
+      },
+      "live1": {
+        "translation_rms_mm": 12.049202074406349,
+        "translation_max_mm": 12.049202074406349,
+        "rotation_rms_deg": 1.182406482590966
+      },
+      "live2": {
+        "translation_rms_mm": 21.444551352882794,
+        "translation_max_mm": 21.444551352882794,
+        "rotation_rms_deg": 2.1345309148720992
+      }
+    },
+    "limitation": "Local object/finger checks improved, but historical board consistency worsened. Contact-only trial; not a globally validated calibration.",
+    "offline_route_replay": "artifacts/orbbec_20261105_contact_projection/finger_fit_replay/result.json"
+  }
+}

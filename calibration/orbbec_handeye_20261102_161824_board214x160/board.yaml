@@ -1,0 +1,26 @@
+# Current physical board used with the wrist Gemini 335 (2026-11-02).
+# User measurements are APPROXIMATE: grid 214 x 160 mm, marker 20 mm.
+# Width/8 ~= 26.75 mm, height/6 ~= 26.67 mm; use a rounded 26.7 mm square.
+# Keep config/charuco_board.yaml for the different, older D435 board.
+board:
+  squares_x: 8
+  squares_y: 6
+  square_length_m: 0.0267
+  marker_length_m: 0.020
+  dictionary: DICT_5X5_100
+  legacy_pattern: false
+
+measurement_provenance:
+  date: "2026-11-02"
+  source: user_measured_current_physical_board
+  same_as_previous_d435_board: false
+  grid_width_mm: 214
+  grid_height_mm: 160
+  marker_side_mm: 20
+  precision: approximate_not_exact
+
+quality:
+  min_charuco_corners: 12
+  warning_reprojection_error_px: 1.0
+  max_reprojection_error_px: 2.0
+  axis_length_m: 0.06

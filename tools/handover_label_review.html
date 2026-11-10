@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>交接录像核对</title>
+<style>
+:root{font-family:system-ui,"Noto Sans CJK SC",sans-serif;color:#172c38;background:#f1f5f7}
+body{max-width:1180px;margin:22px auto;padding:0 18px}h1{font-size:25px;margin-bottom:8px}
+p{line-height:1.65;margin:8px 0}.muted{color:#526773;font-size:14px}.card{background:white;border:1px solid #d8e1e6;border-radius:10px;padding:16px;margin:14px 0}
+.row{display:flex;gap:9px;align-items:center;flex-wrap:wrap}.main{display:grid;grid-template-columns:minmax(480px,2fr) minmax(280px,1fr);gap:16px}button,select,input{font:inherit}button{cursor:pointer;border:1px solid #bdcbd2;background:#fff;border-radius:6px;padding:8px 12px}button.primary{background:#126b72;color:white;border-color:#126b72}button:hover{filter:brightness(.95)}button:disabled{opacity:.4;cursor:default}
+select{padding:7px;max-width:100%}#frame{width:100%;background:#172c38;aspect-ratio:4/3;object-fit:contain}#slider{width:100%;margin:14px 0}#message{min-height:24px;color:#116772;overflow-wrap:anywhere}.error{color:#af2424!important}.warning{padding:10px;border-radius:6px;background:#fff0d0;color:#765312;margin:10px 0}.fault{background:#ffe0e0;color:#922929}#intervals{max-height:390px;overflow:auto}.interval{border-bottom:1px solid #e2e9ed;padding:9px 0;font-size:14px}#pending{font-weight:600;margin:14px 0}.label{background:#e5f1f1;border:1px solid transparent}.label.selected{border-color:#086e74;background:#c5e7e6}#note{box-sizing:border-box;width:100%;padding:8px;border:1px solid #becdd5;border-radius:6px;margin:10px 0}#counter{font-variant-numeric:tabular-nums}
+@media(max-width:850px){.main{grid-template-columns:1fr}body{margin:12px auto}.card{padding:12px}}
+.framebox{position:relative}#frame{max-height:58vh}#loading{position:absolute;left:10px;top:10px;background:rgba(20,35,45,.9);color:white;padding:8px 12px;border-radius:6px}#loading[hidden]{display:none}
+</style>
+<h1>交接录像核对</h1>
+<p>先看动作 → 点<strong>开始</strong>和<strong>结束</strong> → 选动作类别 → <strong>保存这一段</strong>。只标你能确认的片段，没标的地方保持不确定。</p>
+<p class="muted">这里只读取保存的录像，没有机械臂或相机连接。看见握物不等于看见轻拉；P需要结合你本人操作记忆，拿不准就选“不确定”。</p>
+<div class="card"><div class="row"><label for="session">录像：</label><select id="session"></select><span id="group" class="muted"></span></div><div id="message" role="status"></div></div>
+<div class="main"><div class="card">
+<div class="framebox"><img id="frame" alt="已保存的全局相机录像帧"><div id="loading" hidden></div></div>
+<div id="videoNotice" class="warning" hidden></div>
+<input id="slider" type="range" min="0" max="1" value="0" step="1" aria-label="录像位置">
+<div class="row"><button id="play">播放 / 暂停（空格）</button><button id="back">退1秒</button><button id="forward">进1秒</button><button id="prevFrame">前一帧</button><button id="nextFrame">后一帧</button><select id="speed" aria-label="播放速度"><option value="0.5">0.5倍</option><option value="1" selected>1倍</option><option value="2">2倍</option></select></div>
+<p id="counter">加载中</p>
+<div id="gapNotice" class="warning" hidden><span id="gapText"></span> <button id="skipGap">跳到下一条真实画面</button></div>
+<div class="row"><button id="prevMarker">上一个按键提示</button><button id="nextMarker">下一个按键提示</button><select id="markerSelect" aria-label="定位到按键提示"></select></div>
+<p id="hint" class="muted"></p><div id="phase" class="warning"></div>
+</div><div class="card">
+<strong>标注一段明确的动作</strong>
+<p class="muted">结束点不计入当前区间；过渡和遮挡看不清的地方可以留空，不需要硬填满。</p>
+<div class="row"><button id="start">① 开始（I）</button><button id="end">② 结束（O）</button><button id="clear">清空本次选择</button></div>
+<div id="pending">还没选择区间</div>
+<div id="labels" class="row"></div>
+<p id="definition" class="muted"></p>
+<input id="note" type="text" placeholder="可选备注，例如“先握住后轻拉”“看不清手指”">
+<button class="primary" id="save">③ 保存这一段（S）</button>
+<p class="muted">标注自动保存到本地项目目录，原录像和日志不变。不要用“已经接稳”代替动作类别。</p>
+<strong>已保存区间</strong><div id="intervals"></div>
+</div></div>
+<div class="card"><strong>先核对第一段训练录像即可</strong><p>① 跳到第一个P提示附近，往前看几秒。② 找到能确认的握住、轻拉、完全松手区间分别标注。③ 标一段完全没碰的背景。④ 保存后再换下一段；测试候选会单独注明。</p><p class="muted">按键提示只帮助定位，不自动变成真值。定位会跳到按键当时，可用“退1秒”查看动作之前；播放时下拉提示随实际画面更新。短碰/推作为“没有接取轻拉”的片段，可包含紧邻的明确松手背景；不要混入其他轻拉。无法确认拉力起点时保留不确定，录像不能证明承重。</p></div>
+<script src="/review_player.js?v=20261110-sync4"></script>
+<script src="/review_ui.js?v=20261110-sync4"></script>
+</html>

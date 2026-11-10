@@ -1,0 +1,86 @@
+{
+  "status": "hypothesis_only_not_applied",
+  "unique_poses": 3,
+  "observed_pair_angles_deg": [
+    25.5551864683764,
+    28.061977842049256,
+    30.501580672254065
+  ],
+  "results": [
+    {
+      "joint": 1,
+      "offset_hypothesis_deg": null,
+      "pair_angle_residual_rms_deg": 0.7134565568986367,
+      "pair_angle_residual_deg": [
+        -0.6735435470161342,
+        -0.9063839898520953,
+        -0.5018644527735496
+      ],
+      "identifiable": false,
+      "note": "Offset is unobservable in this relative rotation-angle test; optimizer drift is not a physical offset."
+    },
+    {
+      "joint": 2,
+      "offset_hypothesis_deg": 0.5747883212015065,
+      "pair_angle_residual_rms_deg": 0.5827007995866326,
+      "pair_angle_residual_deg": [
+        -0.7519321229213567,
+        -0.6519517884559747,
+        0.16786188836284666
+      ]
+    },
+    {
+      "joint": 3,
+      "offset_hypothesis_deg": -0.231094647046886,
+      "pair_angle_residual_rms_deg": 0.7127052546559052,
+      "pair_angle_residual_deg": [
+        -0.6218953985116968,
+        -0.9324502097207272,
+        -0.51732877335807
+      ]
+    },
+    {
+      "joint": 4,
+      "offset_hypothesis_deg": 2.2164916992219874,
+      "pair_angle_residual_rms_deg": 0.5986110672308953,
+      "pair_angle_residual_deg": [
+        -0.2592889341541067,
+        -1.0033378167717117,
+        0.03298641379320699
+      ]
+    },
+    {
+      "joint": 5,
+      "offset_hypothesis_deg": 0.7345654339152718,
+      "pair_angle_residual_rms_deg": 0.636059921779379,
+      "pair_angle_residual_deg": [
+        -0.10707251221426617,
+        -0.9738009128578646,
+        -0.5039483421217739
+      ]
+    },
+    {
+      "joint": 6,
+      "offset_hypothesis_deg": -1.3867836832319662,
+      "pair_angle_residual_rms_deg": 0.5429040438629,
+      "pair_angle_residual_deg": [
+        -0.7935614456020055,
+        -0.0872437587884356,
+        -0.4968733854158316
+      ]
+    },
+    {
+      "joint": 7,
+      "offset_hypothesis_deg": null,
+      "pair_angle_residual_rms_deg": 0.7134565568986299,
+      "pair_angle_residual_deg": [
+        -0.6735435470161235,
+        -0.9063839898520634,
+        -0.5018644527735923
+      ],
+      "identifiable": false,
+      "note": "Offset is unobservable in this relative rotation-angle test; optimizer drift is not a physical offset."
+    }
+  ],
+  "warning": "Three unique poses cannot validate or identify a physical joint-zero error; no runtime or device parameters changed."
+}

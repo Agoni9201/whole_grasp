@@ -1,0 +1,91 @@
+{
+  "status": "diagnostic_only_not_physical_metrology",
+  "method": "SIFT matches outside an expanded ChArUco hull and above image row460 to exclude fingers. Essential matrix and dominant background plane homography RANSAC use saved RGB K.",
+  "pairs": [
+    {
+      "samples": [
+        6,
+        14
+      ],
+      "sift_good_matches": 104,
+      "essential_ransac_inliers": 67,
+      "essential_pose_candidates": [
+        {
+          "positive_depth_inliers": 67,
+          "rotation_angle_deg": 38.99271838921466
+        }
+      ],
+      "background_homography_inliers": 68,
+      "background_homography_rotation_angles_deg": [
+        14.97891840042575,
+        38.96645000505321
+      ],
+      "robot_rotation_deg": 7.980824247721989
+    },
+    {
+      "samples": [
+        5,
+        14
+      ],
+      "sift_good_matches": 105,
+      "essential_ransac_inliers": 56,
+      "essential_pose_candidates": [
+        {
+          "positive_depth_inliers": 56,
+          "rotation_angle_deg": 30.51323484010848
+        }
+      ],
+      "background_homography_inliers": 57,
+      "background_homography_rotation_angles_deg": [
+        30.994938833454274,
+        33.05310563129617
+      ],
+      "robot_rotation_deg": 23.55007582617171
+    },
+    {
+      "samples": [
+        4,
+        13
+      ],
+      "sift_good_matches": 131,
+      "essential_ransac_inliers": 104,
+      "essential_pose_candidates": [
+        {
+          "positive_depth_inliers": 104,
+          "rotation_angle_deg": 15.581229930536093
+        }
+      ],
+      "background_homography_inliers": 104,
+      "background_homography_rotation_angles_deg": [
+        16.201461106230354,
+        42.516111530849656
+      ],
+      "robot_rotation_deg": 9.996488094246649
+    },
+    {
+      "samples": [
+        6,
+        15
+      ],
+      "sift_good_matches": 156,
+      "essential_ransac_inliers": 107,
+      "essential_pose_candidates": [
+        {
+          "positive_depth_inliers": 107,
+          "rotation_angle_deg": 16.634626095482243
+        }
+      ],
+      "background_homography_inliers": 82,
+      "background_homography_rotation_angles_deg": [
+        16.21857772174457
+      ],
+      "robot_rotation_deg": 22.4135115820494
+    }
+  ],
+  "limitations": [
+    "Feature matches can contain repeated texture and planar degeneracy.",
+    "This is an additional visual consistency check sharing the RGB K; it does not independently validate camera intrinsics or robot geometry."
+  ],
+  "robot_commands_sent": false,
+  "runtime_calibration_updated": false
+}

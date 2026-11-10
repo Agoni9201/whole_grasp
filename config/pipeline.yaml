@@ -1,0 +1,38 @@
+# SDK-only D435 wrist phase. CLI values override these defaults.
+# T_A_B maps B-coordinate points into A coordinates.
+global_camera:
+  enabled: false
+  model: Gemini330
+wrist_camera:
+  enabled: true
+  backend: realsense
+  serial: "243622072771"
+  width: 1920
+  height: 1080
+  fps: 30
+  depth_width: 1280
+  depth_height: 720
+  depth_fps: 30
+  depth_filters: all
+  self_mask: true
+  self_mask_calibration: 2026-10-26_camera_self_mask_100mm_multiframe.json
+  depth_preset: high_density
+  emitter_enabled: true
+  laser_power: 360
+  timeout: 10.0
+  warmup: 30
+  # Grasp uses SDK flange; servo FK uses feedback_link7. Supply independently verified transforms.
+  grasp_calib_json: /home/yx/yx/panda_ws/src/whole-grasp/config/2026-10-22_charuco_handeye.json
+  grasp_convention: flange_camera_xyzw
+  servo_calib_json: /home/yx/yx/panda_ws/src/whole-grasp/config/2026-10-22_charuco_handeye.json
+  servo_convention: link7_cam
+  servo_mount_frame: feedback_link7
+grasp:
+  # Carry to this operator-selected joint pose after confirmed grasp/support release.
+  post_grasp_hold_joints_deg: [-0.002, 0.0, 0.002, 100.6, 0.0, 0.0, 0.0]
+servo:
+  target_source: aruco
+  max_linear_vel: 0.03
+  max_joint_vel: 0.08
+  follow_min_qdot: 0.02
+  follow_kp_rise_time: 0.20

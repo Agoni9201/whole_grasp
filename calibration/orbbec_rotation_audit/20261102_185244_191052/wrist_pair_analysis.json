@@ -1,0 +1,103 @@
+{
+  "status": "diagnostic_only_not_promoted",
+  "motions": [
+    {
+      "joint": "joint7",
+      "source": "20261102_184614_965188/result.json",
+      "robot_rotation_deg": 14.798858482665235,
+      "vision_rotation_deg": 14.93484721835583,
+      "vision_minus_robot_deg": 0.13598873569059577,
+      "old_handeye_board_endpoint_shift_mm": 11.637089924694552,
+      "old_handeye_board_endpoint_rotation_deg": 1.4264862381529015,
+      "local_fit_training_board_endpoint_shift_mm": 1.9059012024498336,
+      "local_fit_training_board_endpoint_rotation_deg": 0.1508564539781224
+    },
+    {
+      "joint": "joint6",
+      "source": "20261102_185244_191052/result.json",
+      "robot_rotation_deg": 10.806804449169945,
+      "vision_rotation_deg": 10.630813415757913,
+      "vision_minus_robot_deg": -0.17599103341203204,
+      "old_handeye_board_endpoint_shift_mm": 14.276643660709784,
+      "old_handeye_board_endpoint_rotation_deg": 1.931905613511614,
+      "local_fit_training_board_endpoint_shift_mm": 1.0240988866596306,
+      "local_fit_training_board_endpoint_rotation_deg": 0.1979891397165295
+    }
+  ],
+  "local_wrist_fit_T_flange_camera": [
+    [
+      0.013041662353678873,
+      -0.4368652171835603,
+      0.8994324305128282,
+      0.07994791780442946
+    ],
+    [
+      -0.010840624993162268,
+      0.8993942905160951,
+      0.4370038798875906,
+      -0.0641452897731472
+    ],
+    [
+      -0.9998561876054027,
+      -0.015449666734619644,
+      0.006993704667694112,
+      0.0018561818163615952
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "local_fit_translation_singular_values": [
+    0.31908159424319466,
+    0.25757150272643575,
+    0.1883347678152511
+  ],
+  "local_fit_translation_rank": 3,
+  "heldout_datasets": [
+    {
+      "dataset": "orbbec_oldboard_check_20261102_172656",
+      "samples": 21,
+      "reference": "per-dataset arithmetic translation mean and SO(3) mean; no shared-board-pose assumption across datasets",
+      "old_handeye": {
+        "position_mm_median": 19.307510294972065,
+        "position_mm_max": 46.76938884600415,
+        "rotation_deg_median": 2.184662731938866,
+        "rotation_deg_max": 5.215645757707352
+      },
+      "local_wrist_fit": {
+        "position_mm_median": 20.728376788022626,
+        "position_mm_max": 60.3619365900017,
+        "rotation_deg_median": 3.8707421647156894,
+        "rotation_deg_max": 8.85020427858626
+      }
+    },
+    {
+      "dataset": "orbbec_sync_check_20261102_175351",
+      "samples": 9,
+      "reference": "per-dataset arithmetic translation mean and SO(3) mean; no shared-board-pose assumption across datasets",
+      "old_handeye": {
+        "position_mm_median": 18.88986568584791,
+        "position_mm_max": 19.26064877739507,
+        "rotation_deg_median": 0.9243821718577215,
+        "rotation_deg_max": 1.162699852353898
+      },
+      "local_wrist_fit": {
+        "position_mm_median": 13.849198675347,
+        "position_mm_max": 16.594618106789817,
+        "rotation_deg_median": 3.0398335562193384,
+        "rotation_deg_max": 4.329862986189157
+      }
+    }
+  ],
+  "limitations": [
+    "The two wrist motions are fitting data, not validation of the locally fitted transform.",
+    "Small-angle pose noise is amplified in handeye translation; do not use the local transform as a runtime correction.",
+    "These tests do not identify a physical joint zero, encoder scale, camera mount deflection, or a camera pose estimation error."
+  ],
+  "conclusion": "Old handeye fails wrist-only position consistency. A local refit fits the two motions but does not generalize to the earlier datasets. Do not alter runtime parameters or continue blind per-joint tests; next inspect mounting/rigidity and the physical-versus-nominal pose relationship.",
+  "robot_commands_sent": false,
+  "runtime_calibration_updated": false
+}

@@ -1,0 +1,79 @@
+{
+  "status": "diagnostic_not_kinematic_calibration",
+  "source_result": "result.json",
+  "original_angles": {
+    "gyro_deg": 14.477863674871552,
+    "robot_deg": 14.798858482665235,
+    "vision_deg": 14.93484721835583
+  },
+  "joint_change_deg": [
+    0.001999999999999955,
+    0.0,
+    0.0019999999999995577,
+    0.0,
+    0.0,
+    0.0,
+    -14.799000000000005
+  ],
+  "startup_bias_age_at_start_s": 226.16426800000045,
+  "duration_s": 26.764999999999418,
+  "gyro_start_bias_sensitivity": [
+    {
+      "prestart_window_s": 1.0,
+      "bias_rad_s": [
+        0.003157738676162982,
+        -0.009672086427195204,
+        -0.0026578753245900377
+      ],
+      "angle_deg": 14.757235084193312,
+      "minus_robot_deg": -0.04162339847192342
+    },
+    {
+      "prestart_window_s": 2.0,
+      "bias_rad_s": [
+        0.0031832693182308265,
+        -0.009729866328827962,
+        -0.0026847496910980253
+      ],
+      "angle_deg": 14.737263639322597,
+      "minus_robot_deg": -0.06159484334263787
+    },
+    {
+      "prestart_window_s": 3.0,
+      "bias_rad_s": [
+        0.0032267162179643355,
+        -0.009724043550358627,
+        -0.002689228750614807
+      ],
+      "angle_deg": 14.703950191465617,
+      "minus_robot_deg": -0.09490829119961752
+    },
+    {
+      "prestart_window_s": 5.0,
+      "bias_rad_s": [
+        0.003242124194241684,
+        -0.009714547938883605,
+        -0.0026627127024711986
+      ],
+      "angle_deg": 14.692306254669747,
+      "minus_robot_deg": -0.10655222799548802
+    }
+  ],
+  "gyro_recomputed_2s_deg": 14.737263639322597,
+  "gyro_recomputed_2s_minus_robot_deg": -0.06159484334263787,
+  "vision_minus_robot_deg": 0.13598873569059577,
+  "endpoint_reprojection_px": [
+    0.1901284009218216,
+    0.2133937031030655
+  ],
+  "conclusions": [
+    "Joint7 moved -14.799 deg; all other joints changed by at most .002 deg.",
+    "Vision differs from robot rotation magnitude by .136 deg; the first mixed-joint discrepancy was not reproduced at joint7 alone.",
+    "The original gyro baseline was taken about 226 seconds before START. Recomputing its bias from the 2-second pre-START stationary window gives 14.737 deg, versus robot 14.799 deg.",
+    "The diagnostic script now refreshes gyro bias at START. This does not change camera intrinsics, handeye calibration, joint encoders, URDF, depth scale or runtime control.",
+    "One joint7 motion at one configuration cannot validate all robot kinematics or resolve the existing approximately 18 mm cross-pose error.",
+    "Next isolate joint6 with all other joints held fixed."
+  ],
+  "robot_commands_sent": false,
+  "runtime_calibration_updated": false
+}

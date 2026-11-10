@@ -1,0 +1,174 @@
+{
+  "status": "diagnostic_only_not_a_convention_selection_rule",
+  "current": {
+    "seq": "xyz",
+    "permutation": [
+      0,
+      1,
+      2
+    ],
+    "signs": [
+      1,
+      1,
+      1
+    ],
+    "rms_deg": 2.5913356374967633,
+    "max_abs_deg": 7.01001388706297
+  },
+  "optimistic_best_candidates": [
+    {
+      "seq": "xyz",
+      "permutation": [
+        0,
+        1,
+        2
+      ],
+      "signs": [
+        -1,
+        -1,
+        1
+      ],
+      "rms_deg": 2.5913356374967633,
+      "max_abs_deg": 7.01001388706297
+    },
+    {
+      "seq": "xyz",
+      "permutation": [
+        0,
+        1,
+        2
+      ],
+      "signs": [
+        -1,
+        1,
+        -1
+      ],
+      "rms_deg": 2.5913356374967633,
+      "max_abs_deg": 7.01001388706297
+    },
+    {
+      "seq": "xyz",
+      "permutation": [
+        0,
+        1,
+        2
+      ],
+      "signs": [
+        1,
+        -1,
+        -1
+      ],
+      "rms_deg": 2.5913356374967633,
+      "max_abs_deg": 7.01001388706297
+    },
+    {
+      "seq": "xyz",
+      "permutation": [
+        0,
+        1,
+        2
+      ],
+      "signs": [
+        1,
+        1,
+        1
+      ],
+      "rms_deg": 2.5913356374967633,
+      "max_abs_deg": 7.01001388706297
+    },
+    {
+      "seq": "xzy",
+      "permutation": [
+        0,
+        1,
+        2
+      ],
+      "signs": [
+        -1,
+        -1,
+        -1
+      ],
+      "rms_deg": 2.5913356374967633,
+      "max_abs_deg": 7.010013887062968
+    },
+    {
+      "seq": "xzy",
+      "permutation": [
+        0,
+        1,
+        2
+      ],
+      "signs": [
+        -1,
+        1,
+        1
+      ],
+      "rms_deg": 2.5913356374967633,
+      "max_abs_deg": 7.010013887062968
+    },
+    {
+      "seq": "xzy",
+      "permutation": [
+        0,
+        1,
+        2
+      ],
+      "signs": [
+        1,
+        -1,
+        1
+      ],
+      "rms_deg": 2.5913356374967633,
+      "max_abs_deg": 7.010013887062968
+    },
+    {
+      "seq": "xzy",
+      "permutation": [
+        0,
+        1,
+        2
+      ],
+      "signs": [
+        1,
+        1,
+        -1
+      ],
+      "rms_deg": 2.5913356374967633,
+      "max_abs_deg": 7.010013887062968
+    },
+    {
+      "seq": "yxz",
+      "permutation": [
+        0,
+        1,
+        2
+      ],
+      "signs": [
+        -1,
+        -1,
+        -1
+      ],
+      "rms_deg": 2.5913356374967633,
+      "max_abs_deg": 7.01001388706297
+    },
+    {
+      "seq": "yxz",
+      "permutation": [
+        0,
+        1,
+        2
+      ],
+      "signs": [
+        -1,
+        1,
+        1
+      ],
+      "rms_deg": 2.5913356374967633,
+      "max_abs_deg": 7.01001388706297
+    }
+  ],
+  "all_candidates_tested": 288,
+  "note": "Different Euler rewrites include coordinate gauge equivalents. Comparing angle invariants alone cannot establish a physical frame convention. No runtime convention changed.",
+  "robot_commands_sent": false,
+  "runtime_calibration_updated": false
+}
